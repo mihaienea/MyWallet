@@ -1,0 +1,603 @@
+<resources>
+    <string name="app_name">COSMOTE Wallet</string>
+    <string name="app_title">COSMOTE Wallet</string>
+    <string name="country_code">gr</string>
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string name="storage_welcome_teaser_tile_title">Καλωσήρθες στο COSMOTE Wallet!</string>
+    <string name="storage_welcome_teaser_tile_message">Πάτησε εδώ για να δεις τον Κατάλογο Καρτών COSMOTE Wallet και να καταχωρήσεις την κάρτα σου!</string>
+    <string name="storage_mywallet_card_teaser_tile_title">MyWallet Card</string>
+    <string name="storage_mywallet_card_teaser_tile_message">MAKE YOUR FIRST PAYMENT WITH MYWALLET CARD</string>
+    <string name="storage_mywallet_card_teaser_tile_card_add_btn_name">ADD TO MYWALLET</string>
+    <string name="storage_payment_card_message">ΓΡΗΓΟΡΕΣ ΚΑΙ ΑΣΦΑΛΕΙΣ ΣΥΝΑΛΛΑΓΕΣ ΜΕΣΩ ΤΟΥ ΚΙΝΗΤΟΥ ΣΟΥ ΤΗΛΕΦΩΝΟΥ!</string>
+    <string name="storage_payatmatch_card_message">Mobile payments directly from your bank account</string>
+    <string name="storage_action_add_new_service_title">Προσθήκη νέας υπηρεσίας</string>
+    <string name="title_activity_wallet_web_view">COSMOTE Wallet</string>
+    <string name="action_open_external_webview">Προβολή σε άλλο browser</string>
+    <string name="install_external_app_dialog_title">Εγκατάσταση Εφαρμογής Τράπεζας</string>
+    <string name="install_external_app_dialog_message">Θα μεταφερθείς στο Google Play Store από όπου θα μπορείς να κατεβάσεις την εφαρμογή της Τράπεζας..</string>
+    <string name="launch_external_app_dialog_title">Εκκίνηση  Εφαρμογής Τράπεζας</string>
+    <string name="launch_external_app_dialog_message">Θα μεταφερθείς σε άλλη εφαρμογή</string>
+    <string name="leaving_the_app_dialog_title">YOU ARE LEAVING THE APP</string>
+    <string name="do_not_show_again_dialog_continue_button_text">Συνέχεια</string>
+    <string name="do_not_show_again_dialog_checkbox_text">Να μην εμφανιστεί ξανά</string>
+    <string name="button_activity_overview">Πληρωμή</string>
+    <string name="title_mywallet">COSMOTE Wallet</string>
+    <string name="title_catalog">Κατάλογος Καρτών</string>
+    <string name="ok">OK</string>
+    <string name="pay_now">Πληρωμή</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="activate_fast_card_button">ACTIVATE FAST CARD</string>
+
+    <string name="settings_nfc_off_dialog_title">Ενεργοποίηση NFC</string>
+    <string name="settings_nfc_off_dialog_message">Παρακαλώ ενεργοποίησε το NFC στις ρυθμίσεις της συσκευής σου για να πραγματοποιήσεις ανέπαφη συναλλαγή</string>
+    <string name="settings_nfc_off_dialog_action">Ενεργοποίηση</string>
+    <string name="fastpay_nfc_off_dialog_message">Η ρύθμιση NFC είναι απενεργοποιημένη στη συσκευή σου. Για τη χρήση του Fast Pay, παρακαλώ ενεργοποίησε το NFC στις στις ρυθμίσεις της συσκευής σου.</string>
+    <string name="payment_confirmation_thank_you">Ευχαριστούμε! Η πληρωμή σου έχει σταλεί στον έμπορο. Η έγκριση ή απόρριψη της πληρωμής
+        θα εμφανιστεί στο μηχάνημα αποδοχής ανέπαφων πληρωμών του εμπόρου.</string>
+    <string name="context_menu_set_fast_card">Ενεργοποίηση FastPay</string>
+    <string name="context_menu_call_customer_care">Επικοινωνία με Τράπεζα</string>
+    <string name="context_menu_go_to_website">Μπες στο website</string>
+    <string name="context_menu_how_to_make_nfc_payment">Πώς μπορώ να πραγματοποιήσω ανέπαφη συναλλαγή με το κινητό τηλέφωνό μου?</string>
+    <string name="context_menu_set_fast_card_subtitle">Γρήγορη πληρωμή με αυτή τη κάρτα, χωρίς να ξεκλειδώσω το κινητό μου τηλέφωνο</string>
+    <string name="context_menu_call_customer_care_subtitle">Ώρες λειτουργίας: %1$s</string>
+    <string name="context_menu_remove_card">Διαγραφή κάρτας</string>
+    <string name="context_menu_view_card_details">Προβολή Πληροφορίες Κάρτας</string>
+    <string name="context_menu_edit_card">Επεξεργασία κάρτας</string>
+    <string name="context_menu_stamp_card_details">TODO View stamp card details</string>
+
+    <string name="pay_tutorial_activity_title_1">Επίλεξε τη κάρτα με την οποία θέλεις να πληρώσεις.</string>
+    <string name="pay_tutorial_activity_title_2">Πλησίασε το τηλέφωνο σου κοντά στο μηχάνημα αποδοχής ανέπαφων  συναλλαγών.</string>
+    <string name="pay_tutorial_activity_title_3">Αυτό ήταν!</string>
+    <string name="pay_tutorial_activity_description_1">Επίλεξε την επιλογή "Πληρωμή"</string>
+    <string name="pay_tutorial_activity_description_2">Μόλις η οθόνη γίνει πράσινη, πλησίασε το τηλέφωνό σου κοντά στο μηχάνημα αποδοχής ανέπαφων πληρωμών εξασφαλίζοντας ότι η οθόνη της συσκευής σου είναι στραμμένη προς το μέρος σου, ώστε τυχόν οδηγίες που εμφανίζονται  σε αυτή κατά τη διάρκεια της πληρωμής, να είναι ορατές σε εσένα. Μετά από κάθε επιτυχή αποστολή πληρωμής, το κινητό σου θα κάνει έναν χαρακτηριστικό ήχο ή δόνηση, και θα εμφανίζει πάντα την οθόνη ένα μήνυμα που επιβεβαιώνει ότι η πληρωμή σου έχει σταλεί στον έμπορο.</string>
+    <string name="pay_tutorial_activity_description_3">Αυτό ήταν! Για συναλλαγές μεγαλύτερες των 25€ θα χρειαστεί να εισάγεις το PIN της κάρτας στο μηχάνημα αποδοχής ανέπαφων πληρωμών του εμπόρου. Το αποτέλεσμα της πληρωμής (έγκριση ή απόρριψη) εμφανίζεται στο μηχάνημα αυτό.</string>
+
+    <string name="activate_fast_card_tutorial_activity_title">Ενεργοποίηση Fast Pay</string>
+    <string name="activate_fast_card_tutorial_activity_description_1_first_part">Άνοιξε το μενού στη σελίδα με τις λεπτομέρειες της κάρτας.</string>
+    <string name="activate_fast_card_tutorial_activity_description_1_second_part">ή απλά επίλεξε το κουμπί "Ενεργοποίηση" παρακάτω. Θα το ενεργοποιήσουμε στη %1$s για σένα.</string>
+    <string name="activate_fast_card_tutorial_activity_description_2_first_part">Simply turn on the slider.</string>
+    <string name="activate_fast_card_tutorial_activity_description_2_second_part">ή απλά επίλεξε το κουμπί "Ενεργοποίηση" παρακάτω. Θα το ενεργοποιήσουμε στη %1$s για σένα.</string>
+    <string name="activate_fast_card_tutorial_activity_button_text">TURN ON</string>
+
+    <string name="payment_wait_message">Προετοιμασία συσκευής για ανέπαφη συναλλαγή…</string>
+    <string name="payment_help_message">Πλησίασε το τηλέφωνο σου κοντά στο μηχάνημα αποδοχής ανέπαφων πληρωμών εξασφαλίζοντας ότι η οθόνη της συσκευής σου είναι στραμμένη προς το μέρος σου.</string>
+    <string name="cancel">Διακοπή πληρωμής</string>
+
+    <string name="pin_setup_prompt_activity_text_field_title">Το COSMOTE Wallet PIN ενεργοποιήθηκε. Μπορείς να πραγματοποιήσεις ανέπαφες συναλλαγές με το κινητό σου τηλέφωνο!</string>
+    <string name="pin_setup_prompt_activity_text_field_description">Για την ασφάλεια  του COSMOTE Wallet και των καρτών σου, παρακαλώ
+        επίλεξε ένα 4-ψήφιο αριθμό ως το COSMOTE Wallet PIN. (σημείωση: προϋποθέτει τα δεδομένα του κινητού σου να είναι ενεργά) </string>
+    <string name="pin_setup_prompt_activity_text_field_footer">Μπορείς να αλλάξεις το COSMOTE Wallet PIN σου, ανά πάσα στιγμή,  από το μενού "Ρυθμίσεις".</string>
+    <string name="pin_setup_prompt_activity_button">Εισαγωγή COSMOTE Wallet PIN</string>
+
+    <string name="sidebar_menu_item_home">Αρχική</string>
+    <string name="sidebar_menu_item_settings">Ρυθμίσεις</string>
+    <string name="sidebar_menu_item_help">Βοήθεια &amp; Συχνές Ερωτήσεις</string>
+    <string name="sidebar_menu_item_about">Σχετικά με το COSMOTE Wallet</string>
+    <string name="sidebar_menu_item_data_privacy">Data privacy</string>
+
+    <string name="activity_settings_title">Αλλαγή COSMOTE Wallet PIN</string>
+    <string name="activity_settings_change_pin">Change MyWallet PIN</string>
+    <string name="activity_settings_logout">Logout</string>
+
+    <!-- Storage notification texts -->
+    <string name="notification_nfc_off_title">ΕΝΕΡΓΟΠΟΊΗΣΗ NFC</string>
+    <string name="notification_nfc_off_message">Το FastPay είναι ενεργοποιημένο, αλλά η ρύθμιση NFC της συσκευή σου είναι απενεργοποιημένη. Για τη χρήση του FastPay, παρακαλώ ενεργοποίησε το NFC στις ρυθμίσεις της συσκευής σου.</string>
+    <string name="notification_nfc_off_button_text">Ενεργοποίηση</string>
+    <string name="notification_activation_success_title"></string>
+    <string name="notification_activation_success_message"></string>
+    <string name="notification_activation_success_button_text"></string>
+    <string name="notification_tap_and_pay_availability_title">Ορισμός COSMOTE Wallet ως προεπιλεγμένο</string>
+    <string name="notification_tap_and_pay_availability_message">Το COSMOTE Wallet δεν έχει οριστεί στις ρυθμίσεις Android ως η
+        προεπιλεγμένη εφαρμογή για συναλλαγές. Για να μπορείς να κάνεις πληρωμή με το COSMOTE Wallet απαιτείται αλλαγή στις ρυθμίσεις.</string>
+    <string name="notification_tap_and_pay_availability_button_text">Όρισε το COSMOTE Wallet ως το προεπιλεγμένο</string>
+    <string name="notification_rearrange_cards_title">ΑΛΛΑΞΕ ΘΕΣΗ ΣΤΙΣ ΚΑΡΤΕΣ ΣΟΥ</string>
+    <string name="notification_rearrange_cards_message">Μπορείς να αλλάξεις θέση στις κάρτες σου εύκολα. Απλά πάτα παρατεταμένα πάνω σε μια κάρτα, μετέφερέ και τοποθέτησέ τη στο σωστό σημείο.</string>
+    <string name="notification_fast_card_after_activation_title">ΠΛΗΡΩΜΗ ΧΩΡΙΣ ΝΑ ΞΕΚΛΕΙΔΩΣΕΙΣ ΤΟ ΚΙΝΗΤΟ ΣΟΥ</string>
+    <string name="notification_fast_card_after_activation_message">Θέλεις να ενεργοποιήσεις την %1$s για πιο γρήγορες ανέπαφες συναλλαγές στα καταστήματα;</string>
+    <string name="notification_fast_card_after_activation_learn_more_button">ΜΑΘΕ ΠΕΡΙΣΣΟΤΕΡΑ</string>
+    <string name="notification_fast_card_after_activation_turn_on_button">Ενεργοποίηση</string>
+    <string name="notification_login_title">LOGIN TO MYWALLET</string>
+    <string name="notification_login_message">Login to MyWallet to save your cards and access them anytime..</string>
+    <string name="notification_login_button_text">LOGIN</string>
+    <string name="notification_wallet_update_version_message">Go to Google Play Store to download the latest version of MyWallet.</string>
+    <string name="notification_wallet_update_version_button_text">Update now</string>
+    <string name="notification_wallet_update_version_title">NEW WALLET APP VERSION AVAILABLE</string>
+    <string name="notification_ticket_added_ticker">TODO %1$s</string>
+    <string name="notification_ticket_added_title">TODO %1$s</string>
+    <string name="notification_ticket_added_body"></string>
+    <string name="notification_ticket_updated_ticker">TODO %1$s</string>
+    <string name="notification_ticket_updated_title">TODO %1$s</string>
+    <string name="notification_ticket_updated_body"></string>
+    <string name="notification_ticket_deleted_ticker">TODO %1$s</string>
+    <string name="notification_ticket_deleted_title">TODO %1$s</string>
+    <string name="notification_ticket_deleted_body"></string>
+
+    <!-- setup pin-->
+    <string name="set_pin_enter_new_passcode">Παρακαλώ καταχώρησε το νέο COSMOTE Wallet PIN.</string>
+    <string name="set_pin_confirm_new_passcode">Παρακαλώ επιβεβαίωσε το COSMOTE Wallet PIN.</string>
+    <string name="new_passcode_mismatch">Τα επιλεγμένα PIN δεν είναι ταυτόσημα. Παρακαλώ προσπάθησε ξανά.</string>
+    <string name="pin_set_successfully">Το COSMOTE Wallet PIN ορίστηκε επιτυχώς.</string>
+    <string name="incorrect_passcode">Λανθασμένο COSMOTE Wallet PIN. Παρακαλώ προσπάθησε πάλι.</string>
+    <string name="enter_passcode">Παρακαλώ καταχώρησε το COSMOTE Wallet PIN.</string>
+    <string name="passcode_attempts_remaining_3">Απομένουν 3 προσπάθειες</string>
+    <string name="passcode_attempts_remaining_2">Απομένουν 2 προσπάθειες</string>
+    <string name="passcode_attempts_remaining_1">Απομένει 1 προσπάθεια</string>
+    <string name="my_wallet_locked">To COSMOTE Wallet κλειδώθηκε.</string>
+    <string name="change_pin_enter_new_passcode">Παρακαλώ πληκτρολόγησε το νέο COSMOTE Wallet PIN.</string>
+    <string name="change_pin_confirm_new_passcode">Παρακαλώ επιβεβαίωσε το COSMOTE Wallet PIN.</string>
+    <string name="change_pin_successfully">Το COSMOTE Wallet PIN ορίστηκε επιτυχώς.</string>
+    <string name="disabled_fastcards">Για λόγους ασφαλείας το FastPay απενεργοποιήθηκε.</string>
+    <string name="program">\'Ωρες λειτουργίας: όλο το 24ωρο</string>
+    <string name="call_customer_care">Επικοινώνησε με την Εξυπηρέτηση Πελατών</string>
+
+    <!-- Change location-->
+    <string name="error_message_no_suggestion_for_location">Δεν βρέθηκε η τοποθεσία.\nΠαρακαλώ προσπάθησε ξανά &#8230;</string>
+    <string name="change_location_enter_city_name_hint">Please enter the name of your city.</string>
+
+    <!-- Couponing -->
+    <string name="coupons_label_text">Coupons</string>
+    <string name="coupons_catalog_action_change_location_title">Αλλαγή τοποθεσίας</string>
+    <string name="no_internet_connection_title_text">Δεν είναι ενεργά τα δεδομένα κινητού</string>
+    <string name="no_internet_connection_couponing_text">You can always use your saved coupons from the Home screen.</string>
+    <string name="set_favorite_merchant_info_title_text">STAY UP TO DATE WITH NEW COUPONS</string>
+    <string name="set_favorite_merchant_info_message_text">You will receive notifications about new coupons available from the merchants you selected as \'Favorite\'.</string>
+    <string name="couponing_merchant_coupons_list_item_new_label">NEW</string>
+    <string name="couponing_merchant_coupons_list_item_money_save">save</string>
+    <string name="coupon_catalogue_expiry_text">Valid until %1$s</string>
+    <string name="couponing_merchant_coupons_open_hours">Opening hours: %1$s - %2$s</string>
+    <plurals name="coupons_number">
+        <item quantity="one">%1$s COUPON</item>
+        <item quantity="other">%1$s COUPONS</item>
+    </plurals>
+    <string name="coupon_money_save">SAVE %1$s</string>
+    <string name="coupon_expiry_date">VALID UNTIL %1$s</string>
+    <string name="coupon_redemption_info_title">HOW IT WORKS</string>
+    <string name="coupon_redemption_info_description">Please show the code at the cash register in order to use the coupons.</string>
+    <string name="coupon_redemption_help_link_text">Do you need assistance?</string>
+    <string name="coupon_redemption_done">BACK</string>
+    <string name="coupon_redemption_info_message_for_acardo_coupons">Please show the coupon code at the checkout.</string>
+    <plurals name="coupon_redemption_info_message_for_dt_coupons">
+        <item quantity="one">Please show the coupon code at the checkout.</item>
+        <item quantity="other">Please show the coupon codes at the checkout.</item>
+    </plurals>
+    <plurals name="coupon_redemption_coupon_count_message">
+        <item quantity="one">%1$s COUPON TO USE</item>
+        <item quantity="other">%1$s COUPONS TO USE</item>
+    </plurals>
+    <string name="context_menu_remove_all_coupons">Delete all coupons for this store</string>
+    <string name="saved_coupons_remove_all_title">Delete all coupons</string>
+    <string name="saved_coupons_remove_all_message">You can also delete individual coupons by tapping on them in the previous screen. Are you sure you want to delete all coupons saved for this store?</string>
+    <string name="coupon_deletion_spinner_message">Deleting saved coupons&#8230;</string>
+    <string name="coupon_empty_catalog">No coupons for this location available</string>
+
+    <!-- Couponing error strings-->
+    <string name="couponing_error_unknown_title">Something went wrong</string>
+    <string name="couponing_error_unknown_text">Please try again and contact customer service, if you see this message again.</string>
+    <string name="couponing_error_backend_title">Oops</string>
+    <string name="couponing_error_backend_text">We are experiencing a problem with our backend systems. We are working on it and will have things back to normal shortly.</string>
+    <string name="couponing_error_failed_to_add_title">Unable to add coupon</string>
+    <string name="couponing_error_failed_to_add_text">Please try again</string>
+    <string name="couponing_acardo_limit_exceeded_delete_coupon_title">Delete coupon</string>
+    <string name="couponing_acardo_limit_exceeded_delete_coupon_message">You have reached the limit of 20 saved coupons of our partner acardo. To continue directly coupon \"%1$s\" will be deleted.</string>
+    <string name="couponing_acardo_save_coupon_limit_exceeded_title">Unable to save coupon</string>
+    <string name="couponing_acardo_coupon_instance_limit_exceeded">YOU SAVED 10 TIMES THIS COUPON</string>
+    <string name="couponing_acardo_max_active_coupons_limit_exceeded">LIMIT OF 20 SAVED ACARDO COUPONS REACHED</string>
+
+    <!-- SIM services notification texts -->
+    <string name="notification_failure_ticker"></string>
+    <string name="notification_failure_title"></string>
+    <string name="notification_failure_body"></string>
+    <string name="notification_applet_install_ticker">Η %1$s προστέθηκε επιτυχώς και μπορεί να χρησιμοποηθεί για συναλλαγές.</string>
+    <string name="notification_applet_install_title">Επιτυχής προσθήκη %1$s</string>
+    <string name="notification_applet_install_body">%1$s έτοιμη προς χρήση.</string>
+    <string name="notification_applet_uninstall_ticker">%1$s διαγράφηκε επιτυχώς από το  COSMOTE Wallet.</string>
+    <string name="notification_applet_uninstall_title">Επιτυχής διαγραφή %1$s</string>
+    <string name="notification_applet_uninstall_body">Επιτυχής διαγραφή%1$s</string>
+    <string name="notification_applet_locked_ticker">Έγινε φραγή %1$s στο COSMOTE Wallet.</string>
+    <string name="notification_applet_locked_title">Φραγή %1$s</string>
+    <string name="notification_applet_locked_body">Φραγή %1$s.</string>
+    <string name="notification_applet_unlocked_ticker">%1$s επανενεργοποιήθηκε στο COSMOTE Wallet.</string>
+    <string name="notification_applet_unlocked_title">Άρση φραγής %1$s </string>
+    <string name="notification_applet_unlocked_body">%1$s επανενεργοποιήθηκε.</string>
+    <string name="notification_deactivation_ticker">Το COSMOTE Wallet απενεργοποιήθηκε.</string>
+    <string name="notification_deactivation_title">Το COSMOTE Wallet απενεργοποιήθηκε</string>
+    <string name="notification_deactivation_body">Το COSMOTE Wallet έχει απενεργοποιηθεί.</string>
+    <string name="notification_wallet_blocked_ticker">Έχει γίνει φραγή στο COSMOTE Wallet</string>
+    <string name="notification_wallet_blocked_title">Φραγή COSMOTE Wallet</string>
+    <string name="notification_wallet_blocked_body">Έχει γίνει φραγή στο COSMOTE Wallet</string>
+    <string name="notification_wallet_unblocked_ticker">Το COSMOTE Wallet επανενεργοποιήθηκε.</string>
+    <string name="notification_wallet_unblocked_title">Έγινε άρση φραγής στο COSMOTE Wallet</string>
+    <string name="notification_wallet_unblocked_body">Το COSMOTE Wallet είναι έτοιμο προς χρήση.</string>
+    <string name="notification_success_ticker">Τώρα μπορείς να προσθέσεις τις τραπεζικές σου κάρτες στο COSMOTE Wallet.</string>
+    <string name="notification_success_title">Έτοιμο για ανέπαφες συναλλαγές</string>
+    <string name="notification_success_body">Τώρα μπορείς να προσθέσεις τραπεζικές κάρτες στο COSMOTE Wallet.</string>
+
+    <!-- coupon detail view -->
+    <string name="terms_and_conditions">Legal statement</string>
+    <string name="save_coupon">Save Coupon</string>
+    <string name="delete_coupon">Delete coupon</string>
+    <string name="redeem_coupon">Use Coupon</string>
+    <string name="couponing_coupon_detail_page_save_coupon_error">COUPON CAN BE SAVED UP TO 10 TIMES</string>
+    <string name="couponing_coupon_saved">Coupon is saved</string>
+    <string name="coupon_issuer_acardo">Coupon supplied by acardo open wallet GmbH.</string>
+    <string name="coupon_issuer_dt">Coupon supplied by Telekom Deutschland GmbH.</string>
+    <string name="redeem_coupons">USE ALL COUPONS</string>
+    <string name="goto_map">Διευθύνσεις καταστημάτων (χάρτης)</string>
+
+    <!-- Wallet Tour -->
+    <string name="wallet_tour_page_welcome_header">Καλωσήρθες στο COSMOTE Wallet!</string>
+    <string name="wallet_tour_page_welcome_description">Το COSMOTE Wallet θα μετατρέψει το κινητό σου τηλέφωνο σε ένα ψηφιακό πορτοφόλι ανέπαφων και ασφαλών συναλλαγών!</string>
+    <string name="wallet_tour_page_cards_header">Πρόσθεσε τις πλαστικές σου κάρτες!</string>
+    <string name="wallet_tour_page_cards_description">Αποθήκευσε τις κάρτες Πληρωμών σου (prepaid, χρεωστικές ή πιστωτικές) καθώς και τις κάρτες Επιβράβευσης Πελατών (loyalty) από τα αγαπημένα σου καταστήματα, όλες σε ένα σημείο!</string>
+    <string name="wallet_tour_page_cards_header_for_ott_user">Πρόσθεσε τις πλαστικές σου κάρτες!</string>
+    <string name="wallet_tour_page_cards_description_for_ott_user">Αποθήκευσε τις Κάρτες Επιβράβευσης Πελατών (loyalty) από τα αγαπημένα σου καταστήματα, όλες σε ένα σημείο!</string>
+    <string name="wallet_tour_page_tap_to_pay_header">COMING SOON: PAY IN STORES</string>
+    <string name="wallet_tour_page_tap_to_pay_description">Very soon, you will be able to look for the contactless symbol and pay with one touch. Quick and easy.</string>
+    <string name="wallet_tour_page_security_header">SECURE WITH COSMOTE</string>
+    <string name="wallet_tour_page_security_description">Your data is stored securely on the SIM and is protected by multiple layers of security.</string>
+    <string name="wallet_tour_page_coupons_header">SAVE MONEY</string>
+    <string name="wallet_tour_page_coupons_description">Discover coupons and use them with ease to get discounts.</string>
+    <string name="wallet_tour_page_get_started_header">Κάνε την αρχή τώρα!</string>
+    <string name="wallet_tour_page_get_started_description">Ενεργοποίησε δωρεάν το COSMOTE Wallet και άφησε τις πλαστικές σου κάρτες στο σπίτι…</string>
+    <string name="wallet_tour_lets_go">Αποδέχομαι τους Όρους Χρήσης</string>
+    <string name="wallet_tour_t_and_c_info">Συνεχίζοντας, αποδέχεσαι τους %1$s της acardo open wallet GmbH, και της %2$s και %3$s της COSMOTE ΑΕ.</string>
+    <string name="wallet_tour_t_and_c_tandcs">Όροι Χρήσης</string>
+    <string name="wallet_tour_t_and_c_telekom_data_privacy_guidelines">Οδηγίες Προστασίας Προσωπικών Δεδομένων</string>
+
+    <string name="general_backend_error_header">:-(</string>
+    <string name="general_backend_error_text">Παρουσίαστηκε τεχνικό σφάλμα. Εργαζόμαστε για την επίλυση του.</string>
+    <string name="general_no_network_connection_error_header">Μη διαθέσιμη σύνδεση δεδομένων</string>
+    <string name="general_no_network_connection_error_text">Παρακαλώ έλεγξε τη σύνδεσή δεδομένων κινητής και προσπάθησε ξανά</string>
+
+    <!-- Service catalog item details screen-->
+    <string name="service_catalog_item_add_card_button_text">Προσθήκη κάρτας</string>
+    <string name="service_catalog_item_use_this_service_button_text">TODO Use this service</string>
+    <string name="service_catalog_item_add_card_button_disabled_text">Αυτή η κάρτα έχει ήδη καταχωρηθεί</string>
+    <string name="service_catalog_item_add_register_for_service">Εγγράψου για αυτή την κάρτα</string>
+    <string name="notification_no_dt_sim_message_text">Για να ενεργοποιήσεις τη κάρτα αυτή χρειάζεσαι πρώτα να αντικαταστήσεις της SIM σου με μία NFC SIM κάρτα από τη COSMOTE </string>
+    <string name="notification_no_dt_sim_title">ΠΑΡΑΚΑΛΩ ΕΙΣΑΓΕΤΕ ΜΙΑ COSMOTE NFC SIM ΚΑΡΤΑ</string>
+    <string name="notification_no_dt_nfc_sim_title">ΠΑΡΑΚΑΛΩ ΕΙΣΑΓΕΤΕ ΜΙΑ NFC SIM ΚΑΡΤΑ</string>
+    <string name="notification_no_dt_nfc_sim_message_text">Χρειάζεσαι μια NFC SIM κάρτα για να ενεργοποιήσεις αυτήν την κάρτα. Ζήτησε μία NFC SIM κάρτα από το πλησιέστερο κατάστημα COSMOTE.</string>
+    <string name="notification_no_nfc_handset_title">Η ΣΥΣΚΕΥΗ ΔΕΝ ΥΠΟΣΤΗΡΙΖΕΙ NFC</string>
+    <string name="notification_no_nfc_handset_message_text">Χρειάζεσαι μια συμβατή Android NFC συσκευή για να ενεργοποιήσεις αυτήν την κάρτα. Βρες μία στο πλησιέστερο κατάστημα COSMOTE.</string>
+    <string name="notification_handset_not_supported_title">Η ΣΥΣΚΕΥΗ ΔΕΝ ΕΙΝΑΙ ΣΥΜΒΑΤΗ</string>
+    <string name="notification_handset_not_supported_message_text">Η συσκευή σου δεν είναι συμβατή. Επισκέψου ένα κατάστημα.</string>
+    <string name="go_to_website">ΜΠΕΣ ΣΤΟ SITE</string>
+    <string name="service_catalog_item_add_card_button_ticketing_text"></string>
+
+    <!-- Service catalog screen -->
+    <string name="no_internet_connection_service_catalogue_text">Για την πρόσβαση στο κατάλογο του COSMOTE Wallet απαιτείται σύνδεση σε Wi-Fi ή σε δεδομένα μέσω δικτύου κινητής τηλεφωνίας.</string>
+    <string name="add_other_card_item_title">ΠΡΟΣΘΗΚΗ ΚΑΡΤΩΝ ΕΠΙΒΡΑΒΕΥΣΗΣ ΠΕΛΑΤΩΝ (loyalty)?</string>
+    <string name="add_other_card_item_subtitle">Πρόσθεσε οποιαδήποτε Κάρτα Επιβράβευσης Πελατών (loyalty) που έχεις από τα αγαπημένα σου καταστήματα στο COSMOTE Wallet φωτογραφίζοντας τη κάρτας και σκανάρωντας το barcode της.</string>
+    <string name="filter_button_payment_category_text">ΚΑΡΤΕΣ ΣΥΝΑΛΛΑΓΩΝ</string>
+    <string name="filter_button_loyalty_category_text">ΚΑΡΤΕΣ ΕΠΙΒΡΑΒΕΥΣΗΣ ΠΕΛΑΤΩΝ</string>
+    <string name="filter_button_transport_category_text">TRANSPORT</string>
+    <string name="filter_button_access_category_text">ACCESS</string>
+    <string name="filter_button_ticketing_category_text"></string>
+    <string name="filter_button_digital_stamp_category_text">TODO DIGITAL STAMP</string>
+    <string name="filter_button_all_category_text">TODO ALL</string>
+
+    <!-- MyCards -->
+    <string name="mycards_add_a_card">Προσθήκη κάρτας</string>
+    <string name="mycards_add_card_scan_your_cards_barcode">Σκάναρε το barcode της κάρτας</string>
+    <string name="mycards_add_card_place_your_card_viewfinder">Τοποθέτησε το barcode της κάρτας  μέσα στο viewfinder για να το σκανάρεις.</string>
+    <string name="mycards_enter_code_manually">Πληκτρολόγησε τον αριθμό της κάρτας</string>
+    <string name="mycards_add_card_card_details">Πληροφορίες κάρτας</string>
+    <string name="mycards_edit_card_details">Επεξεργασία πληροφοριών κάρτας</string>
+    <string name="mycards_add_card_loyalty_card_name_hint">Όνομα κάρτας επιβράβευσης πελατών (Loyalty)</string>
+    <string name="mycards_add_card_loyalty_card_number_hint">Αριθμός κάρτας επιβράβευσης πελατών (Loyalty)</string>
+    <string name="mycards_add_card_validate_input_all">Παρακαλώ πληκτρολόγησε το όνομα και τον αριθμό της κάρτας</string>
+    <string name="mycards_add_card_validate_input_new_partner_name">Παρακαλώ πληκτρολόγησε το όνομα της κάρτας</string>
+    <string name="mycards_add_card_validate_input_card_number">Παρακαλώ πληκτρολόγησε τον αριθμό της κάρτας</string>
+    <string name="no_internet_connection_add_card_barcode_scanner">Για την προσθήκη της κάρτας επιβράβευσης απαιτείται σύνδεση σε Wi-Fi ή σε δεδομένα μέσω δικτύου κινητής τηλεφωνίας.</string>
+    <string name="mycards_delete_mycard_title">Διαγραφή κάρτας</string>
+    <string name="mycards_delete_mycard_text">Να διαγραφεί σίγουρα η κάρτα?</string>
+    <string name="my_cards_help">Χρειάζεσαι βοήθεια;</string>
+    <string name="my_cards_help_dialog_title">ΧΡΗΣΗ ΚΑΡΤΩΝ ΕΠΙΒΡΑΒΕΥΣΗΣ ΠΕΛΑΤΩΝ ΣΤΑ ΚΑΤΑΣΤΗΜΑΤΑ</string>
+    <string name="my_cards_help_dialog_message">Για τη χρήση των καρτών επιβράβευσης πελατών (loyalty) στα καταστήματα, απλά δείξε το
+        barcode της ψηφιακής σου κάρτας στο ταμείο του εκάστοτε καταστήματος για να το σκανάρει απευθείας./n/nΣτη περίπτωση που το κάταστημα δεν υποστηρίζει το σκανάρισμα barcode από κινητά τηλέφωνα, μπορείς να ζητήσεις να καταχωρήσουν τον εμφανιζόμενο αριθμό κάρτας πληκτρολογώντας το στο ταμείο.</string>
+    <string name="my_cards_help_dialog_message_no_barcode">To use your loyalty cards, ask the cashier to manually enter the displayed card number into the cashier system.</string>
+    <string name="mycards_add_card_validate_ean13_barcode_type_error">Παρακαλώ πληκτρολόγησε ένα έγκυρο αριθμό κάρτας</string>
+    <string name="mycards_add_card_loyalty_card_additional_info_hint">Additional card info</string>
+    <string name="mycards_take_a_photo_text">ADD A PHOTO OF YOUR CARD</string>
+    <string name="mycards_retake_a_photo_text">CHANGE YOUR CARD PHOTO</string>
+    <string name="mycards_pan_and_zoom_text">Pan and zoom to reposition the photo in the tile</string>
+    <string name="mycards_reposition_title">Reposition photo</string>
+    <string name="mycards_reposition_text">Pan and zoom to reposition your photo in the tile.</string>
+    <string name="mycards_reposition_done_button_text">DONE</string>
+    <string name="mycards_take_a_picture_for_card">Take a photo of your card</string>
+    <string name="mycards_take_a_picture_instruction">Place your card inside the square and press the button below when ready.</string>
+    <string name="mycards_take_a_picture">TAKE PHOTO</string>
+    <string name="mycards_add_card_validate_additional_info">The entered text is too long. Please enter a maximum of %1$s characters.</string>
+    <string name="mycards_finish_editing">Done</string>
+    <string name="mycards_take_picture_non_partner_card">Take a photo of your card</string>
+    <string name="mycards_reposition_picture_non_partner_card">Reposition photo</string>
+
+    <!-- Digital Stamps -->
+    <string name="digitalstamps_scan_to_collect_stamp">TODO Scan to collect stamp</string>
+    <string name="digitalstamps_collect_stamp_scan_your_qr_code">TODO Scan your QR Code</string>
+    <string name="digitalstamps_collect_stamp_qr_viewfinder">TODO Place the QR code inside the viewfinder to scan it.</string>
+    <plurals name="digitalstamps_collect_stamp_successful">
+        <item quantity="one">%1$d TODO stamp collected</item>
+        <item quantity="other">%1$d TODO stamps collected</item>
+    </plurals>
+    <string name="digitalstamps_collect_last_stamp_successful">TODO Reward now available</string>
+    <string name="no_internet_connection_collect_stamp_scanner">TODO To collect a stamp, connect to a Wi-Fi or cellular data network.</string>
+    <string name="digitalstamps_unable_to_collect_stamp">TODO Unable to collect stamp</string>
+    <string name="digitalstamps_unable_to_collect_stamp_message">TODO Could not validate te code for collecting a stamp, please try again
+        later</string>
+    <string name="digitalstamps_no_internet_connection_message">TODO To collect or redeem stamps, connect to a Wi-Fi or
+        cellular data network.</string>
+    <string name="digitalstamps_nfc_code_not_valid">TODO Code was not identified</string>
+    <string name="digitalstamps_nfc_please_try_again">Please try again</string>
+    <string name="digitalstamps_scan_redeem_reward">TODO Scan to redeem</string>
+    <string name="digitalstamps_redeem_reward_instruction">TODO Scan the QR code to redeem reward</string>
+    <string name="digitalstamps_unable_to_redeem_reward">TODO Unable to redeem reward</string>
+    <string name="digitalstamps_unable_to_redeem_reward_message">TODO Could not validate te code for redeeming a reward, please try
+        again later</string>
+    <string name="digital_stamps_reward_redeemed_message">TODO This reward will be available a few more minutes.</string>
+    <string name="digital_stamps_reward_redeemed">TODO REWARD REDEEMED</string>
+    <string name="no_internet_connection_redeem_reward_scanner">TODO To redeem a reward, connect to a Wi-Fi or cellular data network.</string>
+    <string name="digital_stamps_scan_code_invalid">TODO The code scanned is not valid.</string>
+    <string name="digital_stamps_scan_code_redeem_required">"TODO The code that you scanned is for collecting stamps. Please, scan a code
+        to redeem your reward.</string>
+    <string name="digital_stamps_scan_code_collect_required">TODO The code that you scanned is for redeeming rewards. Please, scan a code
+        to collect stamps.</string>
+    <string name="digitalstamps_redeem_stamp_successful">TODO Reward was successfully redeemed.</string>
+
+    <!-- Digital Stamps error messages -->
+    <string name="digitalstamps_error_title">TODO A problem occurred.</string>
+    <string name="digitalstamps_error_invalid_stamp">TODO This stamp is invalid. Please check with the cashier.</string>
+    <string name="digitalstamps_error_exceed_daily_limit">TODO You have collected the maximum allowed stamps for this card in one day.
+        Please try again later.</string>
+    <string name="digitalstamps_error_multiple_stamp_attempt">TODO Please wait until the previous stamp is validated and try again in a
+        short moment.</string>
+    <string name="digitalstamps_error_invalid_stamp_value">TODO This stamp is invalid. Please check with the cashier.</string>
+    <string name="digitalstamps_error_invalid_redemption_value">TODO This reward code is invalid. Please check with the cashier.</string>
+    <string name="digitalstamps_error_expired_reward">TODO This reward has expired. It will be automatically deleted from your wallet
+        .</string>
+
+    <!-- notifications -->
+    <string name="notification_no_mobile_data_title">Παρακαλώ ενεργοποίησε τα δεδομένα κινητής τηλεφωνίας</string>
+    <string name="notification_no_mobile_data_message">Η διαδικασία ενεργοποιήσης του COSMOTE Wallet για ανέπαφες συναλλαγές είναι σε
+        εξέλιξη. Απαιτείται τα δεδομένα κινητής τηλεφωνίας να είναι ενεργά.</string>
+    <string name="turn_on">ΕΝΕΡΓΟΠΟΙΗΣΗ</string>
+    <string name="notification_activation_failed_title">Μη επιτυχημένη ενεργοποίηση του COSMOTE wallet για ανέπαφες συναλλαγές</string>
+    <string name="notification_activation_failed_message">Αδυναμία εγκατάστασης COSMOTE Wallet για ανέπαφες συναλλαγές. Παρακαλώ επικοινώνησε  με την Εξυπηρέτηση Πελατών.</string>
+    <string name="notification_preparing_mywallet_title">Διαδιακασία ολοκλήρωσης εγκατάστασης του COSMOTE Wallet για ανέπαφες συναλλαγές</string>
+    <string name="notification_preparing_mywallet_message">Ίσως χρειαστούν λίγα λεπτά. Παρακαλώ κράτησε τα δεδομένα δικτύου κινητής ενεργά. Θα σταλεί ενημέρωση για την ολοκλήρωση της διαδικασίας.</string>
+    <string name="notification_login_to_add_card_message">Please login to add new cards to MyWallet.</string>
+    <string name="notification_login_to_add_card_title">LOGIN TO CONTINUE</string>
+    <string name="notification_login_to_scan_stamp_title">TODO LOGIN TO CONTINUE</string>
+    <string name="notification_login_to_scan_stamp_message">TODO Please login to scan stamps to MyWallet.</string>
+    <string name="notification_login_to_add_card_button_message">LOGIN</string>
+    <string name="notification_dialog_login_to_add_coupons_title">LOGIN TO CONTINUE</string>
+    <string name="notification_dialog_login_to_add_coupons_message">Please login to save coupons to MyWallet.</string>
+    <string name="notification_dialog_login_to_add_coupons_button_text">LOGIN</string>
+
+    <!-- access -->
+    <string name="storage_access_description">EASY ACCESS TO TELEKOM LOCATIONS</string>
+    <string name="context_menu_activate_access_card">Activate Access Card</string>
+    <string name="context_menu_activate_access_card_subtitle">To open a door, simply hold the back of your phone against the card reader.</string>
+    <string name="access_screen_fast_card_info_text">Tap your device to get access.</string>
+
+    <!-- super shop-->
+    <string name="context_menu_activate_super_shop_card">TODO Activate Card</string>
+    <string name="context_menu_activate_super_shop_card_subtitle">TODO You will be able to collect or redeem points, without
+        unlocking your phone.</string>
+    <string name="super_shop_screen_fast_card_info_text">Tap the NFC tag to collect or redeem points.</string>
+
+    <!-- About screen -->
+    <string name="about_app_title">Σχετικά</string>
+    <string name="about_app_version">Έκδοση %1$s</string>
+    <string name="about_app_copyright">© 2016 Telekom Deutschland GmbH</string>
+    <string name="about_app_address">Telekom Deutschland GmbH\nLandgrabenweg 151\n53227 Bonn</string>
+    <string name="about_app_email">E-Mail: info@telekom.de</string>
+    <string name="about_app_phone">Telefon: +49 228 181 0</string>
+    <string name="about_app_company_registration_info">Pflichtangaben gemäß § 35 a GmbHG</string>
+    <string name="about_app_company_website">www.telekom.de/pflichtangaben</string>
+    <string name="about_app_company_registration_id">USt-IdNr. DE 122265872</string>
+    <string name="about_app_licences_button_name">Άδεια χρήσης</string>
+    <string name="activity_licences_title">Άδεια χρήσης</string>
+
+    <!-- PayAtMatch details screen -->
+    <string name="payatmatch_details_service_provider">BANK NAME</string>
+    <string name="payatmatch_details_customer_number">CUSTOMER NUMBER</string>
+    <string name="payatmatch_details_cardholder_name">CUSTOMER NAME</string>
+    <string name="payatmatch_details_iban">IBAN</string>
+
+    <!-- Digital stamp additional info screen -->
+    <string name="stamp_additional_info">TODO INFO</string>
+    <string name="stamp_additional_info_available_stores">TODO AVAILABLE STORES</string>
+    <string name="stamp_additional_info_terms">TODO Terms and conditions</string>
+
+    <!-- FAQs and Help -->
+    <string name="help_category_general">ΓΕΝΙΚΑ</string>
+    <string name="help_category_security">ΑΣΦΑΛΕΙΑ ΚΑΙ ΑΠΟΡΡΗΤΟ</string>
+    <string name="help_category_payment">ΠΛΗΡΩΜΗ</string>
+    <string name="help_category_couponing">ΚΟΥΠΟΝΙΑ</string>
+    <string name="help_category_mycards">ΚΑΡΤΕΣ ΕΠΙΒΡΑΒΕΥΣΗΣ ΠΕΛΑΤΩΝ (loyalty)</string>
+    <string name="help_category_ticketing">TODO Ticketing</string>
+    <string name="help_category_supershop">TODO SuperShop</string>
+    <string name="faq_title">ΕΡΩΤΗΣΕΙΣ &amp; ΑΠΑΝΤΗΣΕΙΣ</string>
+    <string name="start_tour">Παρουσίαση COSMOTE Wallet</string>
+
+    <!-- ACF Error Dialog -->
+    <string name="acf_error_message_title">Μη επιτυχημένη καταχώρηση κάρτας</string>
+    <string name="acf_error_message_text">Παρουσιάστηκε σφάλμα κατά την προθήκη της κάρτας στο COSMOTE Wallet. Παρακαλώ επικοινώνησε με
+        την %1$s Εξυπηρέτηση Πελατών και ζήτα την επανάληψη εγκατάστασης της κάρτας στο COSMOTE Wallet.</string>
+
+    <!-- Coupon Catalog loading screen -->
+    <string name="coupon_catalog_loading_screen_header">One moment please</string>
+    <string name="coupon_catalog_loading_screen_message">Loading Coupons &#8230;</string>
+
+    <!--Merchant Catalog loading screen-->
+    <string name="merchant_catalog_loading_screen_message">Loading data &#8230;</string>
+
+    <!-- swb transport -->
+    <string name="context_menu_activate_swb_transport_card">Activate ticket</string>
+    <string name="context_menu_activate_swb_transport_card_subtitle">Validate your ticket with the controller without unlocking your phone.</string>
+    <string name="swb_transport_storage_card_title">WELCOME TO SWB JOB TICKET PILOT</string>
+    <string name="swb_transport_storage_card_message">Thank you for participation in the pilot. We have prepared your SIM for SWB job ticket and will shortly send you a mail with details how to get your job ticket in to your phone.</string>
+    <string name="swb_transport_screen_fast_card_info_text">Tap the NFC tag to validate your ticket.</string>
+
+    <!-- transport loyalty -->
+    <string name="transport_loyalty_card_name_travipay">TODO Travipay</string>
+    <string name="open_your_app">TODO OPEN YOUR APP</string>
+    <string name="travipay_details_description">"TODO Fast and convenient payment of parking tickets</string>
+
+    <!-- ticketing-->
+    <string name="ticketing_detail_location"></string>
+    <string name="ticketing_detail_price"></string>
+    <string name="ticketing_detail_sector"></string>
+    <string name="ticketing_detail_side"></string>
+    <string name="ticketing_detail_row"></string>
+    <string name="ticketing_detail_seat"></string>
+    <string name="ticketing_detail_expired_message"></string>
+    <string name="ticketing_detail_used_message"></string>
+    <string name="ticketing_detail_button_activate_ticket"></string>
+    <string name="ticketing_detail_button_delete_ticket"></string>
+    <string name="ticketing_detail_audit"></string>
+    <string name="ticketing_detail_delete_dialog_title"></string>
+    <string name="ticketing_detail_delete_dialog_message"></string>
+    <string name="ticketing_detail_delete_dialog_button_text"></string>
+    <string name="ticketing_detail_ticket_activated_text"></string>
+    <string name="ticketing_is_used"></string>
+    <string name="ticketing_card_view_expired"></string>
+    <string name="ticketing_context_menu_additional_ticket_info"></string>
+    <string name="ticketing_context_menu_activate_card"></string>
+    <string name="ticketing_context_menu_activate_card_subtitle"></string>
+    <string name="ticketing_context_menu_add_to_calendar"></string>
+    <string name="ticket_calendar_description_audit"></string>
+    <string name="ticket_calendar_description_sector"></string>
+    <string name="ticket_calendar_description_row"></string>
+    <string name="ticket_calendar_description_side"></string>
+    <string name="ticket_calendar_description_seat"></string>
+
+    <!-- Data Privacy -->
+    <string name="data_privacy_toolbar_title">ΑΣΦΑΛΕΙΑ ΠΡΟΣΩΠΙΚΩΝ ΔΕΔΟΜΕΝΩΝ</string>
+    <string name="data_privacy_toggle_label">Μεταφορά ανώνυμων δεδομένων χρήσης</string>
+    <string name="data_privacy_language_prefix">gr-rGR</string>
+
+    <!-- How to pay storage notification card-->
+    <string name="how_to_pay_notification_card_button_text">ΝΑΙ</string>
+    <string name="how_to_pay_notification_card_title">ΠΛΗΡΩΜΗ ΣΕ ΚΑΤΑΣΤΗΜΑΤΑ</string>
+    <string name="how_to_pay_notification_card_message">Θες να μάθεις πως πληρώνεις σωστά στα καταστήματα?</string>
+
+    <!-- rating notification -->
+    <string name="notification_rating_title">Βαθμολόγησε το COSMOTE Wallet </string>
+    <string name="rate">Υποβολή</string>
+    <string name="later">Αργότερα</string>
+
+    <string name="notification_rating_google_play_title">Βαθμολόγησε το COSMOTE Wallet στο Play Store</string>
+    <string name="notification_rating_google_play_message">Χαιρόμαστε που χρησιμοποιείς το COSMOTE Wallet. Θα ήθελες να το αξιολογήσεις στο Google Play; Θα το εκτιμούσαμε ιδιαίτερα.</string>
+    <string name="sure">ΝΑΙ</string>
+
+    <string name="notification_send_feedback_title">ΒΟΗΘΗΣΕ ΜΑΣ ΝΑ ΓΙΝΟΥΜΕ ΚΑΛΥΤΕΡΟΙ</string>
+    <string name="notification_send_feedback_message">Ευχαριστούμε για την αξιολογηση και τα σχόλια σου. Οι προτάσεις σου για βελτιώσεις του COSMOTE Wallet μας είναι πολύτιμες.</string>
+    <string name="feedback_email_adress">my-wallet@telekom.de</string>
+    <string name="feedback_subject">Αξιολόγηση του COSMOTE Wallet</string>
+    <string name="send_email">ΑΠΟΣΤΟΛΗ ΑΞΙΟΛΟΓΗΣΗΣ</string>
+
+    <string name="login_message">Login to MyWallet to access your loyalty cards anytime</string>
+    <string name="login">LOGIN</string>
+
+    <!-- Corfire Logging in activity. -->
+    <string name="corfire_logging_in_message">Logging in to MyWallet&#8230;</string>
+
+    <!-- TBS error messages-->
+    <string name="tbs_server_error">We are experiencing a problem with our backend systems. Please try again later.</string>
+    <string name="tbs_invalid_refresh_token_error">Your session has expired. Please login again.</string>
+    <string name="tbs_wrong_username_or_password_error">Incorrect username or password. Please try again in %1$d seconds.</string>
+    <string name="tbs_account_locked_error">Your account has been locked temporarily. Please try again after 24 hours.</string>
+    <string name="tbs_unknown_error">We are experiencing a problem with our backend systems. Please try again later.</string>
+
+    <!-- Telekom Login -->
+    <string name="telekom_login">Telekom Login</string>
+    <string name="telekom_login_one_login_for_every_app">TELEKOM LOGIN. ONE LOGIN FOR ALL SERVICES.</string>
+    <string name="register">Register for Telekom Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="username_and_password_empty_error_message">Username and password is missing</string>
+    <string name="username_empty_error_message">Username is missing</string>
+    <string name="password_empty_error_message">Password is missing</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="dont_have_an_account">Not yet registered?</string>
+    <string name="telekom_login_register_here">Register now</string>
+    <string name="tbs_sidebar_welcome_message_in_case_no_user_name">Welcome</string>
+
+    <!-- relogin storage notification (login to see your ecommerce content) -->
+    <string name="notification_login_ecommerce_content_message">Your saved loyalty cards cannot be viewed in the logged-out state. Please login to see all your cards.</string>
+    <string name="notification_login_ecommerce_content_title">PLEASE LOGIN TO SEE ALL YOUR CARDS</string>
+
+    <string name="logout_dialog_title">ARE YOU SURE YOU WANT TO LOGOUT?</string>
+    <string name="logout_dialog_message">You will not be able to use your loyalty cards and coupons or add any new content to MyWallet.\n\nHowever, we will keep your added payment cards active, so that you can continue paying with MyWallet.</string>
+    <string name="logout_dialog_title_positive_button">LOGOUT</string>
+    <string name="logout_dialog_title_negative_button">CANCEL</string>
+    <string name="logout_in_progress_message">Logging out.</string>
+
+    <!-- TBS error messages. -->
+    <string name="tbs_unavailable_title">Something went wrong</string>
+    <string name="tbs_unavailable_message_text">We are experiencing a problem with our backend systems. Please try again later.</string>
+
+    <!-- Permission dialog texts -->
+    <string name="camera_permission_dialog_title">ΠΡΟΣΒΑΣΗ ΣΤΗ ΦΩΤΟΓΡΑΦΙΚΗ ΜΗΧΑΝΗ</string>
+    <string name="camera_permission_rationale">Παρακαλώ να επιτραπεί η πρόσβαση στη φωτογραφική μηχανή. Θα μπορείς να σκανάρεις τις πλαστικές σου κάρτες και να τις προσθέσεις στο COSMOTE Wallet. </string>
+    <string name="camera_permission_dialog_action_button_label">Να επιτραπέι η πρόσβαση</string>
+    <string name="calendar_permission_dialog_title"></string>
+    <string name="calendar_permission_rationale"></string>
+    <string name="calendar_permission_dialog_action_button_label"></string>
+
+    <!-- Rational dialog for location permission. -->
+    <string name="location_permission_dialog_title">Να επιτρέπεται η πρόσβαση στη θέση σου</string>
+    <string name="location_permission_dialog_message">Παρακαλώ να επιτραπεί η πρόσβαση στη τοποθεσία σου, Θα μπορείς να επιλέξεις την πόλη πιο εύκολα από τη προτεινόμενη λίστα.</string>
+    <string name="location_permission_action_btn">ΝΑ ΕΠΙΤΡΕΠΕΤΑΙ Η ΠΡΟΣΒΑΣΗ</string>
+
+    <!-- OTP and Supershop teaser tiles. -->
+    <string name="storage_otp_card_teaser_tile_message"></string>
+    <string name="storage_otp_card_teaser_tile_card_add_btn_name"></string>
+    <string name="storage_supershop_card_teaser_tile_message"></string>
+    <string name="storage_supershop_card_teaser_tile_card_add_btn_name"></string>
+
+    <!-- Digital stamps strings -->
+    <string name="digital_stamp_collect_stamp_btn">TODO COLLECT STAMP</string>
+    <string name="digital_stamp_redeem_btn">TODO REDEEM</string>
+    <string name="digital_stamp_nfc_collect_stamp">TODO Tap the NFC sticker to collect stamps</string>
+    <string name="digital_stamp_nfc_redeem">TODO Tap the NFC tag to collect your reward</string>
+    <string name="digital_stamps_delete_stamp_dialog_title">TODO Delete stamp</string>
+    <string name="digital_stamps_delete_stamp_dialog_message">TODO Are you sure you want to delete this stamp?</string>
+    <string name="digital_stamps_card_spinner_deletion_message">TODO Deleting digital stamps card</string>
+    <string name="digital_stamps_redeem_reward_message">"TODO Congrats you can now redeem your reward. Please confirm with the cashier"</string>
+
+    <!--Corfire general errors strings-->
+    <string name="corfire_error_tnc_updated_title">Terms and conditions were recently updated</string>
+    <string name="corfire_error_tnc_updated_message">Please confirm the new terms and conditions.</string>
+
+    <!--Floating menu strings-->
+    <string name="fab_add_card_label">Add new cards</string>
+    <string name="fab_discover_coupons_label">Discover coupons</string>
+    <string name="fab_qr_digital_stamp_label">Collect stamps</string>
+    <string name="fab_add_new_partner_card_label">TODO Add a new card</string>
+    <string name="fab_add_new_non_partner_card_label">TODO Add a new loyalty card</string>
+
+    <!-- Ticket event reminder notification -->
+    <string name="notification_event_reminder_ticker"></string>
+    <string name="notification_event_reminder_title"></string>
+    <string name="notification_event_reminder_body"></string>
+
+    <!-- Targo Bank -->
+    <string name="storage_targo_card_teaser_tile_message">YOU CAN NOW PAY WITH TARGOBANK APP</string>
+    <string name="storage_targo_card_teaser_tile_card_add_btn_name">ADD TO PAY</string>
+    <string name="targo_card_enter_activation_code"></string>
+
+    <!--Dialogs texts-->
+    <string name="my_wallet_dialog_close_btn">CLOSE</string>
+    <string name="my_wallet_dialog_try_again_btn">TRY AGAIN</string>
+
+    <!-- Camera error -->
+    <string name="camera_error_dialog_title">Camera not accessible</string>
+    <string name="camera_error_dialog_text">Another application is currently using the camera or flashlight. Please close the other application and try again.</string>
+    <string name="camera_error_dialog_action">OK</string>
+
+</resources>

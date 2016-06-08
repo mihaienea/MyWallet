@@ -1,0 +1,604 @@
+<resources>
+    <string name="app_name">MyWallet</string>
+    <string name="app_title">MYWALLET</string>
+    <string name="country_code">de</string>
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string name="storage_welcome_teaser_tile_title">Willkommen bei MyWallet</string>
+    <string name="storage_welcome_teaser_tile_message">TIPPEN SIE HIER, UM DEN SERVICE-KATALOG ZU ERKUNDEN UND FÜGEN SIE IHREN ERSTEN MYWALLET SERVICE HINZU.</string>
+    <string name="storage_mywallet_card_teaser_tile_title">MyWallet Card</string>
+    <string name="storage_mywallet_card_teaser_tile_message">ZAHLEN SIE MIT IHREM SMARTPHONE UND DER MYWALLET CARD</string>
+    <string name="storage_mywallet_card_teaser_tile_card_add_btn_name">JETZT HINZUFÜGEN</string>
+    <string name="storage_payment_card_message">SCHNELL UND SICHER MIT DEM SMARTPHONE ZAHLEN</string>
+    <string name="storage_payatmatch_card_message">Das mobile Bezahlen direkt von Ihrem Bankkonto</string>
+    <string name="storage_action_add_new_service_title">Neuen Service hinzufügen</string>
+    <string name="title_activity_wallet_web_view">MyWallet</string>
+    <string name="action_open_external_webview">Externen Browser öffnen</string>
+    <string name="install_external_app_dialog_title">APP INSTALLIEREN</string>
+    <string name="install_external_app_dialog_message">Sie werden zum Google Play Store weitergeleitet, um die App herunterzuladen.</string>
+    <string name="launch_external_app_dialog_title">APP STARTEN</string>
+    <string name="leaving_the_app_dialog_title">SIE VERLASSEN DIE APP</string>
+    <string name="launch_external_app_dialog_message">Sie werden zu einer externen App weitergeleitet.</string>
+    <string name="do_not_show_again_dialog_continue_button_text">Weiter</string>
+    <string name="do_not_show_again_dialog_checkbox_text">Nicht mehr anzeigen</string>
+    <string name="button_activity_overview">JETZT BEZAHLEN</string>
+    <string name="title_mywallet">MyWallet</string>
+    <string name="title_catalog">Katalog</string>
+    <string name="ok">OK</string>
+    <string name="pay_now">WEITER ZUM BEZAHLEN</string>
+    <string name="delete">Entfernen</string>
+    <string name="activate_fast_card_button">EXPRESSKARTE AKTIVIEREN</string>
+
+    <string name="settings_nfc_off_dialog_title">NFC einschalten</string>
+    <string name="settings_nfc_off_dialog_message">Um den Bezahlservice nutzen zu können, aktivieren Sie bitte NFC in den Einstellungen Ihres Smartphones.</string>
+    <string name="settings_nfc_off_dialog_action">EINSCHALTEN</string>
+    <string name="fastpay_nfc_off_dialog_message">Um die Expresskarten-Funktion nutzen zu können, aktivieren Sie bitte NFC in den Einstellungen Ihres Smartphones.</string>
+    <string name="payment_confirmation_thank_you">Vielen Dank</string>
+    <string name="context_menu_set_fast_card">Expresskarte einrichten</string>
+    <string name="context_menu_call_customer_care">Kundenservice anrufen</string>
+    <string name="context_menu_go_to_website">Zur Website</string>
+    <string name="context_menu_how_to_make_nfc_payment">Wie bezahle ich mit dem Smartphone?</string>
+    <string name="context_menu_set_fast_card_subtitle">Zahlen Sie mit dieser Karte, ohne Ihr Smartphone zu entsperren oder anzuschalten</string>
+    <string name="context_menu_call_customer_care_subtitle">Erreichbar: %1$s</string>
+    <string name="context_menu_remove_card">Karte entfernen</string>
+    <string name="context_menu_view_card_details">Kartendetails</string>
+    <string name="context_menu_edit_card">Karte bearbeiten</string>
+    <string name="context_menu_stamp_card_details">TODO View stamp card details</string>
+
+    <string name="pay_tutorial_activity_title_1">Wählen Sie Ihre Karte zum Bezahlen aus</string>
+    <string name="pay_tutorial_activity_title_2">Halten Sie die Rückseite Ihres Smartphones an das Kartenlesegerät.</string>
+    <string name="pay_tutorial_activity_title_3">Fertig!</string>
+    <string name="pay_tutorial_activity_description_1">Tippen Sie auf \'JETZT BEZAHLEN\', und warten Sie, bis Ihre Karte zur Zahlung bereit ist.</string>
+    <string name="pay_tutorial_activity_description_2">Sobald der Kreis grün ist, halten Sie die Rückseite Ihres Smartphones dicht an das Kartenlesegerät. Eine Vibration bestätigt die Übertragung Ihrer Zahlungsdaten an das Lesegerät.</string>
+    <string name="pay_tutorial_activity_description_3">Das war\'s. Nur bei Zahlungen von Beträgen über 25,- Euro müssen Sie die
+        Bezahl-PIN (wird durch Ihren Kartenanbieter bereitgestellt) direkt am Bezahlterminal eingeben.</string>
+
+    <string name="activate_fast_card_tutorial_activity_title">EXPRESSKARTE EINRICHTIEN</string>
+    <string name="activate_fast_card_tutorial_activity_description_1_first_part">Öffnen Sie das Menü in der Detailansicht Ihrer Karte.</string>
+    <string name="activate_fast_card_tutorial_activity_description_1_second_part">Oder tippen Sie jetzt auf "EINSCHALTEN". Ihre %1$s wird als Expresskarte eingerichtet.</string>
+    <string name="activate_fast_card_tutorial_activity_description_2_first_part">Betätigen Sie den Schalter.</string>
+    <string name="activate_fast_card_tutorial_activity_description_2_second_part">Oder tippen Sie jetzt auf "EINSCHALTEN". Ihre %1$s wird als Expresskarte eingerichtet.</string>
+    <string name="activate_fast_card_tutorial_activity_button_text">EINSCHALTEN</string>
+
+    <string name="payment_wait_message">Ihr Smartphone wird zur Zahlung vorbereitet…</string>
+    <string name="payment_help_message">Halten Sie Ihr Smartphone mit der Rückseite dicht an das Kartenlesegerät.</string>
+    <string name="cancel">Abbrechen</string>
+
+    <string name="pin_setup_prompt_activity_text_field_title">Jetzt können Sie mit Ihrem Smartphone bezahlen!</string>
+    <string name="pin_setup_prompt_activity_text_field_description">Um Ihre Bezahlkarte zusätzlich zu sichern, richten Sie eine 4-stellige MyWallet PIN ein.</string>
+    <string name="pin_setup_prompt_activity_text_field_footer">Sie können Ihre MyWallet PIN jederzeit unter \'Einstellungen\' ändern.</string>
+    <string name="pin_setup_prompt_activity_button">MYWALLET PIN EINRICHTEN</string>
+
+    <string name="sidebar_menu_item_home">Home</string>
+    <string name="sidebar_menu_item_settings">Einstellungen</string>
+    <string name="sidebar_menu_item_help">FAQ</string>
+    <string name="sidebar_menu_item_about">Impressum</string>
+    <string name="sidebar_menu_item_data_privacy">Datenschutz</string>
+
+    <string name="activity_settings_title">Einstellungen</string>
+    <string name="activity_settings_change_pin">MyWallet PIN ändern</string>
+    <string name="activity_settings_logout">Logout</string>
+
+    <!-- Storage notification texts -->
+    <string name="notification_nfc_off_title">NFC EINSCHALTEN</string>
+    <string name="notification_nfc_off_message">Um die Expresskarten-Funktion nutzen zu können, aktivieren Sie bitte NFC in den Einstellungen Ihres Smartphones.</string>
+    <string name="notification_nfc_off_button_text">EINSCHALTEN</string>
+    <string name="notification_activation_success_title"></string>
+    <string name="notification_activation_success_message"></string>
+    <string name="notification_activation_success_button_text"></string>
+    <string name="notification_tap_and_pay_availability_title">MYWALLET ALS STANDARD-ZAHLUNGSDIENST SETZEN</string>
+    <string name="notification_tap_and_pay_availability_message">Wir haben festgestellt, dass MyWallet nicht als Standard-Zahlungsdienst in den Einstellungen Ihres Smartphones gewählt ist. Um MyWallet für Zahlungen nutzen zu können, ändern Sie dies bitte in den Einstellungen.</string>
+    <string name="notification_tap_and_pay_availability_button_text">Jetzt ändern</string>
+    <string name="notification_rearrange_cards_title">KARTEN NEU ANORDNEN</string>
+    <string name="notification_rearrange_cards_message">Sie können Ihre Karten ganz einfach neu anordnen. Dazu die Karte gedrückt halten, auf die gewünschte Position verschieben und loslassen.</string>
+    <string name="notification_fast_card_after_activation_title">ZAHLEN OHNE DAS SMARTPHONE ZU ENTSPERREN</string>
+    <string name="notification_fast_card_after_activation_message">Möchten Sie Ihre %1$s für Expresszahlungen einrichten?</string>
+    <string name="notification_fast_card_after_activation_learn_more_button">MEHR INFO</string>
+    <string name="notification_fast_card_after_activation_turn_on_button">EINRICHTEN</string>
+    <string name="notification_login_title">LOGGEN SIE SICH EIN</string>
+    <string name="notification_login_message">Loggen Sie sich ein, um Ihre Kundenkarten zu sichern und jederzeit auf sie zugreifen zu können.</string>
+    <string name="notification_login_button_text">LOGIN</string>
+    <string name="notification_wallet_update_version_message">Besuchen Sie den Google Play Store, um die aktuellste Version der MyWallet herunterzuladen.</string>
+    <string name="notification_wallet_update_version_button_text">Jetzt aktualisieren</string>
+    <string name="notification_wallet_update_version_title">NEUE VERSION DER MYWALLET APP VERFÜGBAR</string>
+    <string name="notification_ticket_added_ticker">TODO %1$s</string>
+    <string name="notification_ticket_added_title">TODO %1$s</string>
+    <string name="notification_ticket_added_body"></string>
+    <string name="notification_ticket_updated_ticker">TODO %1$s</string>
+    <string name="notification_ticket_updated_title">TODO %1$s</string>
+    <string name="notification_ticket_updated_body"></string>
+    <string name="notification_ticket_deleted_ticker">TODO %1$s</string>
+    <string name="notification_ticket_deleted_title">TODO %1$s</string>
+    <string name="notification_ticket_deleted_body"></string>
+
+    <!-- setup pin-->
+    <string name="set_pin_enter_new_passcode">Bitte richten Sie nun Ihre MyWallet PIN ein.</string>
+    <string name="set_pin_confirm_new_passcode">Bitte bestätigen Sie Ihre MyWallet PIN.</string>
+    <string name="new_passcode_mismatch">Die Eingabe der MyWallet PIN ist nicht identisch. Bitte versuchen Sie es erneut.</string>
+    <string name="pin_set_successfully">Ihre MyWallet PIN wurde erfolgreich eingerichtet.</string>
+    <string name="incorrect_passcode">Die MyWallet PIN ist nicht korrekt. Bitte versuchen Sie es erneut.</string>
+    <string name="enter_passcode">Bitte geben Sie Ihre MyWallet PIN ein.</string>
+    <string name="passcode_attempts_remaining_3">Sie haben noch 3 Versuche.</string>
+    <string name="passcode_attempts_remaining_2">Sie haben noch 2 Versuche.</string>
+    <string name="passcode_attempts_remaining_1">Sie haben noch 1 Versuch.</string>
+    <string name="my_wallet_locked">MyWallet wurde gesperrt.</string>
+    <string name="change_pin_enter_new_passcode">Bitte vergeben Sie nun eine neue MyWallet PIN.</string>
+    <string name="change_pin_confirm_new_passcode">Bitte bestätigen Sie Ihre neue MyWallet PIN.</string>
+    <string name="change_pin_successfully">Ihre MyWallet PIN wurde erfolgreich geändert.</string>
+    <string name="disabled_fastcards">Ihre Expresskarte wurde aus Sicherheitsgründen deaktiviert.</string>
+    <string name="program">Erreichbar: Kostenlos, rund um die Uhr, 7 Tage die Woche.</string>
+    <string name="call_customer_care">Kundenservice anrufen</string>
+
+    <!-- Change location-->
+    <string name="error_message_no_suggestion_for_location">Dieser Standort konnte leider nicht gefunden werden. Bitte versuchen Sie es erneut.</string>
+    <string name="change_location_enter_city_name_hint">Bitte geben Sie Ihre Stadt ein.</string>
+
+    <!-- Couponing -->
+    <string name="coupons_label_text">Coupons</string>
+    <string name="coupons_catalog_action_change_location_title">Standort ändern</string>
+    <string name="no_internet_connection_title_text">Keine Internetverbindung</string>
+    <string name="no_internet_connection_couponing_text">Ihre gespeicherten Coupons stehen Ihnen dennoch zum Einlösen zur Verfügung.</string>
+    <string name="set_favorite_merchant_info_title_text">BLEIBEN SIE IMMER AUF DEM LAUFENDEN</string>
+    <string name="set_favorite_merchant_info_message_text">Sie erhalten Nachrichten über neue Coupons Ihrer Favoriten.</string>
+    <string name="couponing_merchant_coupons_list_item_new_label">NEU</string>
+    <string name="couponing_merchant_coupons_list_item_money_save">spare</string>
+    <string name="couponing_merchant_coupons_open_hours">Öffnungszeit: %1$s - %2$s</string>
+    <plurals name="coupons_number">
+        <item quantity="one">%1$s COUPON</item>
+        <item quantity="other">%1$s COUPONS</item>
+    </plurals>
+    <string name="coupon_money_save">SPARE %1$s</string>
+    <string name="coupon_expiry_date">GÜLTIG BIS %1$s</string>
+    <string name="coupon_redemption_info_title">SO GEHT\'S</string>
+    <string name="coupon_redemption_info_description">Bitte zeigen Sie den Coupon-Code an der Kasse vor, um Ihre Coupons einzulösen.</string>
+    <string name="coupon_redemption_help_link_text">Benötigen Sie Hilfe?</string>
+    <string name="coupon_redemption_done">ZURÜCK</string>
+    <string name="coupon_catalogue_expiry_text">Gültig bis %1$s</string>
+    <string name="coupon_redemption_info_message_for_acardo_coupons">Bitte zeigen Sie den Coupon-Code an der Kasse vor.</string>
+    <plurals name="coupon_redemption_info_message_for_dt_coupons">
+        <item quantity="one">Bitte zeigen Sie den Coupon-Code an der Kasse vor.</item>
+        <item quantity="other">Bitte zeigen Sie den Coupon-Code an der Kasse vor.</item>
+    </plurals>
+    <plurals name="coupon_redemption_coupon_count_message">
+        <item quantity="one">%1$s COUPON ZUM EINLÖSEN</item>
+        <item quantity="other">%1$s COUPONS ZUM EINLÖSEN</item>
+    </plurals>
+    <string name="context_menu_remove_all_coupons">Alle Coupons für dieses Geschäft entfernen</string>
+    <string name="saved_coupons_remove_all_title">Alle coupons entfernen</string>
+    <string name="saved_coupons_remove_all_message">Sie können Ihre Coupons auch einzeln entfernen, indem Sie diese in der vorherigen Ansicht antippen. Sind Sie sicher, dass Sie alle gespeicherten Coupons für dieses Geschäft entfernen wollen?</string>
+    <string name="coupon_deletion_spinner_message">Gespeicherte Coupons werden entfernt</string>
+    <string name="coupon_empty_catalog">Es sind keine Coupons in Ihrer Umgebung verfügbar.</string>
+
+    <!-- Couponing error strings-->
+    <string name="couponing_error_unknown_title">Unbekannter Fehler</string>
+    <string name="couponing_error_unknown_text">Bitte versuchen Sie es erneut und kontaktieren Sie den Kundenservice, wenn dieser Fehler noch einmal auftritt.</string>
+    <string name="couponing_error_backend_title">Ups!</string>
+    <string name="couponing_error_backend_text">Derzeit haben wir ein Problem mit dem Server. Wir arbeiten an der schnellstmöglichen Lösung.</string>
+    <string name="couponing_error_failed_to_add_title">Coupon konnte nicht hinzugefügt werden.</string>
+    <string name="couponing_error_failed_to_add_text">Bitte versuchen Sie es erneut.</string>
+    <string name="couponing_acardo_limit_exceeded_delete_coupon_title">Coupon entfernen</string>
+    <string name="couponing_acardo_limit_exceeded_delete_coupon_message">Sie haben das Limit von 20 gespeicherten Coupons unseres Partners acardo erreicht. Um direkt fortzufahren, wird Coupon \"%1$s\" gelöscht.</string>
+    <string name="couponing_acardo_save_coupon_limit_exceeded_title">Der Coupon konnte nicht gespeichert werden</string>
+    <string name="couponing_acardo_coupon_instance_limit_exceeded">SIE HABEN DIESEN COUPON 10 MAL GESPEICHERT</string>
+    <string name="couponing_acardo_max_active_coupons_limit_exceeded">SIE HABEN DAS LIMIT VON 20 GESPEICHERTEN COUPONS ERREICHT.</string>
+
+    <!-- SIM services notification texts -->
+    <string name="notification_failure_ticker"></string>
+    <string name="notification_failure_title"></string>
+    <string name="notification_failure_body"></string>
+    <string name="notification_applet_install_ticker">%1$s wurde hinzugefügt und kann verwendet werden.</string>
+    <string name="notification_applet_install_title">%1$s wurde neu hinzugefügt.</string>
+    <string name="notification_applet_install_body">%1$s ist verfügbar.</string>
+    <string name="notification_applet_uninstall_ticker">%1$s wurde aus MyWallet entfernt.</string>
+    <string name="notification_applet_uninstall_title">%1$s entfernt</string>
+    <string name="notification_applet_uninstall_body">%1$s wurde entfernt.</string>
+    <string name="notification_applet_locked_ticker">%1$s wurde in MyWallet gesperrt.</string>
+    <string name="notification_applet_locked_title">%1$s gesperrt</string>
+    <string name="notification_applet_locked_body">%1$s wurde gesperrt.</string>
+    <string name="notification_applet_unlocked_ticker">%1$s wurde in MyWallet reaktiviert.</string>
+    <string name="notification_applet_unlocked_title">%1$s entsperrt</string>
+    <string name="notification_applet_unlocked_body">%1$s wurde reaktiviert.</string>
+    <string name="notification_deactivation_ticker">MyWallet wurde deaktiviert.</string>
+    <string name="notification_deactivation_title">MyWallet ist deaktiviert</string>
+    <string name="notification_deactivation_body">MyWallet wurde deaktiviert.</string>
+    <string name="notification_wallet_blocked_ticker">MyWallet wurde gesperrt.</string>
+    <string name="notification_wallet_blocked_title">MyWallet ist gesperrt.</string>
+    <string name="notification_wallet_blocked_body">MyWallet wurde gesperrt.</string>
+    <string name="notification_wallet_unblocked_ticker">MyWallet ist wieder verfügbar.</string>
+    <string name="notification_wallet_unblocked_title">MyWallet wurde entsperrt.</string>
+    <string name="notification_wallet_unblocked_body">MyWallet kann wieder genutzt werden.</string>
+    <string name="notification_success_ticker">Sie können jetzt Bezahlkarten zu MyWallet hinzufügen.</string>
+    <string name="notification_success_title">BEREIT FÜR ZAHLUNGEN</string>
+    <string name="notification_success_body">Sie können jetzt Bezahlkarten zu MyWallet hinzufügen.</string>
+
+    <!-- coupon detail view -->
+    <string name="terms_and_conditions">Rechtliche Hinweise</string>
+    <string name="save_coupon">Coupon speichern</string>
+    <string name="delete_coupon">Coupon entfernen</string>
+    <string name="redeem_coupon">Jetzt einlösen</string>
+    <string name="couponing_coupon_detail_page_save_coupon_error">COUPON BIS ZU 10 MAL SPEICHERN</string>
+    <string name="couponing_coupon_saved">Coupon ist gespeichert.</string>
+    <string name="coupon_issuer_acardo">Coupon bereitgestellt durch die acardo open wallet GmbH.</string>
+    <string name="coupon_issuer_dt">Coupon bereitgestellt durch die Telekom Deutschland GmbH.</string>
+    <string name="redeem_coupons">ALLE EINLÖSEN</string>
+    <string name="goto_map">Wegbeschreibung zum Geschäft</string>
+
+    <!-- Wallet Tour -->
+    <string name="wallet_tour_page_welcome_header">WILLKOMMEN BEI MYWALLET</string>
+    <string name="wallet_tour_page_welcome_description">MyWallet verwandelt Ihr Smartphone in ein digitales Portemonnaie.</string>
+    <string name="wallet_tour_page_cards_header">KARTEN HINZUFÜGEN</string>
+    <string name="wallet_tour_page_cards_description">Verwalten Sie Ihre Coupons, Kundenkarten, in Kürze auch Bezahlkarten und vieles mehr in einer App.</string>
+    <string name="wallet_tour_page_cards_header_for_ott_user">KARTEN HINZUFÜGEN</string>
+    <string name="wallet_tour_page_cards_description_for_ott_user">Verwalten Sie Ihre Coupons, Kunden- und Bonuskarten in einer App.</string>
+    <string name="wallet_tour_page_tap_to_pay_header">IN KÜRZE: BEZAHLKARTE VERFÜGBAR</string>
+    <string name="wallet_tour_page_tap_to_pay_description">Mit MyWallet ist Bezahlen einfach, schnell und sicher - schon bald überall an der Kasse mit dem Kontaktlos-Symbol.</string>
+    <string name="wallet_tour_page_security_header">SICHER MIT DER TELEKOM</string>
+    <string name="wallet_tour_page_security_description">Ihre Daten liegen mehrfach sicher verschlüsselt auf der NFC-fähigen SIM-Karte.</string>
+    <string name="wallet_tour_page_coupons_header">GELD SPAREN</string>
+    <string name="wallet_tour_page_coupons_description">Entdecken Sie Coupons in der MyWallet App und sparen Sie damit beim Einkaufen.</string>
+    <string name="wallet_tour_page_get_started_header">LOS GEHT\'S!</string>
+    <string name="wallet_tour_page_get_started_description">Starten Sie MyWallet und genießen Sie die Vorteile eines digitalen Portemonnaies.</string>
+    <string name="wallet_tour_lets_go">JETZT STARTEN</string>
+    <string name="wallet_tour_t_and_c_info">Durchs Starten akzeptieren Sie die %1$s der acardo open wallet GmbH, sowie die %2$s und %3$s der Telekom Deutschland GmbH.</string>
+    <string name="wallet_tour_t_and_c_tandcs">AGB</string>
+    <string name="wallet_tour_t_and_c_telekom_data_privacy_guidelines">Datenschutzhinweise</string>
+
+    <string name="general_backend_error_header">Ups!</string>
+    <string name="general_backend_error_text">Derzeit haben wir ein Problem mit dem Server. Wir arbeiten an der schnellstmöglichen Lösung.</string>
+    <string name="general_no_network_connection_error_header">Keine Internetverbindung</string>
+    <string name="general_no_network_connection_error_text">Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.</string>
+
+    <!-- Service catalog item details screen-->
+    <string name="service_catalog_item_add_card_button_text">KARTE HINZUFÜGEN</string>
+    <string name="service_catalog_item_use_this_service_button_text">TODO Use this service</string>
+    <string name="service_catalog_item_add_card_button_disabled_text">DIE KARTE WURDE HINZUGEFÜGT</string>
+    <string name="service_catalog_item_add_register_for_service">Für diese Karte registrieren</string>
+    <string name="notification_no_dt_sim_message_text">Für diesen Service benötigen Sie eine  NFC-SIM-Karte der Deutschen Telekom.</string>
+    <string name="notification_no_dt_sim_title">BITTE EINE TELEKOM NFC-SIM-KARTE EINLEGEN</string>
+    <string name="notification_no_dt_nfc_sim_title">BITTE EINE NFC-FÄHIGE SIM-KARTE EINLEGEN</string>
+    <string name="notification_no_dt_nfc_sim_message_text">Um diesen Service nutzen zu können, benötigen Sie eine NFC-fähige SIM-Karte. Eine NFC-fähige SIM-Karte können Sie bei unserem Kundenservice jederzeit gratis bestellen.</string>
+    <string name="notification_no_nfc_handset_title">IHR SMARTPHONE UNTERSTÜTZT KEIN NFC.</string>
+    <string name="notification_no_nfc_handset_message_text">Um diesen Service nutzen zu können, benötigen Sie ein NFC-fähiges Android Smartphone. Infos zu NFC-fähigen Smartphones finden Sie auf unserer Webseite.</string>
+    <string name="notification_handset_not_supported_title">SMARTPHONE IST NICHT KOMPATIBEL</string>
+    <string name="notification_handset_not_supported_message_text">Ihr Smartphone-Modell unterstützt diesen Service nicht. Infos zu den kompatiblen Modellen finden Sie auf unserer Webseite.</string>
+    <string name="go_to_website">Zur Webseite</string>
+    <string name="service_catalog_item_add_card_button_ticketing_text"></string>
+
+    <!-- Service catalog screen -->
+    <string name="no_internet_connection_service_catalogue_text">Um den MyWallet Katalog zu öffnen, verbinden Sie sich bitte mit dem Internet.</string>
+    <string name="add_other_card_item_title">IHRE KARTE IST NICHT DABEI?</string>
+    <string name="add_other_card_item_subtitle">Fügen Sie jede beliebige Karte hinzu, indem Sie den Strichcode scannen.</string>
+    <string name="filter_button_payment_category_text">BEZAHLKARTEN</string>
+    <string name="filter_button_loyalty_category_text">KUNDENKARTEN</string>
+    <string name="filter_button_transport_category_text">FAHRSCHEINE</string>
+    <string name="filter_button_access_category_text">ZUTRITTSKARTEN</string>
+    <string name="filter_button_ticketing_category_text"></string>
+    <string name="filter_button_digital_stamp_category_text">TODO DIGITAL STAMP</string>
+    <string name="filter_button_all_category_text">TODO ALL</string>
+
+    <!-- MyCards -->
+    <string name="mycards_add_a_card">Karte hinzufügen</string>
+    <string name="mycards_add_card_scan_your_cards_barcode">Strichcode scannen</string>
+    <string name="mycards_add_card_place_your_card_viewfinder">Fokussieren Sie den Strichcode zentral im Sucher.</string>
+    <string name="mycards_enter_code_manually">Kartennummer manuell eingeben</string>
+    <string name="mycards_add_card_card_details">Kartendetails hinzufügen</string>
+    <string name="mycards_edit_card_details">Kartendetails bearbeiten</string>
+    <string name="mycards_add_card_loyalty_card_name_hint">Kundenkartenname</string>
+    <string name="mycards_add_card_loyalty_card_number_hint">Kundenkartennummer</string>
+    <string name="mycards_add_card_validate_input_all">Bitte Kartennamen und Kartennummer eingeben</string>
+    <string name="mycards_add_card_validate_input_new_partner_name">Bitte Kartennamen eingeben</string>
+    <string name="mycards_add_card_validate_input_card_number">Bitte Kartennummer eingeben</string>
+    <string name="no_internet_connection_add_card_barcode_scanner">Um eine Kundenkarte hinzuzufügen, stellen Sie bitte Internetverbindung her.</string>
+    <string name="mycards_delete_mycard_title">Karte entfernen</string>
+    <string name="mycards_delete_mycard_text">Sind Sie sicher, dass Sie diese Karte entfernen wollen?</string>
+    <string name="my_cards_help">Brauchen Sie <u>Hilfe</u>?</string>
+    <string name="my_cards_help_dialog_title">KUNDENKARTEN IN GESCHÄFTEN NUTZEN</string>
+    <string name="my_cards_help_dialog_message">Nutzen Sie die Vorteile Ihrer digitalen Kundenkarten und zeigen Sie einfach den Strichcode in Ihrem Smartphone an der Kasse vor. Der Code wird direkt vom Display gescannt.\n\nDer Strichcode kann nicht gelesen werden? Kein Problem! Bitten Sie in diesem Fall das Kassenpersonal, die Kartennummer manuell einzugeben.</string>
+    <string name="my_cards_help_dialog_message_no_barcode">Um die Vorteile Ihrer digitalen Kundenkarte nutzen zu können, bitten Sie das Kassenpersonal, Ihre Kartennummer in das Kassensystem einzugeben.</string>
+    <string name="mycards_add_card_validate_ean13_barcode_type_error">Bitte geben Sie eine gültige Kartennummer ein.</string>
+    <string name="mycards_add_card_loyalty_card_additional_info_hint">Zusätzliche Karteninfos</string>
+    <string name="mycards_take_a_photo_text">KARTENMOTIV ABFOTOGRAFIEREN</string>
+    <string name="mycards_retake_a_photo_text">KARTENMOTIV ÄNDERN</string>
+    <string name="mycards_pan_and_zoom_text">Zum Ausrichten Ihres Kartenmotivs können Sie Ihr Foto verschieben und zoomen</string>
+    <string name="mycards_reposition_title">Kartenmotiv ausrichten</string>
+    <string name="mycards_reposition_text">Zum Ausrichten Ihres Kartenmotivs können Sie Ihr Foto verschieben und zoomen</string>
+    <string name="mycards_reposition_done_button_text">FERTIG</string>
+    <string name="mycards_take_a_picture_for_card">Karte abfotografieren</string>
+    <string name="mycards_take_a_picture_instruction">Platzieren Sie Ihre Karte innerhalb des Rahmens und tippen Sie auf "FOTO AUFNEHMEN"</string>
+    <string name="mycards_take_a_picture">FOTO AUFNEHMEN</string>
+    <string name="mycards_add_card_validate_additional_info">Der Text ist zu lang. Bitte verwenden Sie max. %1$s Zeichen.</string>
+    <string name="mycards_finish_editing">Fertig</string>
+    <string name="mycards_take_picture_non_partner_card">Karte abfotografieren</string>
+    <string name="mycards_reposition_picture_non_partner_card">Kartenmotiv ausrichten</string>
+
+    <!-- Digital Stamps -->
+    <string name="digitalstamps_scan_to_collect_stamp">TODO Scan to collect stamp</string>
+    <string name="digitalstamps_collect_stamp_scan_your_qr_code">TODO Scan your QR Code</string>
+    <string name="digitalstamps_collect_stamp_qr_viewfinder">TODO Place the QR code inside the viewfinder to scan it.</string>
+    <plurals name="digitalstamps_collect_stamp_successful">
+        <item quantity="one">%1$d TODO stamp collected</item>
+        <item quantity="other">%1$d TODO stamps collected</item>
+    </plurals>
+    <string name="digitalstamps_collect_last_stamp_successful">TODO Reward now available</string>
+    <string name="no_internet_connection_collect_stamp_scanner">TODO To collect a stamp, connect to a Wi-Fi or cellular data network.</string>
+    <string name="digitalstamps_unable_to_collect_stamp">TODO Unable to collect stamp</string>
+    <string name="digitalstamps_unable_to_collect_stamp_message">TODO Could not validate te code for collecting a stamp, please try
+        again later</string>
+    <string name="digitalstamps_nfc_code_not_valid">TODO Code was not identified</string>
+    <string name="digitalstamps_nfc_please_try_again">Bitte versuchen Sie es erneut.</string>
+    <string name="digitalstamps_scan_redeem_reward">TODO Scan to redeem</string>
+    <string name="digitalstamps_redeem_reward_instruction">TODO Scan the QR code to redeem reward</string>
+    <string name="digitalstamps_unable_to_redeem_reward">TODO Unable to redeem reward</string>
+    <string name="digitalstamps_unable_to_redeem_reward_message">TODO Could not validate te code for redeeming a reward, please try
+        again later</string>
+    <string name="digitalstamps_no_internet_connection_message">TODO To collect or redeem stamps, connect to a Wi-Fi or
+        cellular data network.</string>
+    <string name="digital_stamps_reward_redeemed_message">TODO This reward will be available a few more minutes.</string>
+    <string name="digital_stamps_reward_redeemed">TODO REWARD REDEEMED</string>
+    <string name="no_internet_connection_redeem_reward_scanner">TODO To redeem a reward, connect to a Wi-Fi or cellular data network.</string>
+    <string name="digital_stamps_scan_code_invalid">TODO The code scanned is not valid.</string>
+    <string name="digital_stamps_scan_code_redeem_required">"TODO The code that you scanned is for collecting stamps. Please, scan a code
+        to redeem your reward.</string>
+    <string name="digital_stamps_scan_code_collect_required">TODO The code that you scanned is for redeeming rewards. Please, scan a code
+        to collect stamps.</string>
+    <string name="digitalstamps_redeem_stamp_successful">TODO Reward was successfully redeemed.</string>
+
+    <!-- Digital Stamps error messages -->
+    <string name="digitalstamps_error_title">TODO A problem occurred.</string>
+    <string name="digitalstamps_error_invalid_stamp">TODO This stamp is invalid. Please check with the cashier.</string>
+    <string name="digitalstamps_error_exceed_daily_limit">TODO You have collected the maximum allowed stamps for this card in one day.
+        Please try again later.</string>
+    <string name="digitalstamps_error_multiple_stamp_attempt">TODO Please wait until the previous stamp is validated and try again in a
+        short moment.</string>
+    <string name="digitalstamps_error_invalid_stamp_value">TODO This stamp is invalid. Please check with the cashier.</string>
+    <string name="digitalstamps_error_invalid_redemption_value">TODO This reward code is invalid. Please check with the cashier.</string>
+    <string name="digitalstamps_error_expired_reward">TODO This reward has expired. It will be automatically deleted from your wallet
+        .</string>
+
+    <!-- notifications -->
+    <string name="notification_no_mobile_data_title">Bitte aktivieren Sie mobile Datenverbindung</string>
+    <string name="notification_no_mobile_data_message">Wir konfigurieren gerade MyWallet für die Nutzung des Bezahlservices und benötigen
+        dazu mobile Datenverbindung.</string>
+    <string name="turn_on">EINSCHALTEN</string>
+    <string name="notification_activation_failed_title">Konfiguration von MyWallet ist fehlgeschlagen.</string>
+    <string name="notification_activation_failed_message">Wir konnten MyWallet für die Nutzung der NFC-Services leider nicht konfigurieren. Bitte kontaktieren Sie den Kundenservice.</string>
+    <string name="notification_preparing_mywallet_title">MyWallet wird konfiguriert</string>
+    <string name="notification_preparing_mywallet_message">Dies kann einige Minuten dauern. Wir informieren Sie, sobald Sie eine Bezahlkarte zu MyWallet hinzufügen können.</string>
+    <string name="notification_login_to_add_card_message">Bitte loggen Sie sich ein, um eine neue Kundenkarte zu MyWallet hinzuzufügen.</string>
+    <string name="notification_login_to_add_card_title">Loggen Sie sich ein, um fortzufahren</string>
+    <string name="notification_login_to_scan_stamp_title">TODO Loggen Sie sich ein, um fortzufahren</string>
+    <string name="notification_login_to_scan_stamp_message">TODO Please login to scan stamps to MyWallet.</string>
+    <string name="notification_login_to_add_card_button_message">LOGIN</string>
+    <string name="notification_dialog_login_to_add_coupons_title">Loggen Sie sich ein, um fortzufahren</string>
+    <string name="notification_dialog_login_to_add_coupons_message">Bitte loggen Sie sich ein, um Coupons in MyWallet zu speichern.</string>
+    <string name="notification_dialog_login_to_add_coupons_button_text">LOGIN</string>
+
+    <!-- access -->
+    <string name="storage_access_description">IHRE ZUTRITTSKARTE ZU DEN TELEKOM STANDORTEN</string>
+    <string name="context_menu_activate_access_card">Zutrittskarte aktivieren</string>
+    <string name="context_menu_activate_access_card_subtitle">Halten Sie zum Öffnen einer Tür einfach Ihr Smartphone an das Kartenlesegerät.</string>
+    <string name="access_screen_fast_card_info_text">Halten Sie Ihr Smartphone vor, um Zugang zu erhalten.</string>
+
+    <!-- super shop-->
+    <string name="context_menu_activate_super_shop_card">TODO Activate Card</string>
+    <string name="context_menu_activate_super_shop_card_subtitle">TODO You will be able to collect or redeem points, without
+        unlocking your phone.</string>
+    <string name="super_shop_screen_fast_card_info_text">Halten Sie die Rückseite ihres Smartphones an den NFC-Sticker, um Punkte zu sammeln oder einzulösen.</string>
+
+    <!-- About screen -->
+    <string name="about_app_title">Impressum</string>
+    <string name="about_app_version">Version %1$s</string>
+    <string name="about_app_copyright">© 2016 Telekom Deutschland GmbH</string>
+    <string name="about_app_address">Telekom Deutschland GmbH\nLandgrabenweg 151\n53227 Bonn</string>
+    <string name="about_app_email">E-Mail: info@telekom.de</string>
+    <string name="about_app_phone">Telefon: +49 228 181 0</string>
+    <string name="about_app_company_registration_info">Pflichtangaben gemäß § 35 a GmbHG</string>
+    <string name="about_app_company_website">www.telekom.de/pflichtangaben</string>
+    <string name="about_app_company_registration_id">USt-IdNr. DE 122265872</string>
+    <string name="about_app_licences_button_name">LIZENZEN</string>
+    <string name="activity_licences_title">LIZENZEN</string>
+
+
+    <!-- PayAtMatch details screen -->
+    <string name="payatmatch_details_service_provider">BANKNAME</string>
+    <string name="payatmatch_details_customer_number">KUNDENNUMMER</string>
+    <string name="payatmatch_details_cardholder_name">KUNDENNAME</string>
+    <string name="payatmatch_details_iban">IBAN</string>
+
+    <!-- Digital stamp additional info screen -->
+    <!-- TODO -->
+    <string name="stamp_additional_info">TODO INFO</string>
+    <string name="stamp_additional_info_available_stores">TODO AVAILABLE STORES</string>
+    <string name="stamp_additional_info_terms">TODO Terms and conditions</string>
+
+    <!-- FAQs and Help -->
+    <string name="help_category_general">Allgemein</string>
+    <string name="help_category_security">Sicherheit und Datenschutz</string>
+    <string name="help_category_payment">Bezahlen</string>
+    <string name="help_category_couponing">Coupons</string>
+    <string name="help_category_mycards">Kundenkarten</string>
+    <string name="help_category_ticketing">TODO Ticketing</string>
+    <string name="help_category_supershop">TODO SuperShop</string>
+    <string name="faq_title">FAQ</string>
+    <string name="start_tour">MyWallet Tour</string>
+
+    <!-- ACF Error Dialog -->
+    <string name="acf_error_message_title">Karte konnte nicht installiert werden</string>
+    <string name="acf_error_message_text">Die Karte konnte nicht korrekt installiert werden. Bitte wenden Sie sich an den %1$s
+        Kundenservice und fragen Sie nach einer erneuten Installation.</string>
+
+    <!-- Coupon Catalog loading screen -->
+    <string name="coupon_catalog_loading_screen_header">Einen Moment bitte</string>
+    <string name="coupon_catalog_loading_screen_message">Coupons werden geladen &#8230;</string>
+
+    <!--Merchant Catalog loading screen-->
+    <string name="merchant_catalog_loading_screen_message">Daten werden geladen &#8230;</string>
+
+    <!-- swb transport -->
+    <string name="context_menu_activate_swb_transport_card">Ticket aktivieren</string>
+    <string name="context_menu_activate_swb_transport_card_subtitle">Sie können Ihr Ticket zur Kontrolle vorweisen, ohne Ihr Smartphone entsperren zu müssen.</string>
+    <string name="swb_transport_storage_card_title">WILLKOMMEN BEIM SWB JOBTICKET PILOTEN</string>
+    <string name="swb_transport_storage_card_message">Danke für Ihre Teilnahme an dem Piloten. Ihre SIM-Karte ist nun für die Nutzung des Jobtickets konfiguriert. Die Installationsanleitung senden wir Ihnen per E-Mail zu.</string>
+    <string name="swb_transport_screen_fast_card_info_text">Halten Sie die Rückseite ihres Smartphones an den NFC-Sticker, um Ihr Ticket einzulösen.</string>
+
+    <!-- transport loyalty -->
+    <string name="transport_loyalty_card_name_travipay">TODO Travipay</string>
+    <string name="open_your_app">TODO OPEN YOUR APP</string>
+    <string name="travipay_details_description">"TODO Fast and convenient payment of parking tickets</string>
+
+    <!-- ticketing-->
+    <string name="ticketing_detail_location"></string>
+    <string name="ticketing_detail_price"></string>
+    <string name="ticketing_detail_sector"></string>
+    <string name="ticketing_detail_side"></string>
+    <string name="ticketing_detail_row"></string>
+    <string name="ticketing_detail_seat"></string>
+    <string name="ticketing_detail_expired_message"></string>
+    <string name="ticketing_detail_used_message"></string>
+    <string name="ticketing_detail_button_activate_ticket"></string>
+    <string name="ticketing_detail_button_delete_ticket"></string>
+    <string name="ticketing_detail_audit"></string>
+    <string name="ticketing_detail_delete_dialog_title"></string>
+    <string name="ticketing_detail_delete_dialog_message"></string>
+    <string name="ticketing_detail_delete_dialog_button_text"></string>
+    <string name="ticketing_detail_ticket_activated_text"></string>
+    <string name="ticketing_is_used"></string>
+    <string name="ticketing_card_view_expired"></string>
+    <string name="ticketing_context_menu_additional_ticket_info"></string>
+    <string name="ticketing_context_menu_activate_card"></string>
+    <string name="ticketing_context_menu_activate_card_subtitle"></string>
+    <string name="ticketing_context_menu_add_to_calendar"></string>
+    <string name="ticket_calendar_description_audit"></string>
+    <string name="ticket_calendar_description_sector"></string>
+    <string name="ticket_calendar_description_row"></string>
+    <string name="ticket_calendar_description_side"></string>
+    <string name="ticket_calendar_description_seat"></string>
+
+    <!-- Data Privacy -->
+    <string name="data_privacy_toolbar_title">Datenschutz</string>
+    <string name="data_privacy_toggle_label">Anonyme Nutzungsdaten übermitteln</string>
+    <string name="data_privacy_language_prefix">de-rDE</string>
+
+    <!-- How to pay storage notification card-->
+    <string name="how_to_pay_notification_card_button_text">JA</string>
+    <string name="how_to_pay_notification_card_title">BEZAHLEN MIT DEM SMARTPHONE</string>
+    <string name="how_to_pay_notification_card_message">Möchten Sie erfahren, wie Sie mit dem Smartphone an der Kasse bezahlen?</string>
+
+    <!-- rating notification -->
+    <string name="notification_rating_title">MÖCHTEN SIE MYWALLET BEWERTEN?</string>
+    <string name="rate">Senden</string>
+    <string name="later">Später</string>
+
+    <string name="notification_rating_google_play_title">BEWERTEN SIE UNS IM PLAY STORE</string>
+    <string name="notification_rating_google_play_message">Es freut uns sehr, dass Sie MyWallet gerne nutzen. Möchten Sie Ihre Bewertung auf Google Play hinterlassen? Wir würden das sehr schätzen.</string>
+    <string name="sure">Ja</string>
+
+    <string name="notification_send_feedback_title">HELFEN SIE UNS, MYWALLET ZU VERBESSERN</string>
+    <string name="notification_send_feedback_message">Danke für Ihre Bewertung. Bitte schreiben Sie uns, wie wir MyWallet verbessern können - wir freuen uns darauf.</string>
+    <string name="feedback_email_adress">my-wallet@telekom.de</string>
+    <string name="feedback_subject">MyWallet Feedback</string>
+    <string name="send_email">FEEDBACK SENDEN</string>
+
+    <string name="login_message">Einloggen, um Ihre Kundenkarten zu sichern</string>
+    <string name="login">LOGIN</string>
+
+    <!-- Corfire Logging in activity. -->
+    <string name="corfire_logging_in_message">Sie werden eingeloggt&#8230;</string>
+
+    <!-- TBS error messages-->
+    <string name="tbs_server_error">Derzeit haben wir ein Problem mit dem Server. Bitte versuchen Sie es später erneut.</string>
+    <string name="tbs_invalid_refresh_token_error">Ihre Sitzung ist abgelaufen. Bitte loggen Sie sich erneut ein.</string>
+    <string name="tbs_wrong_username_or_password_error">Benutzername oder Passwort ist nicht korrekt. Bitte versuchen Sie es erneut in %1$d
+        Sekunden.</string>
+    <string name="tbs_account_locked_error">Ihr Account wurde vorübergehend gesperrt. Bitte versuchen Sie es nach 24 Stunden erneut.</string>
+    <string name="tbs_unknown_error">Derzeit haben wir ein Problem mit dem Server. Bitte versuchen Sie es später erneut.</string>
+
+    <!-- Telekom Login -->
+    <string name="telekom_login">Telekom Login</string>
+    <string name="telekom_login_one_login_for_every_app">TELEKOM LOGIN. EIN LOGIN FÜR ALLE DIENSTE.</string>
+    <string name="register">Für Telekom Login registrieren</string>
+    <string name="username">Benutzername</string>
+    <string name="password">Passwort</string>
+    <string name="username_and_password_empty_error_message">Benutzername und Passwort fehlen</string>
+    <string name="username_empty_error_message">Benutzername fehlt</string>
+    <string name="password_empty_error_message">Passwort fehlt</string>
+    <string name="forgot_password">Passwort vergessen?</string>
+    <string name="dont_have_an_account">Noch nicht registriert?</string>
+    <string name="telekom_login_register_here">Jetzt registrieren</string>
+    <string name="tbs_sidebar_welcome_message_in_case_no_user_name">Willkommen</string>
+
+    <!-- relogin storage notification (login to see your ecommerce content) -->
+    <string name="notification_login_ecommerce_content_message">Sie können auf Ihre gespeicherten Kundenkarten erst zugreifen, wenn Sie sich einloggen. Bitte loggen Sie sich jetzt ein.</string>
+    <string name="notification_login_ecommerce_content_title">BITTE LOGGEN SIE SICH EIN, UM ALLE IHRE KARTEN ZU SEHEN</string>
+
+    <string name="logout_dialog_title">Sind Sie sicher, dass Sie sich ausloggen wollen?</string>
+    <string name="logout_dialog_message">Wenn Sie sich ausloggen, können Sie Ihre Kundenkarten und Coupons nicht mehr nutzen und keine neuen Kunden-, Bezahlkarten oder Coupons hinzufügen.
+Sie können jedoch weiterhin Ihre aktuellen Bezahlkarten nutzen und mit Ihrem Smartphone bezahlen.</string>
+    <string name="logout_dialog_title_positive_button">LOGOUT</string>
+    <string name="logout_dialog_title_negative_button">Abbrechen</string>
+    <string name="logout_in_progress_message">Ausloggen.</string>
+
+    <!-- TBS error messages. -->
+    <string name="tbs_unavailable_title">Unbekannter Fehler</string>
+    <string name="tbs_unavailable_message_text">Derzeit haben wir ein Problem mit dem Server. Bitte versuchen Sie es später erneut.</string>
+
+    <!-- Permission dialog texts -->
+    <string name="camera_permission_dialog_title">BITTE KAMERAZUGRIFF ERLAUBEN</string>
+    <string name="camera_permission_rationale">Bitte erlauben Sie den Zugriff auf die Kamera Ihres Smartphones, damit Sie Ihre Karten scannen und zu MyWallet hinzufügen können.</string>
+    <string name="camera_permission_dialog_action_button_label">ZUGRIFF ERLAUBEN</string>
+    <string name="calendar_permission_dialog_title"></string>
+    <string name="calendar_permission_rationale"></string>
+    <string name="calendar_permission_dialog_action_button_label"></string>
+
+    <!-- Rational dialog for location permission. -->
+    <string name="location_permission_dialog_title">BITTE STANDORTZUGRIFF ERLAUBEN</string>
+    <string name="location_permission_dialog_message">Bitte erlauben Sie den Zugriff auf Ihren Standort. Sie können dann Ihre Stadt aus der Vorschlagsliste auswählen.</string>
+    <string name="location_permission_action_btn">ZUGRIFF ERLAUBEN</string>
+
+    <!-- OTP and Supershop teaser tiles. -->
+    <string name="storage_otp_card_teaser_tile_message"></string>
+    <string name="storage_otp_card_teaser_tile_card_add_btn_name"></string>
+    <string name="storage_supershop_card_teaser_tile_message"></string>
+    <string name="storage_supershop_card_teaser_tile_card_add_btn_name"></string>
+
+    <!-- Digital stamps strings -->
+    <string name="digital_stamp_collect_stamp_btn">TODO COLLECT STAMP</string>
+    <string name="digital_stamp_redeem_btn">TODO REDEEM</string>
+    <string name="digital_stamp_nfc_collect_stamp">TODO Tap the NFC sticker to collect stamps</string>
+    <string name="digital_stamp_nfc_redeem">TODO Tap the NFC tag to collect your reward</string>
+    <string name="digital_stamps_delete_stamp_dialog_title">TODO Delete stamp</string>
+    <string name="digital_stamps_delete_stamp_dialog_message">TODO Are you sure you want to delete this stamp?</string>
+    <string name="digital_stamps_card_spinner_deletion_message">TODO Deleting digital stamps card</string>
+    <string name="digital_stamps_redeem_reward_message">"TODO Congrats you can now redeem your reward. Please confirm with the cashier"</string>
+
+    <!--Corfire general errors strings-->
+    <string name="corfire_error_tnc_updated_title">Die Geschäftsbedingungen wurden kürzlich aktualisiert.</string>
+    <string name="corfire_error_tnc_updated_message">Bitte bestätigen Sie die neuen Geschäftsbedingungen.</string>
+
+    <!--Floating menu strings-->
+    <string name="fab_add_card_label">Karten hinzufügen</string>
+    <string name="fab_discover_coupons_label">Coupons auswählen</string>
+    <string name="fab_qr_digital_stamp_label">Stempel sammeln</string>
+    <string name="fab_add_new_partner_card_label"></string>
+    <string name="fab_add_new_non_partner_card_label"></string>
+
+    <!-- Ticket event reminder notification -->
+    <string name="notification_event_reminder_ticker"></string>
+    <string name="notification_event_reminder_title"></string>
+    <string name="notification_event_reminder_body"></string>
+
+    <!-- Targo Bank -->
+    <string name="storage_targo_card_teaser_tile_message">ZAHLEN SIE MIT IHREM SMARTPHONE UND DER TARGOBANK KARTE</string>
+    <string name="storage_targo_card_teaser_tile_card_add_btn_name">HINZUFÜGEN</string>
+    <string name="targo_card_enter_activation_code">TODO Enter activation code</string>
+
+    <!--Dialogs texts-->
+    <string name="my_wallet_dialog_close_btn">SCHLIEßEN</string>
+    <string name="my_wallet_dialog_try_again_btn">ERNEUT VERSUCHEN</string>
+
+    <!-- Camera error -->
+    <string name="camera_error_dialog_title">Kamera nicht verfügbar</string>
+    <string name="camera_error_dialog_text">Kamera oder Blitz werden gerade von einer anderen Applikation genutzt. Schließen Sie bitte andere Applikationen und versuchen Sie es erneut.</string>
+    <string name="camera_error_dialog_action">OK</string>
+
+</resources>

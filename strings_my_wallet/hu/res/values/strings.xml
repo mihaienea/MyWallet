@@ -1,0 +1,579 @@
+<resources>
+    <string name="app_name">MobilTárca</string>
+    <string name="app_title">MOBILTÁRCA</string>
+    <string name="country_code">hu</string>
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string name="storage_welcome_teaser_tile_title">Welcome to MobilTárca!</string>
+    <string name="storage_welcome_teaser_tile_message">TOUCH HERE TO EXPLORE OUR CATALOG AND ADD YOUR FIRST CARD TO MOBILTÁRCA.</string>
+    <string name="storage_mywallet_card_teaser_tile_title">MobilTárca Card</string>
+    <string name="storage_mywallet_card_teaser_tile_message">MAKE YOUR FIRST PAYMENT WITH MOBILTÁRCA CARD</string>
+    <string name="storage_mywallet_card_teaser_tile_card_add_btn_name">ADD TO MobilTárca</string>
+    <string name="storage_payment_card_message">FAST AND SECURE PAYMENTS WITH YOUR PHONE</string>
+    <string name="storage_payatmatch_card_message">Mobile payments directly from your bank account</string>
+    <string name="storage_action_add_new_service_title">Add new service</string>
+    <string name="title_activity_wallet_web_view">MobilTárca</string>
+    <string name="action_open_external_webview">View in external browser</string>
+    <string name="install_external_app_dialog_title">INSTALL PARTNER APP</string>
+    <string name="install_external_app_dialog_message">You will be redirected to Google Play Store where you can download the partner app.</string>
+    <string name="launch_external_app_dialog_title">LAUNCH PARTNER APP</string>
+    <string name="launch_external_app_dialog_message">You will be redirected to an external app.</string>
+    <string name="leaving_the_app_dialog_title">YOU ARE LEAVING THE APP</string>
+    <string name="do_not_show_again_dialog_continue_button_text">Continue</string>
+    <string name="do_not_show_again_dialog_checkbox_text">Do not show this again.</string>
+    <string name="button_activity_overview">PAY NOW</string>
+    <string name="title_mywallet">MOBILTÁRCA</string>
+    <string name="title_catalog">Catalog</string>
+    <string name="ok">OK</string>
+    <string name="pay_now">CONTINUE TO PAYMENT</string>
+    <string name="delete">Delete</string>
+    <string name="activate_fast_card_button">ACTIVATE FAST CARD</string>
+
+    <string name="settings_nfc_off_dialog_title">Activate NFC</string>
+    <string name="settings_nfc_off_dialog_message">Please turn on NFC in the settings of your phone to pay with this card.</string>
+    <string name="settings_nfc_off_dialog_action">TURN ON</string>
+    <string name="fastpay_nfc_off_dialog_message">We noticed that NFC is turned off on your phone. In order to use your Fast Card, you need to turn on NFC in the settings of your phone.</string>
+    <string name="payment_confirmation_thank_you">Thank you</string>
+    <string name="context_menu_set_fast_card">Activate Fast Card</string>
+    <string name="context_menu_call_customer_care">Call Customer Service</string>
+    <string name="context_menu_go_to_website">To the Website</string>
+    <string name="context_menu_how_to_make_nfc_payment">How do I pay with my phone?</string>
+    <string name="context_menu_set_fast_card_subtitle">Pay with this card without unlocking your phone</string>
+    <string name="context_menu_call_customer_care_subtitle">Opening hours: %1$s</string>
+    <string name="context_menu_remove_card">Delete card</string>
+    <string name="context_menu_view_card_details">View card details</string>
+    <string name="context_menu_edit_card">Edit card</string>
+    <string name="context_menu_stamp_card_details">View stamp card details</string>
+
+    <string name="pay_tutorial_activity_title_1">Select your card to pay.</string>
+    <string name="pay_tutorial_activity_title_2">Hold the back of your phone against the payment terminal.</string>
+    <string name="pay_tutorial_activity_title_3">Done!</string>
+    <string name="pay_tutorial_activity_description_1">Tap the \'PAY NOW\' button and wait while we prepare your card for payment.</string>
+    <string name="pay_tutorial_activity_description_2">Once the spinner turns green, hold the back of your phone against the payment terminal. Your phone will vibrate once the card details have been sent to the terminal.</string>
+    <string name="pay_tutorial_activity_description_3">And that’s it! You only need to enter your payment card PIN  (provided by your card issuer) directly at the payment terminal for transactions over € 25.</string>
+
+    <string name="activate_fast_card_tutorial_activity_title">ACTIVATE FAST CARD</string>
+    <string name="activate_fast_card_tutorial_activity_description_1_first_part">Open the menu on the details page of your card.</string>
+    <string name="activate_fast_card_tutorial_activity_description_1_second_part">Or simply tap on TURN ON below. We will activate your %1$s for you.</string>
+    <string name="activate_fast_card_tutorial_activity_description_2_first_part">Simply turn on the slider.</string>
+    <string name="activate_fast_card_tutorial_activity_description_2_second_part">Or simply tap on TURN ON below. We will activate your %1$s for you.</string>
+    <string name="activate_fast_card_tutorial_activity_button_text">TURN ON</string>
+
+    <string name="payment_wait_message">Preparing your phone for payment…</string>
+    <string name="payment_help_message">Hold the back of your phone against the payment terminal.</string>
+    <string name="cancel">Cancel</string>s
+
+    <string name="pin_setup_prompt_activity_text_field_title">You can now pay with your smartphone!</string>
+    <string name="pin_setup_prompt_activity_text_field_description">To further protect your payment card, you can setup a custom 4-digit MobilTárca PIN.</string>
+    <string name="pin_setup_prompt_activity_text_field_footer">You can always change your MobilTárca PIN in the \'Settings\' section later.</string>
+    <string name="pin_setup_prompt_activity_button">SETUP MOBILTÁRCA PIN</string>
+
+    <string name="sidebar_menu_item_home">Home</string>
+    <string name="sidebar_menu_item_settings">Settings</string>
+    <string name="sidebar_menu_item_help">FAQ</string>
+    <string name="sidebar_menu_item_about">About</string>
+    <string name="sidebar_menu_item_data_privacy">Data privacy</string>
+
+    <string name="activity_settings_title">Settings</string>
+    <string name="activity_settings_change_pin">Change  MobilTárca PIN</string>
+    <string name="activity_settings_logout"></string>
+
+    <!-- Storage notification texts -->
+    <string name="notification_nfc_off_title">ACTIVATE NFC</string>
+    <string name="notification_nfc_off_message">We noticed that you have activated a Fast Card, but NFC is turned off on your phone. In order to use your FastCard, you need to turn on NFC in the settings of your phone.</string>
+    <string name="notification_nfc_off_button_text">TURN ON</string>
+    <string name="notification_activation_success_title"></string>
+    <string name="notification_activation_success_message"></string>
+    <string name="notification_activation_success_button_text"></string>
+    <string name="notification_tap_and_pay_availability_title">SET MOBILTÁRCA AS DEFAULT</string>
+    <string name="notification_tap_and_pay_availability_message">We noticed that MobilTárca is not set as the default payment app in Android settings. In order to pay with MobilTárca, you need to change the settings.</string>
+    <string name="notification_tap_and_pay_availability_button_text">MAKE MOBILTÁRCA DEFAULT</string>
+    <string name="notification_rearrange_cards_title">REARRANGE YOUR CARDS</string>
+    <string name="notification_rearrange_cards_message">You can easily rearrange your cards below. Simply long-press on a card, move it to the desired position, and drop it.</string>
+    <string name="notification_fast_card_after_activation_title">PAY WITHOUT UNLOCKING YOUR PHONE</string>
+    <string name="notification_fast_card_after_activation_message">Do you want to activate your %1$s for paying faster in stores?</string>
+    <string name="notification_fast_card_after_activation_learn_more_button">LEARN MORE</string>
+    <string name="notification_fast_card_after_activation_turn_on_button">TURN ON</string>
+    <string name="notification_login_title"></string>
+    <string name="notification_login_message"></string>
+    <string name="notification_login_button_text"></string>
+    <string name="notification_wallet_update_version_message">TODO Go to google play to update your application.</string>
+    <string name="notification_wallet_update_version_button_text">TODO UPDATE NOW</string>
+    <string name="notification_wallet_update_version_title">TODO NEW WALLET APP AVAILABLE</string>
+    <string name="notification_ticket_added_ticker">TODO %1$s</string>
+    <string name="notification_ticket_added_title">TODO %1$s</string>
+    <string name="notification_ticket_added_body">TODO Your ticket for %1$s is now available in MyWallet</string>
+    <string name="notification_ticket_updated_ticker">TODO %1$s</string>
+    <string name="notification_ticket_updated_title">TODO %1$s</string>
+    <string name="notification_ticket_updated_body">%1$s</string>
+    <string name="notification_ticket_deleted_ticker">TODO %1$s</string>
+    <string name="notification_ticket_deleted_title">TODO %1$s</string>
+    <string name="notification_ticket_deleted_body">%1$s</string>
+
+    <!-- setup pin-->
+    <string name="set_pin_enter_new_passcode">Please setup your MobilTárca PIN.</string>
+    <string name="set_pin_confirm_new_passcode">Please confirm your MobilTárca PIN.</string>
+    <string name="new_passcode_mismatch">PINs entered are not identical. Please try again.</string>
+    <string name="pin_set_successfully">Your MobilTárca PIN has been set successfully.</string>
+    <string name="incorrect_passcode">Incorrect MobilTárca PIN. Please try again.</string>
+    <string name="enter_passcode">Please enter your MobilTárca PIN.</string>
+    <string name="passcode_attempts_remaining_3">3 attempts remaining</string>
+    <string name="passcode_attempts_remaining_2">2 attempts remaining</string>
+    <string name="passcode_attempts_remaining_1">1 attempt remaining</string>
+    <string name="my_wallet_locked">MobilTárca is locked.</string>
+    <string name="change_pin_enter_new_passcode">Please set up a new MobilTárca PIN.</string>
+    <string name="change_pin_confirm_new_passcode">Please confirm your new MobilTárca PIN.</string>
+    <string name="change_pin_successfully">Your MobilTárca PIN has been changed successfully.</string>
+    <string name="disabled_fastcards">As a security measure, we have disabled your Fast Card.</string>
+    <string name="program">Opening hours: Mo–Su 6 a.m.–10 p.m.</string>
+    <string name="call_customer_care">Call Customer Service</string>
+
+    <!-- Change location-->
+    <string name="error_message_no_suggestion_for_location">We could not find the entered location.\nPlease try again &#8230;</string>
+    <string name="change_location_enter_city_name_hint">Please enter the name of your city.</string>
+
+    <!-- Couponing -->
+    <string name="coupons_label_text">Coupons</string>
+    <string name="coupons_catalog_action_change_location_title">Change location</string>
+    <string name="no_internet_connection_title_text">No Internet Connection</string>
+    <string name="no_internet_connection_couponing_text">You can always use your saved coupons from the Home screen.</string>
+    <string name="set_favorite_merchant_info_title_text">STAY UP TO DATE WITH NEW COUPONS</string>
+    <string name="set_favorite_merchant_info_message_text">You will receive notifications about new coupons available from the merchants you selected as \'Favorite\'.</string>
+    <string name="couponing_merchant_coupons_list_item_new_label">NEW</string>
+    <string name="couponing_merchant_coupons_list_item_money_save">save</string>
+    <string name="coupon_catalogue_expiry_text">Valid until %1$s</string>
+    <string name="couponing_merchant_coupons_open_hours">Opening hours: %1$s - %2$s</string>
+    <plurals name="coupons_number">
+        <item quantity="one">%1$s COUPON</item>
+        <item quantity="other">%1$s COUPONS</item>
+    </plurals>
+    <string name="coupon_money_save">SAVE %1$s</string>
+    <string name="coupon_expiry_date">VALID UNTIL %1$s</string>
+    <string name="coupon_redemption_info_title">HOW IT WORKS</string>
+    <string name="coupon_redemption_info_description">Please show the code at the cash register in order to use the coupons.</string>
+    <string name="coupon_redemption_help_link_text">Do you need assistance?</string>
+    <string name="coupon_redemption_done">BACK</string>
+    <string name="coupon_redemption_info_message_for_acardo_coupons">Please show the coupon code at the checkout.</string>
+    <plurals name="coupon_redemption_info_message_for_dt_coupons">
+        <item quantity="one">Please show the coupon code at the checkout.</item>
+        <item quantity="other">Please show the coupon codes at the checkout.</item>
+    </plurals>
+    <plurals name="coupon_redemption_coupon_count_message">
+        <item quantity="one">%1$s COUPON TO USE</item>
+        <item quantity="other">%1$s COUPONS TO USE</item>
+    </plurals>
+    <string name="context_menu_remove_all_coupons">Delete all coupons for this store</string>
+    <string name="saved_coupons_remove_all_title">Delete all coupons</string>
+    <string name="saved_coupons_remove_all_message">You can also delete individual coupons by tapping on them in the previous screen. Are you sure you want to delete all coupons saved for this store?</string>
+    <string name="coupon_deletion_spinner_message">Deleting saved coupons&#8230;</string>
+    <string name="coupon_empty_catalog">TODO No coupons for this location available</string>
+
+    <!-- Couponing error strings-->
+    <string name="couponing_error_unknown_title">Something went wrong</string>
+    <string name="couponing_error_unknown_text">Please try again and contact customer service, if you see this message again.</string>
+    <string name="couponing_error_backend_title">Oops</string>
+    <string name="couponing_error_backend_text">We are experiencing a problem with our backend systems. We are working on it and will have things back to normal shortly.</string>
+    <string name="couponing_error_failed_to_add_title">Unable to add coupon</string>
+    <string name="couponing_error_failed_to_add_text">Please try again</string>
+    <string name="couponing_acardo_limit_exceeded_delete_coupon_title">Delete coupon</string>
+    <string name="couponing_acardo_limit_exceeded_delete_coupon_message"></string>
+    <string name="couponing_acardo_save_coupon_limit_exceeded_title"></string>
+    <string name="couponing_acardo_coupon_instance_limit_exceeded"></string>
+    <string name="couponing_acardo_max_active_coupons_limit_exceeded"></string>
+
+    <!-- SIM services notification texts -->
+    <string name="notification_failure_ticker"></string>
+    <string name="notification_failure_title"></string>
+    <string name="notification_failure_body"></string>
+    <string name="notification_applet_install_ticker">%1$s was added and can be used.</string>
+    <string name="notification_applet_install_title">%1$s was added.</string>
+    <string name="notification_applet_install_body">%1$s ready to be used.</string>
+    <string name="notification_applet_uninstall_ticker">%1$s was removed from MobilTárca.</string>
+    <string name="notification_applet_uninstall_title">%1$s removed</string>
+    <string name="notification_applet_uninstall_body">%1$s was removed.</string>
+    <string name="notification_applet_locked_ticker">%1$s was blocked in MobilTárca.</string>
+    <string name="notification_applet_locked_title">%1$s blocked</string>
+    <string name="notification_applet_locked_body">%1$s was blocked.</string>
+    <string name="notification_applet_unlocked_ticker">%1$s was reactivated in MobilTárca.</string>
+    <string name="notification_applet_unlocked_title">%1$s unblocked</string>
+    <string name="notification_applet_unlocked_body">%1$s was reactivated.</string>
+    <string name="notification_deactivation_ticker">MobilTárca was deactivated.</string>
+    <string name="notification_deactivation_title">MobilTárca deactivated</string>
+    <string name="notification_deactivation_body">MobilTárca has been deactivated.</string>
+    <string name="notification_wallet_blocked_ticker">MobilTárca has been locked.</string>
+    <string name="notification_wallet_blocked_title">MobilTárca Locked</string>
+    <string name="notification_wallet_blocked_body">MobilTárca has been locked.</string>
+    <string name="notification_wallet_unblocked_ticker">MobilTárca was reactivated.</string>
+    <string name="notification_wallet_unblocked_title">MobilTárca Unlocked</string>
+    <string name="notification_wallet_unblocked_body">MobilTárca can be used again.</string>
+    <string name="notification_success_ticker">You can now add payment cards to MobilTárca.</string>
+    <string name="notification_success_title">READY FOR PAYMENTS</string>
+    <string name="notification_success_body">You can now add payment cards to MobilTárca.</string>
+
+    <!-- coupon detail view -->
+    <string name="terms_and_conditions">Legal statement</string>
+    <string name="save_coupon">Save Coupon</string>
+    <string name="delete_coupon">Delete coupon</string>
+    <string name="redeem_coupon">Use Coupon</string>
+    <string name="couponing_coupon_detail_page_save_coupon_error">COUPON CAN BE SAVED UP TO 10 TIMES</string>
+    <string name="couponing_coupon_saved">Coupon is saved</string>
+    <string name="coupon_issuer_acardo"></string>
+    <string name="coupon_issuer_dt">Coupon supplied by Magyar Telekom Plc.</string>
+    <string name="redeem_coupons">USE ALL COUPONS</string>
+    <string name="goto_map">Directions to the store</string>
+
+    <!-- Wallet Tour -->
+    <string name="wallet_tour_page_welcome_header">WELCOME TO MOBILTÁRCA</string>
+    <string name="wallet_tour_page_welcome_description">MobilTárca turns your smartphone into a digital wallet.</string>
+    <string name="wallet_tour_page_cards_header">ADD YOUR PHYSICAL CARDS</string>
+    <string name="wallet_tour_page_cards_description">Store your coupons, loyalty cards, in the near future, payment cards and more in one place.</string>
+    <string name="wallet_tour_page_cards_header_for_ott_user">ADD YOUR PHYSICAL CARDS</string>
+    <string name="wallet_tour_page_cards_description_for_ott_user">Store your loyalty cards, coupons and more in one place.</string>
+    <string name="wallet_tour_page_tap_to_pay_header">PAY IN STORES</string>
+    <string name="wallet_tour_page_tap_to_pay_description">You are be able to look for the contactless symbol and pay with one touch. Quick and easy.</string>
+    <string name="wallet_tour_page_security_header">SECURE WITH TELEKOM</string>
+    <string name="wallet_tour_page_security_description">Your data is stored securely on the SIM and is protected by multiple layers of security.</string>
+    <string name="wallet_tour_page_coupons_header">SAVE MONEY</string>
+    <string name="wallet_tour_page_coupons_description">Discover coupons and use them with ease to get discounts.</string>
+    <string name="wallet_tour_page_get_started_header">GET STARTED TODAY</string>
+    <string name="wallet_tour_page_get_started_description">Get MobilTárca and leave your plastic cards at home.</string>
+    <string name="wallet_tour_lets_go">GET STARTED</string>
+    <string name="wallet_tour_t_and_c_info">By proceeding, you accept the %1$s and %2$s of Magyar Telekom Plc.</string>
+    <string name="wallet_tour_t_and_c_tandcs">T&amp;Cs</string>
+    <string name="wallet_tour_t_and_c_telekom_data_privacy_guidelines">Data Privacy guidelines</string>
+
+    <string name="general_backend_error_header">Oops</string>
+    <string name="general_backend_error_text">We are experiencing a problem with our backend systems. We are working on it and will have things back to normal shortly.</string>
+    <string name="general_no_network_connection_error_header">No Internet connection</string>
+    <string name="general_no_network_connection_error_text">Please check your Internet connection and try again.</string>
+
+    <!-- Service catalog item details screen-->
+    <string name="service_catalog_item_add_card_button_text">ADD CARD</string>
+    <string name="service_catalog_item_use_this_service_button_text">TODO Use this service</string>
+    <string name="service_catalog_item_add_card_button_disabled_text">THIS CARD HAS BEEN ADDED</string>
+    <string name="service_catalog_item_add_register_for_service">Register for this card</string>
+    <string name="notification_no_dt_sim_message_text">You need a NFC SIM from Deutsche Telekom to use this card</string>
+    <string name="notification_no_dt_sim_title">PLEASE INSERT A TELEKOM NFC SIM</string>
+    <string name="notification_no_dt_nfc_sim_title">PLEASE INSERT A NFC SIM</string>
+    <string name="notification_no_dt_nfc_sim_message_text">You need a NFC-compatible SIM to use this card. You can change your SIM card at any Telekom Shop for free.</string>
+    <string name="notification_no_nfc_handset_title">HANDSET NOT NFC-READY</string>
+    <string name="notification_no_nfc_handset_message_text">You need a NFC-compatible Android handset to use this card. Browse compatible devices at our website and get your new handset delivered to your door.</string>
+    <string name="notification_handset_not_supported_title">HANDSET NOT COMPATIBLE</string>
+    <string name="notification_handset_not_supported_message_text">Your handset does not support this service. Browse compatible devices at our website and get your new handset delivered to your door.</string>
+    <string name="go_to_website">GO TO WEBSITE</string>
+    <string name="service_catalog_item_add_card_button_ticketing_text">GET TICKET</string>
+
+    <!-- Service catalog screen -->
+    <string name="no_internet_connection_service_catalogue_text">To access MobilTárca Catalog, connect to a Wi-Fi or cellular data network.</string>
+    <string name="add_other_card_item_title">CAN\'T FIND YOUR LOYALTY CARD HERE?</string>
+    <string name="add_other_card_item_subtitle">Add any loyalty card to MobilTárca by scanning the barcode.</string>
+    <string name="filter_button_payment_category_text">PAYMENT</string>
+    <string name="filter_button_loyalty_category_text">LOYALTY</string>
+    <string name="filter_button_transport_category_text">TRANSPORT</string>
+    <string name="filter_button_access_category_text">ACCESS</string>
+    <string name="filter_button_ticketing_category_text">TICKETING</string>
+    <string name="filter_button_digital_stamp_category_text">DIGITAL STAMPS</string>
+
+    <!-- MyCards -->
+    <string name="mycards_add_a_card">Add a card</string>
+    <string name="mycards_add_card_scan_your_cards_barcode">Scan card bar code</string>
+    <string name="mycards_add_card_place_your_card_viewfinder">Place your cards bar code inside the viewfinder to scan it.</string>
+    <string name="mycards_enter_code_manually">Enter card number manually</string>
+    <string name="mycards_add_card_card_details">Add card details</string>
+    <string name="mycards_edit_card_details">Edit card details</string>
+    <string name="mycards_add_card_loyalty_card_name_hint">Loyalty Card name</string>
+    <string name="mycards_add_card_loyalty_card_number_hint">Loyalty Card number</string>
+    <string name="mycards_add_card_validate_input_all">Please enter the card name and card number</string>
+    <string name="mycards_add_card_validate_input_new_partner_name">Please enter the card name</string>
+    <string name="mycards_add_card_validate_input_card_number">Please enter the card number</string>
+    <string name="no_internet_connection_add_card_barcode_scanner">To add a loyalty card, connect to a Wi-Fi or cellular data network.</string>
+    <string name="mycards_delete_mycard_title">Delete card</string>
+    <string name="mycards_delete_mycard_text">Are you sure you want to delete this card?</string>
+    <string name="my_cards_help">Do you need <u>help</u>?</string>
+    <string name="my_cards_help_dialog_title">USING LOYALTY CARDS IN STORES</string>
+    <string name="my_cards_help_dialog_message">To use your loyalty cards, simply show the barcode code of your digital card to the cashier - the displayed code can be directly scanned.\n\nIn case the store does not support scanning of barcodes from smartphones, you can ask the cashier to manually enter the displayed card number into the cashier system.</string>
+    <string name="my_cards_help_dialog_message_no_barcode">To use your loyalty cards, ask the cashier to manually enter the displayed card number into the cashier system.</string>
+    <string name="mycards_add_card_validate_ean13_barcode_type_error">Please enter a valid card number.</string>
+    <string name="mycards_add_card_loyalty_card_additional_info_hint">Additional card info</string>
+    <string name="mycards_take_a_photo_text">ADD A PHOTO OF YOUR CARD</string>
+    <string name="mycards_retake_a_photo_text">CHANGE YOUR CARD PHOTO</string>
+    <string name="mycards_pan_and_zoom_text">Pan and zoom to reposition the photo in the tile</string>
+    <string name="mycards_reposition_title">Reposition photo</string>
+    <string name="mycards_reposition_text">Pan and zoom to reposition your photo in the tile.</string>
+    <string name="mycards_reposition_done_button_text">DONE</string>
+    <string name="mycards_take_a_picture_for_card">Take a photo of your card</string>
+    <string name="mycards_take_a_picture_instruction">Place your card inside the square and press the button below when ready.</string>
+    <string name="mycards_take_a_picture">TAKE PHOTO</string>
+    <string name="mycards_add_card_validate_additional_info">The entered text is too long. Please enter a maximum of %1$s characters.</string>
+    <string name="mycards_finish_editing">Done</string>
+    <string name="mycards_take_picture_non_partner_card">Take a photo of your card</string>
+    <string name="mycards_reposition_picture_non_partner_card">Reposition photo</string>
+
+    <!-- Digital Stamps -->
+    <string name="digitalstamps_scan_to_collect_stamp">Scan the QR code to collect stamp.</string>
+    <string name="digitalstamps_collect_stamp_scan_your_qr_code">Scan the QR code to collect your stamp.</string>
+    <string name="digitalstamps_collect_stamp_qr_viewfinder">Place the QR code inside the viewfinder to scan it.</string>
+    <plurals name="digitalstamps_collect_stamp_successful">
+        <item quantity="one">%1$d Stamp successful collected</item>
+        <item quantity="other">%1$d Stamp successful collected</item>
+    </plurals>
+    <string name="digitalstamps_collect_last_stamp_successful">Your Reward now available.</string>
+    <string name="no_internet_connection_collect_stamp_scanner">TTo collect a stamp, connect to a Wi-Fi or cellular data network.</string>
+    <string name="digitalstamps_unable_to_collect_stamp">Unable to collect stamp.</string>
+    <string name="digitalstamps_unable_to_collect_stamp_message">The collection code you have scanned could not be validated, please try
+        again later.</string>
+    <string name="digitalstamps_no_internet_connection_message">To collect or redeem stamps, connect to a Wi-Fi or cellular data network.</string>
+    <string name="digitalstamps_nfc_code_not_valid">NFC Code was not identified</string>
+    <string name="digitalstamps_nfc_please_try_again">Please try again</string>
+    <string name="digitalstamps_scan_redeem_reward">Scan to redeem</string>
+    <string name="digitalstamps_redeem_reward_instruction">Scan the QR code to redeem reward</string>
+    <string name="digitalstamps_unable_to_redeem_reward">Unable to redeem reward</string>
+    <string name="digitalstamps_unable_to_redeem_reward_message">The redemption code you have scanned could not be validated, please try
+        again later.</string>
+    <string name="digital_stamps_reward_redeemed_message">This reward will be available a few more minutes.</string>
+    <string name="digital_stamps_reward_redeemed">REWARD REDEEMED</string>
+    <string name="no_internet_connection_redeem_reward_scanner">To redeem your reward, connect to a Wi-Fi or cellular data network.</string>
+    <string name="digital_stamps_scan_code_invalid">The scanned code is not valid.</string>
+    <string name="digital_stamps_scan_code_redeem_required">The code that you scanned is for collecting stamps. Please, scan a code to redeem your reward.</string>
+    <string name="digital_stamps_scan_code_collect_required">The code that you scanned is for redeeming rewards. Please, scan a code to collect stamps.</string>
+    <string name="digitalstamps_redeem_stamp_successful">Reward was successfully redeemed.</string>
+
+    <!-- notifications -->
+    <string name="notification_no_mobile_data_title">PLEASE TURN ON MOBILE DATA</string>
+    <string name="notification_no_mobile_data_message">We are currently setting up your MobilTárca for payments and require mobile data
+        connection.
+    </string>
+    <string name="turn_on">TURN ON</string>
+    <string name="notification_activation_failed_title">UNABLE TO SETUP MOBILTÁRCA FOR PAYMENTS</string>
+    <string name="notification_activation_failed_message">We were unable to set up your MobilTárca for payment services. Please contact customer care to resolve this issues.</string>
+    <string name="notification_preparing_mywallet_title">SETTING UP YOUR MOBILTÁRCA FOR PAYMENTS</string>
+    <string name="notification_preparing_mywallet_message">This might take a few minutes. We will inform you once you can add payment services to MobilTárca.</string>
+    <string name="notification_login_to_add_card_message"></string>
+    <string name="notification_login_to_add_card_title"></string>
+    <string name="notification_login_to_scan_stamp_title"></string>
+    <string name="notification_login_to_scan_stamp_message"></string>
+    <string name="notification_login_to_add_card_button_message"></string>
+    <string name="notification_dialog_login_to_add_coupons_title"></string>
+    <string name="notification_dialog_login_to_add_coupons_message"></string>
+    <string name="notification_dialog_login_to_add_coupons_button_text"></string>
+
+    <!-- access -->
+    <string name="storage_access_description"></string>
+    <string name="context_menu_activate_access_card"></string>
+    <string name="context_menu_activate_access_card_subtitle"></string>
+    <string name="access_screen_fast_card_info_text"></string>
+
+    <!-- super shop-->
+    <string name="context_menu_activate_super_shop_card">TODO Activate Card</string>
+    <string name="context_menu_activate_super_shop_card_subtitle">TODO You will be able to collect or redeem points, without
+        unlocking your phone.</string>
+    <string name="super_shop_screen_fast_card_info_text">Please hold the back of your phone against the NFC terminal to collect or redeem SuperShop points.</string>
+
+    <!-- About screen -->
+    <string name="about_app_title">About</string>
+    <string name="about_app_version">Version %1$s</string>
+    <string name="about_app_copyright">© 2016 Magyar Telekom Nyrt.</string>
+    <string name="about_app_address">Telekom Deutschland GmbH\nLandgrabenweg 151\n53227 Bonn</string>
+    <string name="about_app_email">E-Mail: www.telekom.hu</string>
+    <string name="about_app_phone">Telefon: 1430</string>
+    <string name="about_app_company_registration_info">Pflichtangaben gemäß § 35 a GmbHG</string>
+    <string name="about_app_company_website">www.telekom.hu</string>
+    <string name="about_app_company_registration_id">CG 01&#8211;10&#8211;041928</string>
+    <string name="about_app_licences_button_name">LICENCES</string>
+    <string name="activity_licences_title">LICENCES</string>
+
+    <!-- PayAtMatch details screen -->
+    <string name="payatmatch_details_service_provider">BANK NAME</string>
+    <string name="payatmatch_details_customer_number">CUSTOMER NUMBER</string>
+    <string name="payatmatch_details_cardholder_name">CUSTOMER NAME</string>
+    <string name="payatmatch_details_iban">IBAN</string>
+
+    <!-- Digital stamp additional info screen -->
+    <string name="stamp_additional_info">TODO INFO</string>
+    <string name="stamp_additional_info_available_stores">TODO AVAILABLE STORES</string>
+    <string name="stamp_additional_info_terms">TODO Terms and conditions</string>
+
+    <!-- FAQs and Help -->
+    <string name="help_category_general">General</string>
+    <string name="help_category_security">Security and Privacy</string>
+    <string name="help_category_payment">Payment</string>
+    <string name="help_category_couponing">Coupons</string>
+    <string name="help_category_mycards">Loyalty Cards</string>
+    <string name="faq_title">Questions &amp; answers</string>
+    <string name="start_tour">MobilTárca Tour</string>
+
+    <!-- ACF Error Dialog -->
+    <string name="acf_error_message_title">Card not installed correctly</string>
+    <string name="acf_error_message_text">There were some issues when the card was added to MobilTárca. Please contact the %1$s Customer Service to request a reinstallation of the card to MobilTárca.</string>
+
+    <!-- Coupon Catalog loading screen -->
+    <string name="coupon_catalog_loading_screen_header">One moment please</string>
+    <string name="coupon_catalog_loading_screen_message">Loading Coupons &#8230;</string>
+
+    <!--Merchant Catalog loading screen-->
+    <string name="merchant_catalog_loading_screen_message">Loading data &#8230;</string>
+
+    <!-- swb transport -->
+    <string name="context_menu_activate_swb_transport_card">Activate ticket</string>
+    <string name="context_menu_activate_swb_transport_card_subtitle">Validate your ticket with the controller without unlocking your phone.</string>
+    <string name="swb_transport_storage_card_title">WELCOME TO SWB JOB TICKET PILOT</string>
+    <string name="swb_transport_storage_card_message">Thank you for participation in the pilot. We have prepared your SIM for SWB job ticket and will shortly send you a mail with details how to get your job ticket in to your phone.</string>
+    <string name="swb_transport_screen_fast_card_info_text">Tap the NFC tag to validate your ticket.</string>
+
+    <!-- transport loyalty -->
+    <string name="transport_loyalty_card_name_travipay">TODO Travipay</string>
+    <string name="open_your_app">TODO OPEN YOUR APP</string>
+    <string name="travipay_details_description">"TODO Fast and convenient payment of parking tickets</string>
+
+    <!-- ticketing-->
+    <string name="ticketing_detail_location">LOCATION</string>
+    <string name="ticketing_detail_price">PRICE</string>
+    <string name="ticketing_detail_sector">SECTOR</string>
+    <string name="ticketing_detail_side">SIDE</string>
+    <string name="ticketing_detail_row">ROW</string>
+    <string name="ticketing_detail_seat">SEAT</string>
+    <string name="ticketing_detail_expired_message">EXPIRED</string>
+    <string name="ticketing_detail_used_message">USED</string>
+    <string name="ticketing_detail_button_activate_ticket">ACTIVATE TICKET</string>
+    <string name="ticketing_detail_button_delete_ticket">DELETE TICKET</string>
+    <string name="ticketing_detail_audit">AUDIT</string>
+    <string name="ticketing_detail_delete_dialog_title">ARE YOU SURE YOU WANT TO DELETE THE TICKET?</string>
+    <string name="ticketing_detail_delete_dialog_message">The ticket will no longer be shown on the home screen.</string>
+    <string name="ticketing_detail_delete_dialog_button_text">DELETE</string>
+    <string name="ticketing_detail_ticket_activated_text">Your ticket is now activated. To enter the venue, please hold the back of your phone against the NFC terminal.</string>
+    <string name="ticketing_is_used">USED</string>
+    <string name="ticketing_card_view_expired">EXPIRED</string>
+    <string name="ticketing_context_menu_additional_ticket_info">View additional ticket information</string>
+    <string name="ticketing_context_menu_activate_card">Deactivate Ticket</string>
+    <string name="ticketing_context_menu_activate_card_subtitle">You will be able to enter the venue without unlocking your phone.</string>
+    <string name="ticketing_context_menu_add_to_calendar">Add to your calendar</string>
+    <string name="ticket_calendar_description_audit">Audit: </string>
+    <string name="ticket_calendar_description_sector">Sector: </string>
+    <string name="ticket_calendar_description_row">Row: </string>
+    <string name="ticket_calendar_description_side">Side: </string>
+    <string name="ticket_calendar_description_seat">Seat: </string>
+
+    <!-- Data Privacy -->
+    <string name="data_privacy_toolbar_title">TODO Data privacy</string>
+    <string name="data_privacy_toggle_label">Transfer anonymous usage data</string>
+    <string name="data_privacy_language_prefix">en-rHU</string>
+
+    <!-- How to pay storage notification card-->
+    <string name="how_to_pay_notification_card_button_text">YES</string>
+    <string name="how_to_pay_notification_card_title">TAP TO PAY IN STORES</string>
+    <string name="how_to_pay_notification_card_message">Do you want to learn how to tap correctly to pay in stores?</string>
+
+    <!-- rating notification -->
+    <string name="notification_rating_title">HOW WOULD YOU RATE MOBILTÁRCA? SELECT A STAR RATING.</string>
+    <string name="rate">Submit</string>
+    <string name="later">Later</string>
+
+    <string name="notification_rating_google_play_title">RATE US ON PLAY STORE</string>
+    <string name="notification_rating_google_play_message">We are glad you are enjoying using MobilTárca. Would you mind leaving us a rating on Google Play? We would really appreciate it.</string>
+    <string name="sure">Sure</string>
+
+    <string name="notification_send_feedback_title">HELP US IMPROVE</string>
+    <string name="notification_send_feedback_message">Thanks for your feedback. We would love to hear your thoughts on how we can improve MobilTárca.</string>
+    <string name="feedback_email_adress">mobiltarca@telekom.hu</string>
+    <string name="feedback_subject">MobilTárca feedback</string>
+    <string name="send_email">SEND FEEDBACK</string>
+
+    <string name="login_message"></string>
+    <string name="login"></string>
+
+    <!-- Corfire Logging in activity. -->
+    <string name="corfire_logging_in_message"></string>
+
+    <!-- TBS error messages-->
+    <string name="tbs_server_error"></string>
+    <string name="tbs_invalid_refresh_token_error"></string>
+    <string name="tbs_wrong_username_or_password_error"></string>
+    <string name="tbs_account_locked_error"></string>
+    <string name="tbs_unknown_error"></string>
+
+    <!-- Telekom Login -->
+    <string name="telekom_login"></string>
+    <string name="telekom_login_one_login_for_every_app"></string>
+    <string name="register"></string>
+    <string name="username"></string>
+    <string name="password"></string>
+    <string name="username_and_password_empty_error_message"></string>
+    <string name="username_empty_error_message"></string>
+    <string name="password_empty_error_message"></string>
+    <string name="forgot_password"></string>
+    <string name="dont_have_an_account"></string>
+    <string name="telekom_login_register_here"></string>
+    <string name="tbs_sidebar_welcome_message_in_case_no_user_name"></string>
+
+    <!-- relogin storage notification (login to see your ecommerce content) -->
+    <string name="notification_login_ecommerce_content_message"></string>
+    <string name="notification_login_ecommerce_content_title"></string>
+
+    <string name="logout_dialog_title"></string>
+    <string name="logout_dialog_message"></string>
+    <string name="logout_dialog_title_positive_button"></string>
+    <string name="logout_dialog_title_negative_button"></string>
+    <string name="logout_in_progress_message"></string>
+
+    <!-- TBS error messages. -->
+    <string name="tbs_unavailable_title"></string>
+    <string name="tbs_unavailable_message_text"></string>
+
+    <!-- Permission dialog texts -->
+    <string name="camera_permission_dialog_title">PLEASE ALLOW CAMERA ACCESS</string>
+    <string name="camera_permission_rationale">Please allow access to the camera. You will be able to scan your physical cards and add them easily to MobilTárca.</string>
+    <string name="camera_permission_dialog_action_button_label">ALLOW ACCESS</string>
+    <string name="calendar_permission_dialog_title">PLEASE ALLOW CALENDAR ACCESS</string>
+    <string name="calendar_permission_rationale">Please allow MyWallet to access your calendar. We will save the event in your calendar.</string>
+    <string name="calendar_permission_dialog_action_button_label">ALLOW ACCESS</string>
+
+    <!-- Rational dialog for location permission. -->
+    <string name="location_permission_dialog_title">PLEASE ALLOW LOCATION ACCESS</string>
+    <string name="location_permission_dialog_message">Please allow access to your location. You will be able to easily select your current city from the suggestions list.</string>
+    <string name="location_permission_action_btn">ALLOW ACCESS</string>
+
+    <!-- OTP and Supershop teaser tiles. -->
+    <string name="storage_otp_card_teaser_tile_message">TODO YOU CAN NOW PAY WITH OTP BANK CARD</string>
+    <string name="storage_otp_card_teaser_tile_card_add_btn_name">TODO ADD TO PAY</string>
+    <string name="storage_supershop_card_teaser_tile_message">MAKE YOUR FIRST PAYMENT WITH OTP BANK CARD</string>
+    <string name="storage_supershop_card_teaser_tile_card_add_btn_name">ADD TO MOBILTÁRCA</string>
+
+    <!-- Digital stamps strings -->
+    <string name="digital_stamp_collect_stamp_btn">COLLECT STAMP</string>
+    <string name="digital_stamp_redeem_btn">REDEEM</string>
+    <string name="digital_stamp_nfc_collect_stamp">Please hold the back of your phone against the NFC sticker to collect stamps</string>
+    <string name="digital_stamp_nfc_redeem">Please hold the back of your phone against the NFC sticker to collect your reward</string>
+    <string name="digital_stamps_delete_stamp_dialog_title">Deleting stamp card</string>
+    <string name="digital_stamps_delete_stamp_dialog_message">Are you sure you want to delete this stamp card?</string>
+    <string name="digital_stamps_card_spinner_deletion_message">Deleting stamp card</string>
+    <string name="digital_stamps_redeem_reward_message">Congratulations! You can now redeem your reward. Please confirm with the cashier</string>
+
+    <!--Corfire general errors strings-->
+    <string name="corfire_error_tnc_updated_title">Terms and conditions were recently updated</string>
+    <string name="corfire_error_tnc_updated_message">Please confirm the new terms and conditions.</string>
+
+    <!--Floating menu strings-->
+    <string name="fab_add_card_label">Add new cards</string>
+    <string name="fab_discover_coupons_label">Discover coupons</string>
+    <string name="fab_qr_digital_stamp_label">Collect stamps</string>
+    <string name="fab_add_new_partner_card_label"></string>
+    <string name="fab_add_new_non_partner_card_label"></string>
+
+    <!-- Ticket event reminder notification -->
+    <string name="notification_event_reminder_ticker">Event reminder ticket</string>
+    <string name="notification_event_reminder_title">Event reminder title</string>
+    <string name="notification_event_reminder_body">%1$s starts soon. Tap here to view details of your ticket.</string>
+
+    <!-- Targo Bank -->
+    <string name="storage_targo_card_teaser_tile_message"></string>
+    <string name="storage_targo_card_teaser_tile_card_add_btn_name"></string>
+
+    <!--Dialogs texts-->
+    <string name="my_wallet_dialog_close_btn">TODO CLOSE</string>
+
+    <!-- Camera error -->
+    <string name="camera_error_dialog_title">Camera not accessible</string>
+    <string name="camera_error_dialog_text">Another application is currently using the camera or flashlight. Please close the other application and try again.</string>
+    <string name="camera_error_dialog_action">OK</string>
+
+</resources>

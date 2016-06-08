@@ -1,0 +1,593 @@
+<resources>
+    <string name="app_name">MobilTárca</string>
+    <string name="app_title">MOBILTÁRCA</string>
+    <string name="country_code">hu</string>
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+    <string name="storage_welcome_teaser_tile_title">Üdvözöl a MobilTárca!</string>
+    <string name="storage_welcome_teaser_tile_message">ISMERD MEG A KATALÓGUST, ÉS MENTSD EL AZ ELSŐ KÁRTYÁDAT A MOBILTÁRCÁBA!</string>
+    <string name="storage_mywallet_card_teaser_tile_title"></string>
+    <string name="storage_mywallet_card_teaser_tile_message"></string>
+    <string name="storage_mywallet_card_teaser_tile_card_add_btn_name"></string>
+    <string name="storage_payment_card_message">GYORS ÉS BIZTONSÁGOS FIZETÉS A MOBILODDAL</string>
+    <string name="storage_payatmatch_card_message">Mobile payments directly from your bank account</string>
+    <string name="storage_action_add_new_service_title">Új szolgáltatás hozzáadása</string>
+    <string name="title_activity_wallet_web_view">MobilTárca</string>
+    <string name="action_open_external_webview">Megnyitás böngészőben</string>
+    <string name="install_external_app_dialog_title">PARTNER ALKALMAZÁS TELEPÍTÉSE</string>
+    <string name="install_external_app_dialog_message">Átirányítunk a Google Play Store&#8211;ba, ahol letöltheted partnerünk alkalmazását.</string>
+    <string name="launch_external_app_dialog_title">PARTNER ALKALMAZÁS MEGNYITÁSA</string>
+    <string name="launch_external_app_dialog_message">Egy külső alkalmazásra irányítunk át.</string>
+    <string name="leaving_the_app_dialog_title">A következőkben kilépsz az alkalmazásból.</string>
+    <string name="do_not_show_again_dialog_continue_button_text">Folytatás</string>
+    <string name="do_not_show_again_dialog_checkbox_text">Ne jelenítse meg újra.</string>
+    <string name="button_activity_overview">FIZETÉS</string>
+    <string name="title_mywallet">MOBILTÁRCA</string>
+    <string name="title_catalog">KATALÓGUS</string>
+    <string name="ok">OK</string>
+    <string name="pay_now">FIZETÉS</string>
+    <string name="delete">Törlés</string>
+    <string name="activate_fast_card_button">TODO ACTIVATE FAST CARD</string>
+
+    <string name="settings_nfc_off_dialog_title">NFC bekapcsolása</string>
+    <string name="settings_nfc_off_dialog_message">Kérjük, kapcsold be az NFC funkciót a készüléked beállításai között!</string>
+    <string name="settings_nfc_off_dialog_action">BEKAPCSOLÁS</string>
+    <string name="fastpay_nfc_off_dialog_message">Az NFC ki van kapcsolva a készülékeden. Gyorsfizetés használatához, kérjük, kapcsold be az NFC funkciót a Beállítások menüben!</string>
+    <string name="payment_confirmation_thank_you">KÖSZÖNJÜK!</string>
+    <string name="context_menu_set_fast_card">Gyorsfizetés bekapcsolása</string>
+    <string name="context_menu_call_customer_care">Ügyfélszolgálat  felhívása</string>
+    <string name="context_menu_go_to_website">Weboldal megnyitása</string>
+    <string name="context_menu_how_to_make_nfc_payment">Hogyan fizethetek a telefonommal?</string>
+    <string name="context_menu_set_fast_card_subtitle">Fizess ezzel a kártyával a képernyőzár feloldása nélkül.</string>
+    <string name="context_menu_call_customer_care_subtitle">Nyitvatartás: %1$s</string>
+    <string name="context_menu_remove_card">Kártya törlése</string>
+    <string name="context_menu_view_card_details">Kártyarészletek megtekintése</string>
+    <string name="context_menu_edit_card">Kártya módosítása</string>
+    <string name="context_menu_stamp_card_details">Matricagyűjtő&#8211;füzet részleteinek megtekintése</string>
+
+    <string name="pay_tutorial_activity_title_1">Válaszd ki a kártyát a fizetéshez.</string>
+    <string name="pay_tutorial_activity_title_2">Érintsd készüléked hátoldalát a banki terminálhoz.</string>
+    <string name="pay_tutorial_activity_title_3">Kész!</string>
+    <string name="pay_tutorial_activity_description_1">Kattints a Fizetés gombra, és várd meg, amíg a kártyát előkészítjük a fizetésre.</string>
+    <string name="pay_tutorial_activity_description_2">Miután a kör zöldre váltott, készüléked hátoldalát érintsd a banki terminálhoz. Telefonod vibrálással jelzi, ha a kártyaadatokat sikeresen átadta a banki terminálnak.</string>
+    <string name="pay_tutorial_activity_description_3">Készen is vagyunk! 5000 Ft&#8211;os vásárlási összeg felett a bankkártyádhoz tartozó PIN kódot meg kell adnod a banki terminálon.</string>
+
+    <string name="activate_fast_card_tutorial_activity_title">GYORSFIZETÉS BEÁLLÍTÁSA</string>
+    <string name="activate_fast_card_tutorial_activity_description_1_first_part">Nyisd meg a menüt a kártyaadatokat megjelenítő oldalon.</string>
+    <string name="activate_fast_card_tutorial_activity_description_1_second_part">Vagy egyszerűen kattints a lenti BEKAPCSOLÁS gombra. A %1$s kártyát aktiváljuk neked.</string>
+    <string name="activate_fast_card_tutorial_activity_description_2_first_part">Csak billentsd át a kapcsolót..</string>
+    <string name="activate_fast_card_tutorial_activity_description_2_second_part">Vag egyszerűen kattints a BEKAPCSOLÁS gombra. A %1$s kártyát aktiváljuk neked.</string>
+    <string name="activate_fast_card_tutorial_activity_button_text">BEKAPCSOLÁS</string>
+
+    <string name="payment_wait_message">Telefon előkészítése fizetésre…</string>
+    <string name="payment_help_message">Érintsd készüléked hátoldalát a banki terminálhoz.</string>
+    <string name="cancel">Mégsem</string>
+
+    <string name="pin_setup_prompt_activity_text_field_title">Most már te is fizethetsz a telefonoddal!</string>
+    <string name="pin_setup_prompt_activity_text_field_description">Biztonságod érdekében válassz egy 4 számból álló MobilTárca PIN kódot</string>
+    <string name="pin_setup_prompt_activity_text_field_footer">MobilTárca PIN kódodat bármikor megváltoztathatod az alkalmazás beállításokban.</string>
+    <string name="pin_setup_prompt_activity_button">MOBILTÁRCA PIN KÓD BEÁLLÍTÁSA</string>
+
+    <string name="sidebar_menu_item_home">Kezdőlap</string>
+    <string name="sidebar_menu_item_settings">Beállítások</string>
+    <string name="sidebar_menu_item_help">GYIK</string>
+    <string name="sidebar_menu_item_about">Rólunk</string>
+    <string name="sidebar_menu_item_data_privacy">TODO Data privacy</string>
+
+    <string name="activity_settings_title">Beállítások</string>
+    <string name="activity_settings_change_pin">MobilTárca PIN kód megváltoztatása</string>
+    <string name="activity_settings_logout"></string>
+
+    <!-- Storage notification texts -->
+    <string name="notification_nfc_off_title">NFC BEKAPCSOLÁSA</string>
+    <string name="notification_nfc_off_message">Bár engedélyezted a Gyorsfizetést, de az NFC funkció ki van kapcsolva a készülékeden.</string>
+    <string name="notification_nfc_off_button_text">BEKAPCSOLÁS</string>
+    <string name="notification_activation_success_title"></string>
+    <string name="notification_activation_success_message"></string>
+    <string name="notification_activation_success_button_text"></string>
+    <string name="notification_tap_and_pay_availability_title">MOBILTÁRCA MINT ALAPÉRTELMEZETT FIZETŐESZKÖZ BEÁLLÍTÁSA</string>
+    <string name="notification_tap_and_pay_availability_message">A MobilTárca nem az alapértelmezett fizetőeszköz a készülékeden. Ahhoz, hogy fizetni tudj a MobilTárcával, kérjük, módosítsd a beállításokat.</string>
+    <string name="notification_tap_and_pay_availability_button_text">MOBILTÁRCA MINT ALAPÉRTELMEZETT FIZETŐESZKÖZ BEÁLLÍTÁSA</string>
+    <string name="notification_rearrange_cards_title">KÁRTYÁK SORRENDJÉNEK MEGVÁLTOZTATÁSA</string>
+    <string name="notification_rearrange_cards_message">A kártyáid sorrendjét könnyedén megváltoztathatod. Hosszan tartsd lenyomva az ujjad az adott kártyán, és egyszerűen húzd át másik helyre.</string>
+    <string name="notification_fast_card_after_activation_title">FIZETÉSHEZ NEM KELL FELOLDANOD A KÉPERNYŐZÁRAT</string>
+    <string name="notification_fast_card_after_activation_message">Szeretnéd, hogy %1$s kártyáddal gyorsabban fizethess az üzletekben?</string>
+    <string name="notification_fast_card_after_activation_learn_more_button">TUDJ MEG TÖBBET</string>
+    <string name="notification_fast_card_after_activation_turn_on_button">BEKAPCSOLÁS</string>
+    <string name="notification_login_title"></string>
+    <string name="notification_login_message"></string>
+    <string name="notification_login_button_text"></string>
+    <string name="notification_wallet_update_version_message">TODO Go to google play to update your application.</string>
+    <string name="notification_wallet_update_version_button_text">TODO UPDATE NOW</string>
+    <string name="notification_wallet_update_version_title">TODO NEW WALLET APP AVAILABLE</string>
+    <string name="notification_ticket_added_ticker">TODO %1$s</string>
+    <string name="notification_ticket_added_title">TODO %1$s</string>
+    <string name="notification_ticket_added_body">TODO Your ticket for %1$s is now available in MyWallet</string>
+    <string name="notification_ticket_updated_ticker">TODO %1$s</string>
+    <string name="notification_ticket_updated_title">TODO %1$s</string>
+    <string name="notification_ticket_updated_body">%1$s</string>
+    <string name="notification_ticket_deleted_ticker">TODO %1$s</string>
+    <string name="notification_ticket_deleted_title">TODO %1$s</string>
+    <string name="notification_ticket_deleted_body">%1$s</string>
+
+    <!-- setup pin-->
+    <string name="set_pin_enter_new_passcode">Kérjük, állítsd be a MobilTárca PIN kódodat.</string>
+    <string name="set_pin_confirm_new_passcode">MobilTárca PIN kód megerősítése.</string>
+    <string name="new_passcode_mismatch">A jelszó nem egyezik. Kérjük, próbáld újra.</string>
+    <string name="pin_set_successfully">A MobilTárca PIN kód beállítása sikeres volt.</string>
+    <string name="incorrect_passcode">A MobilTárca PIN kód nem megfelelő. Kérjük, próbáld újra!</string>
+    <string name="enter_passcode">Kérjük, add meg a MobilTárca PIN kódodat.</string>
+    <string name="passcode_attempts_remaining_3">Lehetséges próbálkozások: 3</string>
+    <string name="passcode_attempts_remaining_2">Lehetséges próbálkozások: 2</string>
+    <string name="passcode_attempts_remaining_1">Lehetséges próbálkozások: 1</string>
+    <string name="my_wallet_locked">MobilTárca zárolva.</string>
+    <string name="change_pin_enter_new_passcode">Kérjük, állíts be új MobilTárca PIN kódot.</string>
+    <string name="change_pin_confirm_new_passcode">MobilTárca PIN kód megerősítése</string>
+    <string name="change_pin_successfully">MobilTárca PIN kódodat megváltoztattuk.</string>
+    <string name="disabled_fastcards">Biztonsági okokból a Gyorsfizetést letiltottuk.</string>
+    <string name="program">Nyitvatartás: hétfő&#8211;vasárnap 6&#8211;22 óra között</string>
+    <string name="call_customer_care">Ügyfélszolgálat felhívása</string>
+
+    <!-- Change location-->
+    <string name="error_message_no_suggestion_for_location">Nem található a megadott hely. \nKérjük, próbáld újra &#8230;</string>
+    <string name="change_location_enter_city_name_hint">Kérjük, add meg a várost, ahol élsz.</string>
+
+    <!-- Couponing -->
+    <string name="coupons_label_text">Kuponok</string>
+    <string name="coupons_catalog_action_change_location_title">Hely megváltoztatása</string>
+    <string name="no_internet_connection_title_text">Nincs internetkapcsolat</string>
+    <string name="no_internet_connection_couponing_text">Korábban elmentett kuponjaidat bármikor beválthatod a kezdőképernyőn</string>
+    <string name="set_favorite_merchant_info_title_text">NE MARADJ LE AZ ÚJ KUPONOKRÓL</string>
+    <string name="set_favorite_merchant_info_message_text">Értesítést küldünk, ha kedvencnek jelölt kereskedődnél új kuponok érhetőek el.</string>
+    <string name="couponing_merchant_coupons_list_item_new_label">ÚJ</string>
+    <string name="couponing_merchant_coupons_list_item_money_save">mentés</string>
+    <string name="coupon_catalogue_expiry_text">Érvényes %1$s -ig</string>
+    <string name="couponing_merchant_coupons_open_hours">Nyitvatartás: %1$s - %2$s</string>
+    <plurals name="coupons_number">
+        <item quantity="one">%1$s KUPONOK</item>
+        <item quantity="other">%1$s KUPONOK</item>
+    </plurals>
+    <string name="coupon_money_save">Sprórolj %1$s</string>
+    <string name="coupon_expiry_date">Érvényes %1$s -ig</string>
+    <string name="coupon_redemption_info_title">Hogyan működik</string>
+    <string name="coupon_redemption_info_description">Kérjük, a kuponok beváltásához mutasd fel a kódot a pénztárosnak.</string>
+    <string name="coupon_redemption_help_link_text">Segíthetünk?</string>
+    <string name="coupon_redemption_done">OK, kész.</string>
+    <string name="coupon_redemption_info_message_for_acardo_coupons">Kérjük, mutasd fel a kuponkódot fizetéskor..</string>
+
+    <plurals name="coupon_redemption_info_message_for_dt_coupons">
+        <item quantity="one">Kérjük, mutasd fel a kupon kódot fizetéskor.</item>
+        <item quantity="other">Kérjük, mutasd fel a kuponkódokat a fizetéskor.</item>
+    </plurals>
+    <plurals name="coupon_redemption_coupon_count_message">
+        <item quantity="one">%1$s KUPON BEVÁLTÁSA</item>
+        <item quantity="other">%1$s KUPONOK BEVÁLTÁSA</item>
+    </plurals>
+    <string name="context_menu_remove_all_coupons">Az üzlethez tartozó összes kupon törlése</string>
+    <string name="saved_coupons_remove_all_title">Minden kupon törlése</string>
+    <string name="saved_coupons_remove_all_message">Kuponok törlésére egyenként is van lehetőséged. Biztosan törölni szeretnéd az összes mentett kuponodat ehhez az üzlethez kapcsolódóan?</string>
+    <string name="coupon_deletion_spinner_message">Mentett kuponok törlése&#8230;</string>
+    <string name="coupon_empty_catalog">TODO No coupons for this location</string>
+
+    <!-- Couponing error strings-->
+    <string name="couponing_error_unknown_title">Hiba történt</string>
+    <string name="couponing_error_unknown_text">Kérjük, próbáld újra, és hívd az ügyfélszolgálatot, ha az üzenet újra megjelenik.</string>
+    <string name="couponing_error_backend_title">Hoppá!</string>
+    <string name="couponing_error_backend_text">Technikai probléma lépett fel.</string>
+    <string name="couponing_error_failed_to_add_title">Kupon hozzáadás sikertelen.</string>
+    <string name="couponing_error_failed_to_add_text">Kérjük, próbáld újra!</string>
+    <string name="couponing_acardo_limit_exceeded_delete_coupon_title">Kupon törlése</string>
+    <string name="couponing_acardo_limit_exceeded_delete_coupon_message"></string>
+    <string name="couponing_acardo_save_coupon_limit_exceeded_title"></string>
+    <string name="couponing_acardo_coupon_instance_limit_exceeded"></string>
+    <string name="couponing_acardo_max_active_coupons_limit_exceeded"></string>
+
+    <!-- SIM services notification texts -->
+    <string name="notification_failure_ticker"></string>
+    <string name="notification_failure_title"></string>
+    <string name="notification_failure_body"></string>
+    <string name="notification_applet_install_ticker">%1$s hozzáadva és használatra kész.</string>
+    <string name="notification_applet_install_title">%1$s hozzáadva.</string>
+    <string name="notification_applet_install_body">%1$s használatra kész.</string>
+    <string name="notification_applet_uninstall_ticker">%1$s eltávolítva a MobilTárcából.</string>
+    <string name="notification_applet_uninstall_title">%1$s eltávolítva.</string>
+    <string name="notification_applet_uninstall_body">%1$s eltávolítva.</string>
+    <string name="notification_applet_locked_ticker">%1$s letiltva a MobilTárcában</string>
+    <string name="notification_applet_locked_title">%1$s letiltva.</string>
+    <string name="notification_applet_locked_body">%1$s letiltva.</string>
+    <string name="notification_applet_unlocked_ticker">%1$s újraaktiválva a MobilTárcában.</string>
+    <string name="notification_applet_unlocked_title">%1$s tiltás feloldva.</string>
+    <string name="notification_applet_unlocked_body">%1$s újraaktiválva.</string>
+    <string name="notification_deactivation_ticker">MobilTárca deaktiválva.</string>
+    <string name="notification_deactivation_title">A MobilTárca deaktiválása sikeres volt.</string>
+    <string name="notification_deactivation_body">A MobilTárca deaktiválása sikeres volt.</string>
+    <string name="notification_wallet_blocked_ticker">MobilTárca zárolva.</string>
+    <string name="notification_wallet_blocked_title">MobilTárca zárolva.</string>
+    <string name="notification_wallet_blocked_body">MobilTárca zárolva.</string>
+    <string name="notification_wallet_unblocked_ticker">MobilTárca újraaktiválása sikeres volt.</string>
+    <string name="notification_wallet_unblocked_title">MobilTárca zárolás megszüntetve.</string>
+    <string name="notification_wallet_unblocked_body">MobilTárca újra használatra kész.</string>
+    <string name="notification_success_ticker">Most már bankkártyát is hozzáadhatsz a MobilTárcádhoz.</string>
+    <string name="notification_success_title">FIZETÉSRE KÉSZ</string>
+    <string name="notification_success_body">Most már bankkártyát is hozzáadhatsz a MobilTárcádhoz.</string>
+
+    <!-- coupon detail view -->
+    <string name="terms_and_conditions">Jogi nyilatkozat</string>
+    <string name="save_coupon">Mentsd el későbbi felhasználásra</string>
+    <string name="delete_coupon">TODO Delete coupon</string>
+    <string name="redeem_coupon">Beváltás</string>
+    <string name="couponing_coupon_detail_page_save_coupon_error">A kupont 10 alkalommal mentheted el.</string>
+    <string name="couponing_coupon_saved">Kupon elmentve</string>
+    <string name="coupon_issuer_acardo"></string>
+    <string name="coupon_issuer_dt">A kuponokat a Magyar Telekom Nyrt. biztosította.</string>
+    <string name="redeem_coupons">Összes kupon beváltása</string>
+    <string name="goto_map">Útvonaltervezés az üzletbe.</string>
+
+
+    <!-- Wallet Tour -->
+    <string name="wallet_tour_page_welcome_header">ÜDVÖZÖL A MOBILTÁRCA</string>
+    <string name="wallet_tour_page_welcome_description">A MobilTárcával a telefonod lesz az új pénztárcád.</string>
+    <string name="wallet_tour_page_cards_header">ADJ HOZZÁ KÁRTYÁKAT</string>
+    <string name="wallet_tour_page_cards_description">Tárold egy helyen bankkártyádat, hűségkártyáidat, kuponjaidat és jegyeidet.</string>
+    <string name="wallet_tour_page_cards_header_for_ott_user">ADJ HOZZÁ KÁRTYÁKAT</string>
+    <string name="wallet_tour_page_cards_description_for_ott_user">Tárold hűségkártyáidat és kuponjaidat egy helyen!</string>
+    <string name="wallet_tour_page_tap_to_pay_header">FIZETÉS ÜZLETEKBEN</string>
+    <string name="wallet_tour_page_tap_to_pay_description">Egy érintéssel fizethetsz azokban az üzletekben, ahol az egyérintéses fizetés emblémáját látod.</string>
+    <string name="wallet_tour_page_security_header">Biztonságban a Telekommal</string>
+    <string name="wallet_tour_page_security_description">Adataid biztonságosan tárolódnak a SIM kártyádon, ahol többszörös védelemmel vannak ellátva.</string>
+    <string name="wallet_tour_page_coupons_header">Költs kevesebbet!</string>
+    <string name="wallet_tour_page_coupons_description">Keresgélj a kuponok között, hogy kedvezményesen vásárolhass.</string>
+    <string name="wallet_tour_page_get_started_header">HASZNÁLD MÁR MA</string>
+    <string name="wallet_tour_page_get_started_description">Legyen neked is MobilTárcád és hagyd otthon a plasztik kártyáidat.</string>
+    <string name="wallet_tour_lets_go">ÍGY KEZDD EL</string>
+    <string name="wallet_tour_t_and_c_info">A használattal elfogadod a Magyar Telekom Nyrt.  %1$s seit és %2$s sait.</string>
+    <string name="wallet_tour_t_and_c_tandcs">Felhasználási feltételek</string>
+    <string name="wallet_tour_t_and_c_telekom_data_privacy_guidelines">Adatbiztonsági előírások</string>
+
+    <string name="general_backend_error_header">Hoppá!</string>
+    <string name="general_backend_error_text">Technikai probléma lépett fel. Dolgozunk a megoldásán.</string>
+    <string name="general_no_network_connection_error_header">Nincs internetkapcsolat</string>
+    <string name="general_no_network_connection_error_text">Kérjük, ellenőrizd az internetkapcsolatot, és próbáld újra!</string>
+
+    <!-- Service catalog item details screen-->
+    <string name="service_catalog_item_add_card_button_text">Kártya hozzáadása</string>
+    <string name="service_catalog_item_use_this_service_button_text">TODO Use this service</string>
+    <string name="service_catalog_item_add_card_button_disabled_text">Kártya hozzáadva.</string>
+    <string name="service_catalog_item_add_register_for_service">Kártya igénylése</string>
+    <string name="notification_no_dt_sim_message_text">A kártya használatához Telekom MobilTárca SIM kártyára van szükséged.</string>
+    <string name="notification_no_dt_sim_title">KÉRJÜK, HELYEZZ BE EGY TELEKOM MOBILTÁRCA SIM KÁRTYÁT!</string>
+    <string name="notification_no_dt_nfc_sim_title">KÉRJÜK, HELYEZZ BE EGY MOBILTÁRCA SIM KÁRTYÁT!</string>
+    <string name="notification_no_dt_nfc_sim_message_text">A kártya használatához MobilTárca SIM kártyára van szükséged. A kártyacsere bármely Telekom üzletben díjmentesen kérhető.</string>
+    <string name="notification_no_nfc_handset_title">A KÉSZÜLÉK NEM MOBILTÁRCA-KÉPES</string>
+    <string name="notification_no_nfc_handset_message_text">MobilTárca-képes androidos okostelefonra van szükséged a kártya használátához.</string>
+    <string name="notification_handset_not_supported_title">A KÉSZÜLÉK NEM MEGFELELŐ</string>
+    <string name="notification_handset_not_supported_message_text">A készüléked nem támogatja ezt a szolgáltatást. Válogass a MobilTárca-képes készülékek közül weboldalunkon, és rendeld meg házhoz szállítással.</string>
+    <string name="go_to_website">TOVÁBB A WEBOLDALRA</string>
+    <string name="service_catalog_item_add_card_button_ticketing_text">JEGYEK HOZZÁADÁSA</string>
+
+    <!-- Service catalog screen -->
+    <string name="no_internet_connection_service_catalogue_text">A MobilTárca katalógus eléréséhez mobil adatforgalomra vagy wifikapcsolatra van szükség.</string>
+    <string name="add_other_card_item_title">NEM TALÁLOD A HŰSÉGKÁRTYÁT, AMIT KERESEL?</string>
+    <string name="add_other_card_item_subtitle">A vonalkód beolvasásával bármely hűségkártyát hozzáadhatsz a MobilTárcához.</string>
+    <string name="filter_button_payment_category_text">FIZETÉS</string>
+    <string name="filter_button_loyalty_category_text">HŰSÉGKÁRTYA</string>
+    <string name="filter_button_transport_category_text">KÖZLEKEDÉS</string>
+    <string name="filter_button_access_category_text">BELÉPÉS</string>
+    <string name="filter_button_ticketing_category_text">JEGYEK</string>
+    <string name="filter_button_digital_stamp_category_text">DIGITÁLIS MATRICÁK</string>
+    <string name="filter_button_all_category_text">TODO ALL</string>
+
+    <!-- MyCards -->
+    <string name="mycards_add_a_card">Kártya hozzáadása</string>
+    <string name="mycards_add_card_scan_your_cards_barcode">Kártya vonalkódjának beolvasása</string>
+    <string name="mycards_add_card_place_your_card_viewfinder">A kártya vonalkódját illeszd a kereten belülre a sikeres leolvasás érdekében.</string>
+    <string name="mycards_enter_code_manually">Kártyaszám megadása manuálisan.</string>
+    <string name="mycards_add_card_card_details">Kártyaadatok megadása</string>
+    <string name="mycards_edit_card_details">KÁRTYAADATOK MÓDOSÍTÁSA</string>
+    <string name="mycards_add_card_loyalty_card_name_hint">Hűségkártya neve</string>
+    <string name="mycards_add_card_loyalty_card_number_hint">Hűségkártya száma</string>
+    <string name="mycards_add_card_validate_input_all">Kérjük, add meg a kártya nevét és számát!</string>
+    <string name="mycards_add_card_validate_input_new_partner_name">Kérjük, add meg a kártya nevét!</string>
+    <string name="mycards_add_card_validate_input_card_number">Kérjük, add meg a kártyaszámot!</string>
+    <string name="no_internet_connection_add_card_barcode_scanner">Hűségkártya hozzáadásához mobil adatforgalomra vagy wifikapcsolatra van szükség.</string>
+    <string name="mycards_delete_mycard_title">Kártya törlése</string>
+    <string name="mycards_delete_mycard_text">Biztosan törölni szeretnéd a kártyát?</string>
+    <string name="my_cards_help"><u>Segíthetünk?</u></string>
+    <string name="my_cards_help_dialog_title">HŰSÉGKÁRTYÁK HASZNÁLATA AZ ÜZLETEKBEN</string>
+    <string name="my_cards_help_dialog_message">Hűségkártyák használatához nincs más dolgod, mint megmutatni digitális hűségkártyád vonalkódját a pénztárosnak - a kijelzőn megjelenő kód így azonnal szkennelhető./n/nAmennyiben egy üzletben nem támogatott a vonalkódok okostelefon kijelzőről történő beolvasása, kérd meg a pénztárost, hogy üsse be a megjelenített kártyaszámot a kasszába.</string>
+    <string name="my_cards_help_dialog_message_no_barcode">A hűségkártyád használatához kérd meg a pénztárost, hogy a megjelenített kártyaszámot manuálisan adja meg a pénztárgépnek.</string>
+    <string name="mycards_add_card_validate_ean13_barcode_type_error">Kérjük, létező kártyaszámot adj meg.</string>
+    <string name="mycards_add_card_loyalty_card_additional_info_hint">További kártyainformáció</string>
+    <string name="mycards_take_a_photo_text">KÉSZÍTS EGY KÉPET A KÁRTYÁDRÓL</string>
+    <string name="mycards_retake_a_photo_text">KÁRTYAKÉP MEGVÁLTOZTATÁSA</string>
+    <string name="mycards_pan_and_zoom_text">Forgatással és nagyítással újrapozícionálhatod a képet a kereten belül.</string>
+    <string name="mycards_reposition_title">Kép újrapozícionálása</string>
+    <string name="mycards_reposition_text">Forgatással és nagyítással újrapozícionálhatod a képet a kereten belül.</string>
+    <string name="mycards_reposition_done_button_text">KÉSZ</string>
+    <string name="mycards_take_a_picture_for_card">Készíts egy képet a kártyádról</string>
+    <string name="mycards_take_a_picture_instruction">Helyezd a kártyádat a kereten belülre és nyomd meg a gombot a fényképezéshez.</string>
+    <string name="mycards_take_a_picture">KÉP KÉSZÍTÉSE</string>
+    <string name="mycards_add_card_validate_additional_info">A megadott szöveg túl hosszú. Kérjük maximum %1$s karaktert használj.</string>
+    <string name="mycards_finish_editing">Kész</string>
+    <string name="mycards_take_picture_non_partner_card">Készíts egy képet a kártyádról</string>
+    <string name="mycards_reposition_picture_non_partner_card">Kép újrapozícionálása</string>
+
+    <!-- notifications -->
+    <string name="notification_no_mobile_data_title">KÉRJÜK, ENGEDÉLYEZD A MOBIL ADATFORGALMAT.</string>
+    <string name="notification_no_mobile_data_message">A fizetési szolgáltatás beállításához mobil adaforgalmonra van szükség.</string>
+    <string name="turn_on">BEKAPCSOLÁS</string>
+    <string name="notification_activation_failed_title">MOBILTÁRCA BEÁLLÍTÁSA FIZETÉSI SZOLGÁLTATÁSRA SIKERTELEN.</string>
+    <string name="notification_activation_failed_message">MobilTárca beállítása fizetési szolgáltatásra sikertelen. Kérjük, hívd az ügyfélszolgálatot, hogy a probléma megoldásában segíthessünk.</string>
+    <string name="notification_preparing_mywallet_title">FELKÉSZÍTJÜK A MOBILTÁRCÁDAT, HOGY EZENTÚL FIZETHESS IS VELE.</string>
+    <string name="notification_preparing_mywallet_message">A beállítás néhány percet vehet igénybe. Értesítünk, amikor hozzáarendelhetsz bankkártyát is a MobilTárcádhoz.</string>
+    <string name="notification_login_to_add_card_message"></string>
+    <string name="notification_login_to_add_card_title"></string>
+    <string name="notification_login_to_scan_stamp_title"></string>
+    <string name="notification_login_to_scan_stamp_message"></string>
+    <string name="notification_login_to_add_card_button_message"></string>
+    <string name="notification_dialog_login_to_add_coupons_title"></string>
+    <string name="notification_dialog_login_to_add_coupons_message"></string>
+    <string name="notification_dialog_login_to_add_coupons_button_text"></string>
+
+    <!-- access -->
+    <string name="storage_access_description"></string>
+    <string name="context_menu_activate_access_card"></string>
+    <string name="context_menu_activate_access_card_subtitle">.</string>
+    <string name="access_screen_fast_card_info_text"></string>
+
+    <!-- super shop-->
+    <string name="context_menu_activate_super_shop_card">TODO Activate Card</string>
+    <string name="context_menu_activate_super_shop_card_subtitle">TODO You will be able to collect or redeem points, without
+        unlocking your phone.</string>
+    <string name="super_shop_screen_fast_card_info_text">Érintsd készüléked hátoldalát a terminálhoz SuperShop pontok gyűjtéséhez vagy beváltásához.</string>
+
+    <!-- About screen -->
+    <string name="about_app_title">Rólunk</string>
+    <string name="about_app_version">Verzió %1$s</string>
+    <string name="about_app_copyright">© 2016 Magyar Telekom Nyrt.</string>
+    <string name="about_app_address">Magyar Telekom Nyrt.\n1013 Budapest\n Krisztina krt. 55.</string>
+    <string name="about_app_email">E-Mail: www.telekom.hu</string>
+    <string name="about_app_phone">Telefon: 1430</string>
+    <string name="about_app_company_registration_info">Pflichtangaben gemäß § 35 a GmbHG</string>
+    <string name="about_app_company_website">www.telekom.hu</string>
+    <string name="about_app_company_registration_id">CG 01&#8211;10&#8211;041928</string>
+    <string name="about_app_licences_button_name">Licencek</string>
+    <string name="activity_licences_title">Licencek</string>
+
+    <!-- PayAtMatch details screen -->
+    <string name="payatmatch_details_service_provider">BANK NEVE</string>
+    <string name="payatmatch_details_customer_number">ÜGYFÉL-AZONOSÍTÓ</string>
+    <string name="payatmatch_details_cardholder_name">ÜGYFÉL NEVE</string>
+    <string name="payatmatch_details_iban">IBAN</string>
+
+    <!-- Digital stamp additional info screen -->
+    <string name="stamp_additional_info">HŰSÉGKÁRTYA</string>
+    <string name="stamp_additional_info_available_stores">TODO AVAILABLE STORES</string>
+    <string name="stamp_additional_info_terms">TODO Terms and conditions</string>
+
+    <!-- FAQs and Help -->
+    <string name="help_category_general">ÁLTALÁNOS</string>
+    <string name="help_category_security">BIZTONSÁG ÉS</string>
+    <string name="help_category_payment">FIZETÉS</string>\
+    <string name="help_category_couponing">KUPONOK</string>
+    <string name="help_category_mycards">HŰSÉGKÁRTYÁK</string>
+    <string name="help_category_ticketing">TODO Ticketing</string>
+    <string name="help_category_supershop">TODO SuperShop</string>
+    <string name="faq_title">Kérdések és válaszok</string>
+    <string name="start_tour">MobilTárca bemutató</string>
+
+    <!-- ACF Error Dialog -->
+    <string name="acf_error_message_title">Kártya telepítése nem megfelelő</string>
+    <string name="acf_error_message_text">A kártya hozzáadása közben probléma lépett fel. Kérjük, hívd az ügyfélszolgálatot, ahol segítenek a kártya újratelepítésében.</string>
+
+    <!-- Coupon Catalog loading screen -->
+    <string name="coupon_catalog_loading_screen_header">Türelmedet kérjük</string>
+    <string name="coupon_catalog_loading_screen_message">Kuponok betöltése &#8230;</string>
+
+    <!--Merchant Catalog loading screen-->
+    <string name="merchant_catalog_loading_screen_message">Kereskedők betöltése &#8230;</string>
+
+    <!-- swb transport -->
+    <string name="context_menu_activate_swb_transport_card"></string>
+    <string name="context_menu_activate_swb_transport_card_subtitle"></string>
+    <string name="swb_transport_storage_card_title"></string>
+    <string name="swb_transport_storage_card_message"></string>
+    <string name="swb_transport_screen_fast_card_info_text"></string>
+
+    <!-- transport loyalty -->
+    <string name="transport_loyalty_card_name_travipay">TODO Travipay</string>
+    <string name="open_your_app">TODO OPEN YOUR APP</string>
+    <string name="travipay_details_description">"TODO Fast and convenient payment of parking tickets</string>
+
+    <!-- ticketing-->
+    <string name="ticketing_detail_location">HELYSZÍN</string>
+    <string name="ticketing_detail_price">ÁR</string>
+    <string name="ticketing_detail_sector">SZEKTOR</string>
+    <string name="ticketing_detail_side">OLDAL</string>
+    <string name="ticketing_detail_row">SOR</string>
+    <string name="ticketing_detail_seat">ÜLÉS</string>
+    <string name="ticketing_detail_expired_message">JEGY ELÉVÜLT</string>
+    <string name="ticketing_detail_used_message">JEGY FELHASZNÁLVA</string>
+    <string name="ticketing_detail_button_activate_ticket">JEGY AKTIVÁLÁSA</string>
+    <string name="ticketing_detail_button_delete_ticket">JEGY TÖRLÉSE</string>
+    <string name="ticketing_detail_audit">ELLENŐRZÉS</string>
+    <string name="ticketing_detail_delete_dialog_title">BIZTOSAN TÖRÖLNI SZERETNÉD A JEGYET?</string>
+    <string name="ticketing_detail_delete_dialog_message">A továbbiakban a jegyet nem fogod látni a kezdőképernyőn.</string>
+    <string name="ticketing_detail_delete_dialog_button_text">TÖRLÉS</string>
+    <string name="ticketing_detail_ticket_activated_text">A jegyed aktív. Belépéshez érintsd a készüléked hátoldalát a terminálhoz.</string>
+    <string name="ticketing_is_used">JEGY FELHASZNÁLVA</string>
+    <string name="ticketing_card_view_expired">JEGY ELÉVÜLT</string>
+    <string name="ticketing_context_menu_additional_ticket_info">További információ a jegyről.</string>
+    <string name="ticketing_context_menu_activate_card">Jegy inaktiválása</string>
+    <string name="ticketing_context_menu_activate_card_subtitle">A képernyőzár feloldása nélkül is beléphetsz a helyszínre.</string>
+    <string name="ticketing_context_menu_add_to_calendar">Hozzáadás a naptárhoz</string>
+    <string name="ticket_calendar_description_audit">Ellenőrzés: </string>
+    <string name="ticket_calendar_description_sector">Szektor: </string>
+    <string name="ticket_calendar_description_row">Sor: </string>
+    <string name="ticket_calendar_description_side">Oldal: </string>
+    <string name="ticket_calendar_description_seat">Ülés: </string>
+
+    <!-- Data Privacy -->
+    <string name="data_privacy_toolbar_title">ADATVÉDELEM</string>
+    <string name="data_privacy_toggle_label">Használati adatok anonim átadása</string>
+    <string name="data_privacy_language_prefix">hu</string>
+
+    <!-- How to pay storage notification card-->
+    <string name="how_to_pay_notification_card_button_text">IGEN</string>
+    <string name="how_to_pay_notification_card_title">FIZETÉS EGY ÉRINTÉSSEL AZ ÜZLETEKBEN</string>
+    <string name="how_to_pay_notification_card_message">Szeretnéd megnézni, hogyan tudsz egy érintéssel fizetni a mobiloddal?</string>
+
+    <!-- rating notification -->
+    <string name="notification_rating_title">TE HÁNY CSILLAGOT ADNÁL A MOBILTÁRCA ALKALMAZÁSNAK?</string>
+    <string name="rate">KÜLDÉS</string>
+    <string name="later">Később</string>
+
+    <string name="notification_rating_google_play_title">ÉRTÉKELD A MOBILTÁRCÁT A GOOGLE PLAY STORE-BAN</string>
+    <string name="notification_rating_google_play_message">Örömmel látjuk, hogy tetszik MobilTárca szolgáltatásunk. Kérjük, értékeld az alkalmazást a Google Play Store-ban. Az értékelésed köszönettel vesszük.</string>
+    <string name="sure">IGEN</string>
+
+    <string name="notification_send_feedback_title">SEGÍTS A MOBILTÁRCA TOVÁBBFEJLESZTÉSÉBEN</string>
+    <string name="notification_send_feedback_message">Köszönjük visszajelzésed. Örömmel vesszük a gondolataidat a szolgáltatás továbbfejlesztésével kapcsolatban!</string>
+    <string name="feedback_email_adress">mobiltarca@telekom.hu</string>
+    <string name="feedback_subject">MobilTárca visszajelzés</string>
+    <string name="send_email">Visszajelzés küldése</string>
+
+    <string name="login_message"></string>
+    <string name="login"></string>
+
+    <!-- Corfire Logging in activity. -->
+    <string name="corfire_logging_in_message"></string>
+
+    <!-- TBS error messages-->
+    <string name="tbs_server_error"></string>
+    <string name="tbs_invalid_refresh_token_error"></string>
+    <string name="tbs_wrong_username_or_password_error"></string>
+    <string name="tbs_account_locked_error"></string>
+    <string name="tbs_unknown_error"></string>
+
+    <!-- Telekom Login -->
+    <string name="telekom_login"></string>
+    <string name="register"></string>
+    <string name="username"></string>
+    <string name="password"></string>
+    <string name="username_and_password_empty_error_message"></string>
+    <string name="username_empty_error_message"></string>
+    <string name="password_empty_error_message"></string>
+    <string name="forgot_password"></string>
+    <string name="telekom_login_one_login_for_every_app"></string>
+    <string name="dont_have_an_account"></string>
+    <string name="telekom_login_register_here"></string>
+    <string name="tbs_sidebar_welcome_message_in_case_no_user_name"></string>
+
+    <!-- relogin storage notification (login to see your ecommerce content) -->
+    <string name="notification_login_ecommerce_content_message"></string>
+    <string name="notification_login_ecommerce_content_title"></string>
+
+    <string name="logout_dialog_title"></string>
+    <string name="logout_dialog_message"></string>
+    <string name="logout_dialog_title_positive_button"></string>
+    <string name="logout_dialog_title_negative_button"></string>
+    <string name="logout_in_progress_message"></string>
+
+    <!-- TBS error messages. -->
+    <string name="tbs_unavailable_title"></string>
+    <string name="tbs_unavailable_message_text"></string>
+
+    <!-- Permission dialog texts -->
+    <string name="camera_permission_dialog_title">KÉRJÜK, ENGEDÉLYEZD A KAMERAHASZNÁLATOT</string>
+    <string name="camera_permission_rationale">Kérjük, engedélyezd a kamerahasználatot. Így  lehetőséged lesz beolvasni plasztikkártyáidat, hogy bekerülhessenek a MobilTárcába.</string>
+    <string name="camera_permission_dialog_action_button_label">ENGEDÉLYEZÉS</string>
+    <string name="calendar_permission_dialog_title">KÉRJÜK, ENGEDÉLYEZD A HOZZÁFÉRÉST A NAPTÁRHOZ</string>
+    <string name="calendar_permission_rationale">Kérjük engedélyezd, hogy a MobilTárca alkalmazás hozzáférjen a naptáradhoz. Az esemény így fog bekerülni a naptárodba.</string>
+    <string name="calendar_permission_dialog_action_button_label">HOZZÁFÉRÉS ENGEDÉLYEZÉSE</string>
+
+    <!-- Rational dialog for location permission. -->
+    <string name="location_permission_dialog_title">HELYMEGHATÁROZÉS ENGEDÉLYEZÉSE</string>
+    <string name="location_permission_dialog_message">Kérjük, engedélyezd a helymeghatározást. Jelenlegi városod egyszerűen kiválaszthatod a listából.</string>
+    <string name="location_permission_action_btn">HOZZÁFÉRÉS ENGEDÉLYEZÉSE</string>
+
+    <!-- OTP and Supershop teaser tiles. -->
+    <string name="storage_otp_card_teaser_tile_message">TODO YOU CAN NOW PAY WITH OTP BANK CARD</string>
+    <string name="storage_otp_card_teaser_tile_card_add_btn_name">TODO ADD TO PAY</string>
+    <string name="storage_supershop_card_teaser_tile_message">FIZESS OTP KÁRTYÁDDAL</string>
+    <string name="storage_supershop_card_teaser_tile_card_add_btn_name">HOZZÁADÁS A MOBILTÁRCÁHOZ</string>
+
+    <!-- Digital stamps strings -->
+    <string name="digitalstamps_scan_to_collect_stamp">Olvasd be a QR kódot a matricagyűjtéshez</string>
+    <string name="digitalstamps_collect_stamp_scan_your_qr_code">Olvasd be a QR kódot a matricagyűjtéshez.</string>
+    <string name="digitalstamps_collect_stamp_qr_viewfinder">Kérjük, illeszd a QR kódot a nézőablak közepére a leolvasáshoz..</string>
+    <plurals name="digitalstamps_collect_stamp_successful">
+        <item quantity="one">%1$d Matricagyűjtés sikeres.</item>
+        <item quantity="other">Sikeresen gyűjtöttél %1$d matricát.</item>
+    </plurals>
+    <string name="digitalstamps_collect_last_stamp_successful">A jutalom elérhető.</string>
+    <string name="no_internet_connection_collect_stamp_scanner">Matricagyűjtéshez mobil adatforgalomra vagy wifikapcsolatra van szükség.</string>
+    <string name="digitalstamps_unable_to_collect_stamp">Matricagyűjtés sikertelen.</string>
+    <string name="digitalstamps_unable_to_collect_stamp_message">A beolvasott QR kód érvénytelen. Kérjük, próbáld újra később.</string>
+    <string name="digital_stamp_collect_stamp_btn">MATRICAGYŰJTÉS</string>
+    <string name="digital_stamp_redeem_btn">BEVÁLTÁS</string>
+    <string name="digital_stamp_nfc_collect_stamp">Matricagyűjtéshez kérjük, érintsd készüléked hátoldalát az NFC matricához.</string>
+    <string name="digital_stamp_nfc_redeem">Érintsd készüléked hátoldalát az NFC matricához a jutalmad begyűjtéséhez.</string>
+    <string name="digital_stamps_delete_stamp_dialog_title">Matricagyűjtő-füzet törlése</string>
+    <string name="digital_stamps_delete_stamp_dialog_message">Biztosan törölni szeretnéd ezt a matricagyűjtő-füzetet?</string>
+    <string name="digital_stamps_card_spinner_deletion_message">Matricagyűjtő-füzet törlése</string>
+    <string name="digitalstamps_nfc_code_not_valid">Az NFC matricát nem sikerült felismerni.</string>
+    <string name="digitalstamps_nfc_please_try_again">TODO Please try again</string>
+    <string name="digitalstamps_scan_redeem_reward">Olvasd be a QR kódot a beváltáshoz.</string>
+    <string name="digitalstamps_redeem_reward_instruction">Olvasd be a QR kódot a jutalom beváltásához.</string>
+    <string name="digitalstamps_unable_to_redeem_reward">Jutalom beváltása sikertelen.</string>
+    <string name="digitalstamps_unable_to_redeem_reward_message">A beolvasott kód érvénytelen, kérjük, próbáld újra később.</string>
+    <string name="digitalstamps_no_internet_connection_message">Matricagyűjtéshez vagy beváltáshoz mobil adatforgalomra vagy wifikapcsolatra van szükség.</string>
+    <string name="digital_stamps_reward_redeemed_message">A jutalom néhány perc múlva lesz elérhető.</string>
+    <string name="digital_stamps_reward_redeemed">JUTALOM BEVÁLTÁSA</string>
+    <string name="no_internet_connection_redeem_reward_scanner">Jutalom beváltásához mobil adatforgalomra vagy wifikapcsolatra van szükség.</string>
+    <string name="digital_stamps_scan_code_invalid">A beolvasott kód érvénytelen.</string>
+    <string name="digital_stamps_scan_code_redeem_required">A beolvasott kód matricagyűjtésre használható. Kérjük, olvasd be a jutalom beváltásához kapcsolódó kódot.</string>
+    <string name="digital_stamps_scan_code_collect_required">A beolvasott kód jutalom beváltásához használható. Kérjük, olvasd be a matricagyűjtéshez tartozó kódot.</string>
+    <string name="digital_stamps_redeem_reward_message">Gratulálunk! A jutalmadat máris beválthatod. Kérjük, egyeztess a pénztárossal.</string>
+    <string name="digitalstamps_redeem_stamp_successful">A jutalmat sikeresen beváltottad.</string>
+
+    <!-- Digital Stamps error messages -->
+    <string name="digitalstamps_error_title">TODO A problem occurred.</string>
+    <string name="digitalstamps_error_invalid_stamp">TODO This stamp is invalid. Please check with the cashier.</string>
+    <string name="digitalstamps_error_exceed_daily_limit">TODO You have collected the maximum allowed stamps for this card in one day.
+        Please try again later.</string>
+    <string name="digitalstamps_error_multiple_stamp_attempt">TODO Please wait until the previous stamp is validated and try again in a
+        short moment.</string>
+    <string name="digitalstamps_error_invalid_stamp_value">TODO This stamp is invalid. Please check with the cashier.</string>
+    <string name="digitalstamps_error_invalid_redemption_value">TODO This reward code is invalid. Please check with the cashier.</string>
+    <string name="digitalstamps_error_expired_reward">TODO This reward has expired. It will be automatically deleted from your wallet
+        .</string>
+
+    <!--Corfire general errors strings-->
+    <string name="corfire_error_tnc_updated_title">Felhasználási feltételek frissítésre kerültek</string>
+    <string name="corfire_error_tnc_updated_message">Kérjük, fogadd el a Felhasználási feltételeket a továbblépéshez.</string>
+
+    <!--Floating menu strings-->
+    <string name="fab_add_card_label">Kártya hozzáadása</string>
+    <string name="fab_discover_coupons_label">Kuponok böngészése</string>
+    <string name="fab_qr_digital_stamp_label">Matricák gyűjtése</string>
+    <string name="fab_add_new_partner_card_label"></string>
+    <string name="fab_add_new_non_partner_card_label"></string>
+
+    <!-- Ticket event reminder notification -->
+    <string name="notification_event_reminder_ticker">Esemény emlékeztető</string>
+    <string name="notification_event_reminder_title">Esemény emlékeztető címe</string>
+    <string name="notification_event_reminder_body">%1$s hamarosan kezdődik. Itt tudod megnézni a jegyedhez tartozó részleteket.</string>
+
+    <!-- Targo Bank -->
+    <string name="storage_targo_card_teaser_tile_message"></string>
+    <string name="storage_targo_card_teaser_tile_card_add_btn_name"></string>
+
+    <!--Dialogs texts-->
+    <string name="my_wallet_dialog_close_btn">BEZÁRÁS</string>
+    <string name="my_wallet_dialog_try_again_btn">Kérjük, próbáld újra.</string>
+    <string name="targo_card_enter_activation_code"></string>
+
+
+    <!-- Camera error -->
+    <string name="camera_error_dialog_title">Kamera nem elérhető</string>
+    <string name="camera_error_dialog_text">A kamerát (vagy a zseblámpát) jelenleg egy másik alkalmazás használja. Kérjük, zárd be a másik alkalmazást és próbáld újra.</string>
+    <string name="camera_error_dialog_action">OK</string>
+
+</resources>
