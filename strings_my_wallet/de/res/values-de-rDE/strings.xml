@@ -21,7 +21,7 @@
     <string name="leaving_the_app_dialog_title">SIE VERLASSEN DIE APP</string>
     <string name="launch_external_app_dialog_message">Sie werden zu einer externen App weitergeleitet.</string>
     <string name="do_not_show_again_dialog_continue_button_text">Weiter</string>
-    <string name="do_not_show_again_dialog_checkbox_text">Nicht mehr anzeigen</string>
+    <string name="do_not_show_again_dialog_checkbox_text">Nicht mehr anzeigen.</string>
     <string name="button_activity_overview">JETZT BEZAHLEN</string>
     <string name="title_mywallet">MyWallet</string>
     <string name="title_catalog">Katalog</string>
