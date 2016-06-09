@@ -1,9 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
     <string name="app_name">COSMOTE Wallet</string>
     <string name="app_title">COSMOTE Wallet</string>
     <string name="country_code">gr</string>
-    <string name="drawer_open"></string>
-    <string name="drawer_close"></string>
+    <string name="drawer_open"/>
+    <string name="drawer_close"/>
     <string name="storage_welcome_teaser_tile_title">Καλωσήρθες στο COSMOTE Wallet!</string>
     <string name="storage_welcome_teaser_tile_message">Πάτησε εδώ για να δεις τον Κατάλογο Καρτών COSMOTE Wallet και να καταχωρήσεις την κάρτα σου!</string>
     <string name="storage_mywallet_card_teaser_tile_title">MyWallet Card</string>
@@ -84,9 +85,9 @@
     <string name="notification_nfc_off_title">ΕΝΕΡΓΟΠΟΊΗΣΗ NFC</string>
     <string name="notification_nfc_off_message">Το FastPay είναι ενεργοποιημένο, αλλά η ρύθμιση NFC της συσκευή σου είναι απενεργοποιημένη. Για τη χρήση του FastPay, παρακαλώ ενεργοποίησε το NFC στις ρυθμίσεις της συσκευής σου.</string>
     <string name="notification_nfc_off_button_text">Ενεργοποίηση</string>
-    <string name="notification_activation_success_title"></string>
-    <string name="notification_activation_success_message"></string>
-    <string name="notification_activation_success_button_text"></string>
+    <string name="notification_activation_success_title"/>
+    <string name="notification_activation_success_message"/>
+    <string name="notification_activation_success_button_text"/>
     <string name="notification_tap_and_pay_availability_title">Ορισμός COSMOTE Wallet ως προεπιλεγμένο</string>
     <string name="notification_tap_and_pay_availability_message">Το COSMOTE Wallet δεν έχει οριστεί στις ρυθμίσεις Android ως η
         προεπιλεγμένη εφαρμογή για συναλλαγές. Για να μπορείς να κάνεις πληρωμή με το COSMOTE Wallet απαιτείται αλλαγή στις ρυθμίσεις.</string>
@@ -105,13 +106,13 @@
     <string name="notification_wallet_update_version_title">NEW WALLET APP VERSION AVAILABLE</string>
     <string name="notification_ticket_added_ticker">TODO %1$s</string>
     <string name="notification_ticket_added_title">TODO %1$s</string>
-    <string name="notification_ticket_added_body"></string>
+    <string name="notification_ticket_added_body"/>
     <string name="notification_ticket_updated_ticker">TODO %1$s</string>
     <string name="notification_ticket_updated_title">TODO %1$s</string>
-    <string name="notification_ticket_updated_body"></string>
+    <string name="notification_ticket_updated_body"/>
     <string name="notification_ticket_deleted_ticker">TODO %1$s</string>
     <string name="notification_ticket_deleted_title">TODO %1$s</string>
-    <string name="notification_ticket_deleted_body"></string>
+    <string name="notification_ticket_deleted_body"/>
 
     <!-- setup pin-->
     <string name="set_pin_enter_new_passcode">Παρακαλώ καταχώρησε το νέο COSMOTE Wallet PIN.</string>
@@ -132,7 +133,7 @@
     <string name="call_customer_care">Επικοινώνησε με την Εξυπηρέτηση Πελατών</string>
 
     <!-- Change location-->
-    <string name="error_message_no_suggestion_for_location">Δεν βρέθηκε η τοποθεσία.\nΠαρακαλώ προσπάθησε ξανά &#8230;</string>
+    <string name="error_message_no_suggestion_for_location">Δεν βρέθηκε η τοποθεσία.\nΠαρακαλώ προσπάθησε ξανά …</string>
     <string name="change_location_enter_city_name_hint">Please enter the name of your city.</string>
 
     <!-- Couponing -->
@@ -168,7 +169,7 @@
     <string name="context_menu_remove_all_coupons">Delete all coupons for this store</string>
     <string name="saved_coupons_remove_all_title">Delete all coupons</string>
     <string name="saved_coupons_remove_all_message">You can also delete individual coupons by tapping on them in the previous screen. Are you sure you want to delete all coupons saved for this store?</string>
-    <string name="coupon_deletion_spinner_message">Deleting saved coupons&#8230;</string>
+    <string name="coupon_deletion_spinner_message">Deleting saved coupons…</string>
     <string name="coupon_empty_catalog">No coupons for this location available</string>
 
     <!-- Couponing error strings-->
@@ -185,9 +186,9 @@
     <string name="couponing_acardo_max_active_coupons_limit_exceeded">LIMIT OF 20 SAVED ACARDO COUPONS REACHED</string>
 
     <!-- SIM services notification texts -->
-    <string name="notification_failure_ticker"></string>
-    <string name="notification_failure_title"></string>
-    <string name="notification_failure_body"></string>
+    <string name="notification_failure_ticker"/>
+    <string name="notification_failure_title"/>
+    <string name="notification_failure_body"/>
     <string name="notification_applet_install_ticker">Η %1$s προστέθηκε επιτυχώς και μπορεί να χρησιμοποηθεί για συναλλαγές.</string>
     <string name="notification_applet_install_title">Επιτυχής προσθήκη %1$s</string>
     <string name="notification_applet_install_body">%1$s έτοιμη προς χρήση.</string>
@@ -264,7 +265,7 @@
     <string name="notification_handset_not_supported_title">Η ΣΥΣΚΕΥΗ ΔΕΝ ΕΙΝΑΙ ΣΥΜΒΑΤΗ</string>
     <string name="notification_handset_not_supported_message_text">Η συσκευή σου δεν είναι συμβατή. Επισκέψου ένα κατάστημα.</string>
     <string name="go_to_website">ΜΠΕΣ ΣΤΟ SITE</string>
-    <string name="service_catalog_item_add_card_button_ticketing_text"></string>
+    <string name="service_catalog_item_add_card_button_ticketing_text"/>
 
     <!-- Service catalog screen -->
     <string name="no_internet_connection_service_catalogue_text">Για την πρόσβαση στο κατάλογο του COSMOTE Wallet απαιτείται σύνδεση σε Wi-Fi ή σε δεδομένα μέσω δικτύου κινητής τηλεφωνίας.</string>
@@ -274,7 +275,7 @@
     <string name="filter_button_loyalty_category_text">ΚΑΡΤΕΣ ΕΠΙΒΡΑΒΕΥΣΗΣ ΠΕΛΑΤΩΝ</string>
     <string name="filter_button_transport_category_text">TRANSPORT</string>
     <string name="filter_button_access_category_text">ACCESS</string>
-    <string name="filter_button_ticketing_category_text"></string>
+    <string name="filter_button_ticketing_category_text"/>
     <string name="filter_button_digital_stamp_category_text">TODO DIGITAL STAMP</string>
     <string name="filter_button_all_category_text">TODO ALL</string>
 
@@ -430,10 +431,10 @@
 
     <!-- Coupon Catalog loading screen -->
     <string name="coupon_catalog_loading_screen_header">One moment please</string>
-    <string name="coupon_catalog_loading_screen_message">Loading Coupons &#8230;</string>
+    <string name="coupon_catalog_loading_screen_message">Loading Coupons …</string>
 
     <!--Merchant Catalog loading screen-->
-    <string name="merchant_catalog_loading_screen_message">Loading data &#8230;</string>
+    <string name="merchant_catalog_loading_screen_message">Loading data …</string>
 
     <!-- swb transport -->
     <string name="context_menu_activate_swb_transport_card">Activate ticket</string>
@@ -448,32 +449,32 @@
     <string name="travipay_details_description">"TODO Fast and convenient payment of parking tickets</string>
 
     <!-- ticketing-->
-    <string name="ticketing_detail_location"></string>
-    <string name="ticketing_detail_price"></string>
-    <string name="ticketing_detail_sector"></string>
-    <string name="ticketing_detail_side"></string>
-    <string name="ticketing_detail_row"></string>
-    <string name="ticketing_detail_seat"></string>
-    <string name="ticketing_detail_expired_message"></string>
-    <string name="ticketing_detail_used_message"></string>
-    <string name="ticketing_detail_button_activate_ticket"></string>
-    <string name="ticketing_detail_button_delete_ticket"></string>
-    <string name="ticketing_detail_audit"></string>
-    <string name="ticketing_detail_delete_dialog_title"></string>
-    <string name="ticketing_detail_delete_dialog_message"></string>
-    <string name="ticketing_detail_delete_dialog_button_text"></string>
-    <string name="ticketing_detail_ticket_activated_text"></string>
-    <string name="ticketing_is_used"></string>
-    <string name="ticketing_card_view_expired"></string>
-    <string name="ticketing_context_menu_additional_ticket_info"></string>
-    <string name="ticketing_context_menu_activate_card"></string>
-    <string name="ticketing_context_menu_activate_card_subtitle"></string>
-    <string name="ticketing_context_menu_add_to_calendar"></string>
-    <string name="ticket_calendar_description_audit"></string>
-    <string name="ticket_calendar_description_sector"></string>
-    <string name="ticket_calendar_description_row"></string>
-    <string name="ticket_calendar_description_side"></string>
-    <string name="ticket_calendar_description_seat"></string>
+    <string name="ticketing_detail_location"/>
+    <string name="ticketing_detail_price"/>
+    <string name="ticketing_detail_sector"/>
+    <string name="ticketing_detail_side"/>
+    <string name="ticketing_detail_row"/>
+    <string name="ticketing_detail_seat"/>
+    <string name="ticketing_detail_expired_message"/>
+    <string name="ticketing_detail_used_message"/>
+    <string name="ticketing_detail_button_activate_ticket"/>
+    <string name="ticketing_detail_button_delete_ticket"/>
+    <string name="ticketing_detail_audit"/>
+    <string name="ticketing_detail_delete_dialog_title"/>
+    <string name="ticketing_detail_delete_dialog_message"/>
+    <string name="ticketing_detail_delete_dialog_button_text"/>
+    <string name="ticketing_detail_ticket_activated_text"/>
+    <string name="ticketing_is_used"/>
+    <string name="ticketing_card_view_expired"/>
+    <string name="ticketing_context_menu_additional_ticket_info"/>
+    <string name="ticketing_context_menu_activate_card"/>
+    <string name="ticketing_context_menu_activate_card_subtitle"/>
+    <string name="ticketing_context_menu_add_to_calendar"/>
+    <string name="ticket_calendar_description_audit"/>
+    <string name="ticket_calendar_description_sector"/>
+    <string name="ticket_calendar_description_row"/>
+    <string name="ticket_calendar_description_side"/>
+    <string name="ticket_calendar_description_seat"/>
 
     <!-- Data Privacy -->
     <string name="data_privacy_toolbar_title">ΑΣΦΑΛΕΙΑ ΠΡΟΣΩΠΙΚΩΝ ΔΕΔΟΜΕΝΩΝ</string>
@@ -504,7 +505,7 @@
     <string name="login">LOGIN</string>
 
     <!-- Corfire Logging in activity. -->
-    <string name="corfire_logging_in_message">Logging in to MyWallet&#8230;</string>
+    <string name="corfire_logging_in_message">Logging in to MyWallet…</string>
 
     <!-- TBS error messages-->
     <string name="tbs_server_error">We are experiencing a problem with our backend systems. Please try again later.</string>
@@ -545,9 +546,9 @@
     <string name="camera_permission_dialog_title">ΠΡΟΣΒΑΣΗ ΣΤΗ ΦΩΤΟΓΡΑΦΙΚΗ ΜΗΧΑΝΗ</string>
     <string name="camera_permission_rationale">Παρακαλώ να επιτραπεί η πρόσβαση στη φωτογραφική μηχανή. Θα μπορείς να σκανάρεις τις πλαστικές σου κάρτες και να τις προσθέσεις στο COSMOTE Wallet. </string>
     <string name="camera_permission_dialog_action_button_label">Να επιτραπέι η πρόσβαση</string>
-    <string name="calendar_permission_dialog_title"></string>
-    <string name="calendar_permission_rationale"></string>
-    <string name="calendar_permission_dialog_action_button_label"></string>
+    <string name="calendar_permission_dialog_title"/>
+    <string name="calendar_permission_rationale"/>
+    <string name="calendar_permission_dialog_action_button_label"/>
 
     <!-- Rational dialog for location permission. -->
     <string name="location_permission_dialog_title">Να επιτρέπεται η πρόσβαση στη θέση σου</string>
@@ -555,10 +556,10 @@
     <string name="location_permission_action_btn">ΝΑ ΕΠΙΤΡΕΠΕΤΑΙ Η ΠΡΟΣΒΑΣΗ</string>
 
     <!-- OTP and Supershop teaser tiles. -->
-    <string name="storage_otp_card_teaser_tile_message"></string>
-    <string name="storage_otp_card_teaser_tile_card_add_btn_name"></string>
-    <string name="storage_supershop_card_teaser_tile_message"></string>
-    <string name="storage_supershop_card_teaser_tile_card_add_btn_name"></string>
+    <string name="storage_otp_card_teaser_tile_message"/>
+    <string name="storage_otp_card_teaser_tile_card_add_btn_name"/>
+    <string name="storage_supershop_card_teaser_tile_message"/>
+    <string name="storage_supershop_card_teaser_tile_card_add_btn_name"/>
 
     <!-- Digital stamps strings -->
     <string name="digital_stamp_collect_stamp_btn">TODO COLLECT STAMP</string>
@@ -582,14 +583,14 @@
     <string name="fab_add_new_non_partner_card_label">TODO Add a new loyalty card</string>
 
     <!-- Ticket event reminder notification -->
-    <string name="notification_event_reminder_ticker"></string>
-    <string name="notification_event_reminder_title"></string>
-    <string name="notification_event_reminder_body"></string>
+    <string name="notification_event_reminder_ticker"/>
+    <string name="notification_event_reminder_title"/>
+    <string name="notification_event_reminder_body"/>
 
     <!-- Targo Bank -->
     <string name="storage_targo_card_teaser_tile_message">YOU CAN NOW PAY WITH TARGOBANK APP</string>
     <string name="storage_targo_card_teaser_tile_card_add_btn_name">ADD TO PAY</string>
-    <string name="targo_card_enter_activation_code"></string>
+    <string name="targo_card_enter_activation_code"/>
 
     <!--Dialogs texts-->
     <string name="my_wallet_dialog_close_btn">CLOSE</string>
