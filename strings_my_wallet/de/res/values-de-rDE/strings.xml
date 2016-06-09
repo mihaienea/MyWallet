@@ -1,10 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
     <string name="app_name">MyWallet</string>
     <string name="app_title">MYWALLET</string>
     <string name="country_code">de</string>
-    <string name="drawer_open"></string>
-    <string name="drawer_close"></string>
-    <string name="storage_welcome_teaser_tile_title">Willkommen bei MyWallet</string>
+    <string name="drawer_open"/>
+    <string name="drawer_close"/>
+    <string name="storage_welcome_teaser_tile_title">Willkommen bei MyWallet!</string>
     <string name="storage_welcome_teaser_tile_message">TIPPEN SIE HIER, UM DEN SERVICE-KATALOG ZU ERKUNDEN UND FÜGEN SIE IHREN ERSTEN MYWALLET SERVICE HINZU.</string>
     <string name="storage_mywallet_card_teaser_tile_title">MyWallet Card</string>
     <string name="storage_mywallet_card_teaser_tile_message">ZAHLEN SIE MIT IHREM SMARTPHONE UND DER MYWALLET CARD</string>
@@ -20,7 +21,7 @@
     <string name="leaving_the_app_dialog_title">SIE VERLASSEN DIE APP</string>
     <string name="launch_external_app_dialog_message">Sie werden zu einer externen App weitergeleitet.</string>
     <string name="do_not_show_again_dialog_continue_button_text">Weiter</string>
-    <string name="do_not_show_again_dialog_checkbox_text">Nicht mehr anzeigen</string>
+    <string name="do_not_show_again_dialog_checkbox_text">Nicht mehr anzeigen.</string>
     <string name="button_activity_overview">JETZT BEZAHLEN</string>
     <string name="title_mywallet">MyWallet</string>
     <string name="title_catalog">Katalog</string>
@@ -83,9 +84,9 @@
     <string name="notification_nfc_off_title">NFC EINSCHALTEN</string>
     <string name="notification_nfc_off_message">Um die Expresskarten-Funktion nutzen zu können, aktivieren Sie bitte NFC in den Einstellungen Ihres Smartphones.</string>
     <string name="notification_nfc_off_button_text">EINSCHALTEN</string>
-    <string name="notification_activation_success_title"></string>
-    <string name="notification_activation_success_message"></string>
-    <string name="notification_activation_success_button_text"></string>
+    <string name="notification_activation_success_title"/>
+    <string name="notification_activation_success_message"/>
+    <string name="notification_activation_success_button_text"/>
     <string name="notification_tap_and_pay_availability_title">MYWALLET ALS STANDARD-ZAHLUNGSDIENST SETZEN</string>
     <string name="notification_tap_and_pay_availability_message">Wir haben festgestellt, dass MyWallet nicht als Standard-Zahlungsdienst in den Einstellungen Ihres Smartphones gewählt ist. Um MyWallet für Zahlungen nutzen zu können, ändern Sie dies bitte in den Einstellungen.</string>
     <string name="notification_tap_and_pay_availability_button_text">Jetzt ändern</string>
@@ -103,13 +104,13 @@
     <string name="notification_wallet_update_version_title">NEUE VERSION DER MYWALLET APP VERFÜGBAR</string>
     <string name="notification_ticket_added_ticker">TODO %1$s</string>
     <string name="notification_ticket_added_title">TODO %1$s</string>
-    <string name="notification_ticket_added_body"></string>
+    <string name="notification_ticket_added_body"/>
     <string name="notification_ticket_updated_ticker">TODO %1$s</string>
     <string name="notification_ticket_updated_title">TODO %1$s</string>
-    <string name="notification_ticket_updated_body"></string>
+    <string name="notification_ticket_updated_body"/>
     <string name="notification_ticket_deleted_ticker">TODO %1$s</string>
     <string name="notification_ticket_deleted_title">TODO %1$s</string>
-    <string name="notification_ticket_deleted_body"></string>
+    <string name="notification_ticket_deleted_body"/>
 
     <!-- setup pin-->
     <string name="set_pin_enter_new_passcode">Bitte richten Sie nun Ihre MyWallet PIN ein.</string>
@@ -183,9 +184,9 @@
     <string name="couponing_acardo_max_active_coupons_limit_exceeded">SIE HABEN DAS LIMIT VON 20 GESPEICHERTEN COUPONS ERREICHT.</string>
 
     <!-- SIM services notification texts -->
-    <string name="notification_failure_ticker"></string>
-    <string name="notification_failure_title"></string>
-    <string name="notification_failure_body"></string>
+    <string name="notification_failure_ticker"/>
+    <string name="notification_failure_title"/>
+    <string name="notification_failure_body"/>
     <string name="notification_applet_install_ticker">%1$s wurde hinzugefügt und kann verwendet werden.</string>
     <string name="notification_applet_install_title">%1$s wurde neu hinzugefügt.</string>
     <string name="notification_applet_install_body">%1$s ist verfügbar.</string>
@@ -262,7 +263,7 @@
     <string name="notification_handset_not_supported_title">SMARTPHONE IST NICHT KOMPATIBEL</string>
     <string name="notification_handset_not_supported_message_text">Ihr Smartphone-Modell unterstützt diesen Service nicht. Infos zu den kompatiblen Modellen finden Sie auf unserer Webseite.</string>
     <string name="go_to_website">Zur Webseite</string>
-    <string name="service_catalog_item_add_card_button_ticketing_text"></string>
+    <string name="service_catalog_item_add_card_button_ticketing_text"/>
 
     <!-- Service catalog screen -->
     <string name="no_internet_connection_service_catalogue_text">Um den MyWallet Katalog zu öffnen, verbinden Sie sich bitte mit dem Internet.</string>
@@ -272,7 +273,7 @@
     <string name="filter_button_loyalty_category_text">KUNDENKARTEN</string>
     <string name="filter_button_transport_category_text">FAHRSCHEINE</string>
     <string name="filter_button_access_category_text">ZUTRITTSKARTEN</string>
-    <string name="filter_button_ticketing_category_text"></string>
+    <string name="filter_button_ticketing_category_text"/>
     <string name="filter_button_digital_stamp_category_text">TODO DIGITAL STAMP</string>
     <string name="filter_button_all_category_text">TODO ALL</string>
 
@@ -429,10 +430,10 @@
 
     <!-- Coupon Catalog loading screen -->
     <string name="coupon_catalog_loading_screen_header">Einen Moment bitte</string>
-    <string name="coupon_catalog_loading_screen_message">Coupons werden geladen &#8230;</string>
+    <string name="coupon_catalog_loading_screen_message">Coupons werden geladen …</string>
 
     <!--Merchant Catalog loading screen-->
-    <string name="merchant_catalog_loading_screen_message">Daten werden geladen &#8230;</string>
+    <string name="merchant_catalog_loading_screen_message">Daten werden geladen …</string>
 
     <!-- swb transport -->
     <string name="context_menu_activate_swb_transport_card">Ticket aktivieren</string>
@@ -447,32 +448,32 @@
     <string name="travipay_details_description">"TODO Fast and convenient payment of parking tickets</string>
 
     <!-- ticketing-->
-    <string name="ticketing_detail_location"></string>
-    <string name="ticketing_detail_price"></string>
-    <string name="ticketing_detail_sector"></string>
-    <string name="ticketing_detail_side"></string>
-    <string name="ticketing_detail_row"></string>
-    <string name="ticketing_detail_seat"></string>
-    <string name="ticketing_detail_expired_message"></string>
-    <string name="ticketing_detail_used_message"></string>
-    <string name="ticketing_detail_button_activate_ticket"></string>
-    <string name="ticketing_detail_button_delete_ticket"></string>
-    <string name="ticketing_detail_audit"></string>
-    <string name="ticketing_detail_delete_dialog_title"></string>
-    <string name="ticketing_detail_delete_dialog_message"></string>
-    <string name="ticketing_detail_delete_dialog_button_text"></string>
-    <string name="ticketing_detail_ticket_activated_text"></string>
-    <string name="ticketing_is_used"></string>
-    <string name="ticketing_card_view_expired"></string>
-    <string name="ticketing_context_menu_additional_ticket_info"></string>
-    <string name="ticketing_context_menu_activate_card"></string>
-    <string name="ticketing_context_menu_activate_card_subtitle"></string>
-    <string name="ticketing_context_menu_add_to_calendar"></string>
-    <string name="ticket_calendar_description_audit"></string>
-    <string name="ticket_calendar_description_sector"></string>
-    <string name="ticket_calendar_description_row"></string>
-    <string name="ticket_calendar_description_side"></string>
-    <string name="ticket_calendar_description_seat"></string>
+    <string name="ticketing_detail_location"/>
+    <string name="ticketing_detail_price"/>
+    <string name="ticketing_detail_sector"/>
+    <string name="ticketing_detail_side"/>
+    <string name="ticketing_detail_row"/>
+    <string name="ticketing_detail_seat"/>
+    <string name="ticketing_detail_expired_message"/>
+    <string name="ticketing_detail_used_message"/>
+    <string name="ticketing_detail_button_activate_ticket"/>
+    <string name="ticketing_detail_button_delete_ticket"/>
+    <string name="ticketing_detail_audit"/>
+    <string name="ticketing_detail_delete_dialog_title"/>
+    <string name="ticketing_detail_delete_dialog_message"/>
+    <string name="ticketing_detail_delete_dialog_button_text"/>
+    <string name="ticketing_detail_ticket_activated_text"/>
+    <string name="ticketing_is_used"/>
+    <string name="ticketing_card_view_expired"/>
+    <string name="ticketing_context_menu_additional_ticket_info"/>
+    <string name="ticketing_context_menu_activate_card"/>
+    <string name="ticketing_context_menu_activate_card_subtitle"/>
+    <string name="ticketing_context_menu_add_to_calendar"/>
+    <string name="ticket_calendar_description_audit"/>
+    <string name="ticket_calendar_description_sector"/>
+    <string name="ticket_calendar_description_row"/>
+    <string name="ticket_calendar_description_side"/>
+    <string name="ticket_calendar_description_seat"/>
 
     <!-- Data Privacy -->
     <string name="data_privacy_toolbar_title">Datenschutz</string>
@@ -503,7 +504,7 @@
     <string name="login">LOGIN</string>
 
     <!-- Corfire Logging in activity. -->
-    <string name="corfire_logging_in_message">Sie werden eingeloggt&#8230;</string>
+    <string name="corfire_logging_in_message">Sie werden eingeloggt…</string>
 
     <!-- TBS error messages-->
     <string name="tbs_server_error">Derzeit haben wir ein Problem mit dem Server. Bitte versuchen Sie es später erneut.</string>
@@ -546,9 +547,9 @@ Sie können jedoch weiterhin Ihre aktuellen Bezahlkarten nutzen und mit Ihrem Sm
     <string name="camera_permission_dialog_title">BITTE KAMERAZUGRIFF ERLAUBEN</string>
     <string name="camera_permission_rationale">Bitte erlauben Sie den Zugriff auf die Kamera Ihres Smartphones, damit Sie Ihre Karten scannen und zu MyWallet hinzufügen können.</string>
     <string name="camera_permission_dialog_action_button_label">ZUGRIFF ERLAUBEN</string>
-    <string name="calendar_permission_dialog_title"></string>
-    <string name="calendar_permission_rationale"></string>
-    <string name="calendar_permission_dialog_action_button_label"></string>
+    <string name="calendar_permission_dialog_title"/>
+    <string name="calendar_permission_rationale"/>
+    <string name="calendar_permission_dialog_action_button_label"/>
 
     <!-- Rational dialog for location permission. -->
     <string name="location_permission_dialog_title">BITTE STANDORTZUGRIFF ERLAUBEN</string>
@@ -556,10 +557,10 @@ Sie können jedoch weiterhin Ihre aktuellen Bezahlkarten nutzen und mit Ihrem Sm
     <string name="location_permission_action_btn">ZUGRIFF ERLAUBEN</string>
 
     <!-- OTP and Supershop teaser tiles. -->
-    <string name="storage_otp_card_teaser_tile_message"></string>
-    <string name="storage_otp_card_teaser_tile_card_add_btn_name"></string>
-    <string name="storage_supershop_card_teaser_tile_message"></string>
-    <string name="storage_supershop_card_teaser_tile_card_add_btn_name"></string>
+    <string name="storage_otp_card_teaser_tile_message"/>
+    <string name="storage_otp_card_teaser_tile_card_add_btn_name"/>
+    <string name="storage_supershop_card_teaser_tile_message"/>
+    <string name="storage_supershop_card_teaser_tile_card_add_btn_name"/>
 
     <!-- Digital stamps strings -->
     <string name="digital_stamp_collect_stamp_btn">TODO COLLECT STAMP</string>
@@ -579,13 +580,13 @@ Sie können jedoch weiterhin Ihre aktuellen Bezahlkarten nutzen und mit Ihrem Sm
     <string name="fab_add_card_label">Karten hinzufügen</string>
     <string name="fab_discover_coupons_label">Coupons auswählen</string>
     <string name="fab_qr_digital_stamp_label">Stempel sammeln</string>
-    <string name="fab_add_new_partner_card_label"></string>
-    <string name="fab_add_new_non_partner_card_label"></string>
+    <string name="fab_add_new_partner_card_label"/>
+    <string name="fab_add_new_non_partner_card_label"/>
 
     <!-- Ticket event reminder notification -->
-    <string name="notification_event_reminder_ticker"></string>
-    <string name="notification_event_reminder_title"></string>
-    <string name="notification_event_reminder_body"></string>
+    <string name="notification_event_reminder_ticker"/>
+    <string name="notification_event_reminder_title"/>
+    <string name="notification_event_reminder_body"/>
 
     <!-- Targo Bank -->
     <string name="storage_targo_card_teaser_tile_message">ZAHLEN SIE MIT IHREM SMARTPHONE UND DER TARGOBANK KARTE</string>
